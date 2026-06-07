@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "case": {
+      "position": "QA Engineer",
+      "company": "Apple",
+      "days": 21,
+      "hoursPerDay": 3,
+      "majorTopic": "test automation and CI/CD"
+    },
+    "prompt_hash": "28c34f764c648b5afbf27464f862a60e7815241a6d4fd1f5282fc97255a73abd",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:29:03.936991"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Introduction to Apple QA Processes\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Apple+QA+process\"],\"subtopics\":[\"Apple QA culture\",\"Quality standards\",\"Testing lifecycle\"]},{\"title\":\"Test Automation Fundamentals\",\"estimatedHours\":8,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=test+automation+basics\"],\"subtopics\":[\"Automation principles\",\"Tool selection\",\"Test design\"]},{\"title:\"Selenium with Swift\",\"estimatedHours\":8,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Selenium+Swift+automation\"],\"subtopics\":[\"Selenium WebDriver\",\"Swift bindings\",\"Test scripts\"]},{\"title\":\"Appium for iOS Testing\",\"estimatedHours\":7,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Appium+iOS+testing\"],\"subtopics\":[\"Appium architecture\",\"iOS driver setup\",\"UI automation\"]},{\"title\":\"CI/CD with Fastlane\",\"estimatedHours\":7,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=Fastlane+CI+CD\"],\"subtopics\":[\"Fastlane setup\",\"Automated builds\",\"Deployment pipelines\"]},{\"title\":\"Unit Testing with XCTest\",\"estimatedHours\":6,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=XCTest+unit+testing\"],\"subtopics\":[\"XCTest framework\",\"Mocking\",\"Test coverage\"]},{\"title\":\"Performance Testing on Apple Devices\",\"estimatedHours\":6,\"priority\":\"Low\",\"referenceLinks\":[\"https://www.google.com/search?q=performance+testing+Apple+devices\"],\"subtopics\":[\"Instrumentation\",\"Profiling tools\",\"Benchmarking\"]},{\"title\":\"Security Testing for iOS Apps\",\"estimatedHours\":7,\"priority\":\"Low\",\"referenceLinks\":[\"https://www.google.com/search?q=security+testing+iOS\"],\"subtopics\":[\"Threat modeling\",\"Static analysis\",\"Penetration testing\"]}]}"
+  },
+  "validation": {
+    "parse_ok": false,
+    "schema_ok": false,
+    "time_fit_ok": false,
+    "total_hours": null,
+    "target_hours": 63,
+    "num_topics": 0,
+    "error": "6 validation errors for Roadmap\ntopics\n  Field required [type=missing, input_value={'title': 'Security Testi... 'Penetration testing']}, input_type=dict]\n    For further information visit https://erro"
+  }
+}

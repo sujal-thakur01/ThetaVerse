@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "case": {
+      "position": "Frontend Engineer",
+      "company": "Airbnb",
+      "days": 25,
+      "hoursPerDay": 3.5,
+      "majorTopic": "TypeScript and modern React patterns"
+    },
+    "prompt_hash": "7a709801e8ae855be2d304757ce51e0c7e1b386894d535925f3d3c47e1becf5f",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.619209"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"TypeScript and modern React patterns focus area 1\", \"estimatedHours\": 10.9, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"TypeScript and modern React patterns focus area 2\", \"estimatedHours\": 10.9, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"TypeScript and modern React patterns focus area 3\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"TypeScript and modern React patterns focus area 4\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"TypeScript and modern React patterns focus area 5\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}, {\"title\": \"TypeScript and modern React patterns focus area 6\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+6\"], \"subtopics\": [\"Core concept 6\", \"Interview practice 6\"]}, {\"title\": \"TypeScript and modern React patterns focus area 7\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+7\"], \"subtopics\": [\"Core concept 7\", \"Interview practice 7\"]}, {\"title\": \"TypeScript and modern React patterns focus area 8\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+8\"], \"subtopics\": [\"Core concept 8\", \"Interview practice 8\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "TypeScript and modern React patterns focus area 1",
+        "estimatedHours": 10.9,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "TypeScript and modern React patterns focus area 2",
+        "estimatedHours": 10.9,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "TypeScript and modern React patterns focus area 3",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "TypeScript and modern React patterns focus area 4",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "TypeScript and modern React patterns focus area 5",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      },
+      {
+        "title": "TypeScript and modern React patterns focus area 6",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+6"
+        ],
+        "subtopics": [
+          "Core concept 6",
+          "Interview practice 6"
+        ]
+      },
+      {
+        "title": "TypeScript and modern React patterns focus area 7",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+7"
+        ],
+        "subtopics": [
+          "Core concept 7",
+          "Interview practice 7"
+        ]
+      },
+      {
+        "title": "TypeScript and modern React patterns focus area 8",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Airbnb+Frontend Engineer+topic+8"
+        ],
+        "subtopics": [
+          "Core concept 8",
+          "Interview practice 8"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 87.2,
+    "target_hours": 87.5,
+    "num_topics": 8,
+    "error": null
+  }
+}

@@ -1,0 +1,9 @@
+cd backend
+./mvnw clean package
+set -a && source .env && set +a && ./mvnw spring-boot:run
+
+
+
+cd frontend
+npm install
+npm run dev

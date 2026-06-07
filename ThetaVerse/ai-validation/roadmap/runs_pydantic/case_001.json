@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "case": {
+      "position": "Backend Engineer",
+      "company": "Google",
+      "days": 30,
+      "hoursPerDay": 4,
+      "majorTopic": "system design and distributed systems"
+    },
+    "prompt_hash": "ac59e28eaad157d6ced089033f12dcc5176ede7ef6d0ec51b18da05e826fcbe8",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:30:19.228228"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Scalable Architecture\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Scalable+Architecture+Google\"],\"subtopics\":[\"Monolithic vs. Microservices\",\"Horizontal vs. Vertical Scaling\",\"Design Patterns for Scalability\"]},{\"title\":\"Load Balancing\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Load+Balancing+Google\"],\"subtopics\":[\"Round Robin\",\"Least Connections\",\"IP Hashing\"]},{\"title\":\"Caching Strategies\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Caching+Strategies+Google\"],\"subtopics\":[\"In-Memory Caches\",\"Distributed Caches\",\"Cache Invalidation\"]},{\"title\":\"Distributed Databases\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Distributed+Databases+Google\"],\"subtopics\":[\"CAP Theorem\",\"Sharding\",\"Replication\"]},{\"title\":\"Consistency Models\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Consistency+Models+Google\"],\"subtopics\":[\"Strong vs. Eventual Consistency\",\"Read/Write Quorum\",\"Consistency in Distributed Transactions\"]},{\"title\":\"Fault Tolerance\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Fault+Tolerance+Google\"],\"subtopics\":[\"Redundancy\",\"Graceful Degradation\",\"Self-Healing Systems\"]},{\"title\":\"Observability\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Observability+Google\"],\"subtopics\":[\"Logging\",\"Metrics\",\"Tracing\"]},{\"title\":\"Microservices\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Microservices+Google\"],\"subtopics\":[\"Service Discovery\",\"API Gateway\",\"Circuit Breaker\"]},{\"title\":\"Event-Driven Systems\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Event-Driven+Systems+Google\"],\"subtopics\":[\"Message Queues\",\"Event Sourcing\",\"CQRS\"]},{\"title\":\"Security in Distributed Systems\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Security+in+Distributed+Systems+Google\"],\"subtopics\":[\"Authentication & Authorization\",\"Secure Communication\",\"Threat Modeling\"]}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 120.0,
+    "target_hours": 120,
+    "num_topics": 10,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Scalable Architecture",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Scalable+Architecture+Google"
+        ],
+        "subtopics": [
+          "Monolithic vs. Microservices",
+          "Horizontal vs. Vertical Scaling",
+          "Design Patterns for Scalability"
+        ]
+      },
+      {
+        "title": "Load Balancing",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Load+Balancing+Google"
+        ],
+        "subtopics": [
+          "Round Robin",
+          "Least Connections",
+          "IP Hashing"
+        ]
+      },
+      {
+        "title": "Caching Strategies",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Caching+Strategies+Google"
+        ],
+        "subtopics": [
+          "In-Memory Caches",
+          "Distributed Caches",
+          "Cache Invalidation"
+        ]
+      },
+      {
+        "title": "Distributed Databases",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Distributed+Databases+Google"
+        ],
+        "subtopics": [
+          "CAP Theorem",
+          "Sharding",
+          "Replication"
+        ]
+      },
+      {
+        "title": "Consistency Models",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Consistency+Models+Google"
+        ],
+        "subtopics": [
+          "Strong vs. Eventual Consistency",
+          "Read/Write Quorum",
+          "Consistency in Distributed Transactions"
+        ]
+      },
+      {
+        "title": "Fault Tolerance",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Fault+Tolerance+Google"
+        ],
+        "subtopics": [
+          "Redundancy",
+          "Graceful Degradation",
+          "Self-Healing Systems"
+        ]
+      },
+      {
+        "title": "Observability",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Observability+Google"
+        ],
+        "subtopics": [
+          "Logging",
+          "Metrics",
+          "Tracing"
+        ]
+      },
+      {
+        "title": "Microservices",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Microservices+Google"
+        ],
+        "subtopics": [
+          "Service Discovery",
+          "API Gateway",
+          "Circuit Breaker"
+        ]
+      },
+      {
+        "title": "Event-Driven Systems",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Event-Driven+Systems+Google"
+        ],
+        "subtopics": [
+          "Message Queues",
+          "Event Sourcing",
+          "CQRS"
+        ]
+      },
+      {
+        "title": "Security in Distributed Systems",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Security+in+Distributed+Systems+Google"
+        ],
+        "subtopics": [
+          "Authentication & Authorization",
+          "Secure Communication",
+          "Threat Modeling"
+        ]
+      }
+    ]
+  }
+}

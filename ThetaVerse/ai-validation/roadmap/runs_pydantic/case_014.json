@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "case": {
+      "position": "Game Developer",
+      "company": "Unity",
+      "days": 35,
+      "hoursPerDay": 4,
+      "majorTopic": "game physics, graphics, and multiplayer"
+    },
+    "prompt_hash": "14d3661e9adfc1e807887b5be32b7857db5dc03e3bde67d4690f9c2c2ade5da6",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:33:12.748660"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Unity Physics Fundamentals\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Unity+Physics+Fundamentals\"],\"subtopics\":[\"Physics Engine Overview\",\"Time Step Management\",\"Physics Materials\",\"Physics Debugging\"]},{\"title\":\"Rigidbody Dynamics\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Unity+Rigidbody+Dynamics\"],\"subtopics\":[\"Mass & Drag\",\"Force Application\",\"Torque & Angular Velocity\",\"Kinematic vs Dynamic\"]},{\"title\":\"Collision Detection\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Unity+Collision+Detection\"],\"subtopics\":[\"Collision Layers\",\"Triggers vs Colliders\",\"Collision Events\",\"Continuous Collision Detection\"]},{\"title\":\"Soft Body Simulation\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Unity+Soft+Body+Simulation\"],\"subtopics\":[\"Spring-Mass Systems\",\"Mesh Deformation\",\"Physics Materials for Soft Bodies\",\"Performance Optimization\"]},{\"title\":\"Particle Systems\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Unity+Particle+Systems\"],\"subtopics\":[\"Emitter Settings\",\"Particle Lifetime\",\"Forces & Gravity\",\"Custom Shaders for Particles\"]},{\"title\":\"Shader Programming\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Unity+Shader+Programming\"],\"subtopics\":[\"Shader Graph Basics\",\"Surface Shaders\",\"Compute Shaders\",\"Shader Optimization\"]},{\"title\":\"Lighting Techniques\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Unity+Lighting+Techniques\"],\"subtopics\":[\"Directional & Point Lights\",\"Light Baking\",\"Dynamic Lighting\",\"Light Probes\"]},{\"title\":\"Post-Processing Effects\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Unity+Post+Processing+Effects\"],\"subtopics\":[\"Bloom & Lens Flare\",\"Color Grading\",\"Depth of Field\",\"Motion Blur\"]},{\"title\":\"Networking Basics\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Unity+Networking+Basics\"],\"subtopics\":[\"Client-Server Model\",\"Photon Unity Networking\",\"Matchmaking\",\"Latency Handling\"]},{\"title\":\"Multiplayer Architecture\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Unity+Multiplayer+Architecture\"],\"subtopics\":[\"State Synchronization\",\"Prediction & Reconciliation\",\"Authority Management\",\"Scalable Server Design\"]}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 140.0,
+    "target_hours": 140,
+    "num_topics": 10,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Unity Physics Fundamentals",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Physics+Fundamentals"
+        ],
+        "subtopics": [
+          "Physics Engine Overview",
+          "Time Step Management",
+          "Physics Materials",
+          "Physics Debugging"
+        ]
+      },
+      {
+        "title": "Rigidbody Dynamics",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Rigidbody+Dynamics"
+        ],
+        "subtopics": [
+          "Mass & Drag",
+          "Force Application",
+          "Torque & Angular Velocity",
+          "Kinematic vs Dynamic"
+        ]
+      },
+      {
+        "title": "Collision Detection",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Collision+Detection"
+        ],
+        "subtopics": [
+          "Collision Layers",
+          "Triggers vs Colliders",
+          "Collision Events",
+          "Continuous Collision Detection"
+        ]
+      },
+      {
+        "title": "Soft Body Simulation",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Soft+Body+Simulation"
+        ],
+        "subtopics": [
+          "Spring-Mass Systems",
+          "Mesh Deformation",
+          "Physics Materials for Soft Bodies",
+          "Performance Optimization"
+        ]
+      },
+      {
+        "title": "Particle Systems",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Particle+Systems"
+        ],
+        "subtopics": [
+          "Emitter Settings",
+          "Particle Lifetime",
+          "Forces & Gravity",
+          "Custom Shaders for Particles"
+        ]
+      },
+      {
+        "title": "Shader Programming",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Shader+Programming"
+        ],
+        "subtopics": [
+          "Shader Graph Basics",
+          "Surface Shaders",
+          "Compute Shaders",
+          "Shader Optimization"
+        ]
+      },
+      {
+        "title": "Lighting Techniques",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Lighting+Techniques"
+        ],
+        "subtopics": [
+          "Directional & Point Lights",
+          "Light Baking",
+          "Dynamic Lighting",
+          "Light Probes"
+        ]
+      },
+      {
+        "title": "Post-Processing Effects",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Post+Processing+Effects"
+        ],
+        "subtopics": [
+          "Bloom & Lens Flare",
+          "Color Grading",
+          "Depth of Field",
+          "Motion Blur"
+        ]
+      },
+      {
+        "title": "Networking Basics",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Networking+Basics"
+        ],
+        "subtopics": [
+          "Client-Server Model",
+          "Photon Unity Networking",
+          "Matchmaking",
+          "Latency Handling"
+        ]
+      },
+      {
+        "title": "Multiplayer Architecture",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Multiplayer+Architecture"
+        ],
+        "subtopics": [
+          "State Synchronization",
+          "Prediction & Reconciliation",
+          "Authority Management",
+          "Scalable Server Design"
+        ]
+      }
+    ]
+  }
+}

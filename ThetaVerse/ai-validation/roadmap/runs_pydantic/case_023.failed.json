@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "case": {
+      "position": "Intern - Backend",
+      "company": "Goldman Sachs",
+      "days": 60,
+      "hoursPerDay": 2.5,
+      "majorTopic": "Python basics and REST APIs"
+    },
+    "prompt_hash": "c3b0ab12aa8ac27827532efa9a3d3a62beddd9c81cc236955f48c39214431b78",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:06:01.552132"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Python Basics\",\"estimatedHours\":20,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Python+Basics\"],\"subtopics\":[\"Variables & Data Types\",\"Basic Operators\",\"Input & Output\"}},{\"title\":\"Data Types & Structures\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Python+Data+Types+and+Structures\"],\"subtopics\":[\"Lists & Tuples\",\"Dictionaries & Sets\",\"Comprehensions\"]},{\"title\":\"Control Flow & Functions\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Python+Control+Flow+and+Functions\"],\"subtopics\":[\"If/Else & Loops\",\"Defining Functions\",\"Lambda & Map/Filter\"]},{\"title\":\"Error Handling & Logging\",\"estimatedHours\":10,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=Python+Error+Handling+and+Logging\"],\"subtopics\":[\"Try/Except Blocks\",\"Custom Exceptions\",\"Logging Module\"]},{\"title\":\"Object-Oriented Programming\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Python+Object+Oriented+Programming\"],\"subtopics\":[\"Classes & Objects\",\"Inheritance & Polymorphism\",\"Encapsulation\"]},{\"title\":\"Working with Files & Databases\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Python+Files+and+Databases\"],\"subtopics\":[\"File I/O\",\"SQLite with sqlite3\",\"ORM Basics\"]},{\"title\":\"Unit Testing & Test-Driven Development\",\"estimatedHours\":10,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=Python+Unit+Testing+and+TDD\"],\"subtopics\":[\"unittest Framework\",\"Mocking\",\"Test-Driven Development Cycle\"]},{\"title\":\"REST API Fundamentals\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=REST+API+Fundamentals\"],\"subtopics\":[\"HTTP Methods\",\"Status Codes\",\"REST Principles\"]},{\"title\":\"Flask/Django Basics\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Python+Flask+or+Django+Basics\"],\"subto"
+  },
+  "validation": {
+    "parse_ok": false,
+    "schema_ok": false,
+    "time_fit_ok": false,
+    "total_hours": null,
+    "target_hours": 150.0,
+    "num_topics": 0,
+    "error": "6 validation errors for Roadmap\ntopics\n  Field required [type=missing, input_value={'title': 'Deployment & C...'Monitoring & Logging']}, input_type=dict]\n    For further information visit https://erro"
+  }
+}

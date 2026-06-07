@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "case": {
+      "position": "Solutions Engineer",
+      "company": "Salesforce",
+      "days": 28,
+      "hoursPerDay": 3,
+      "majorTopic": "Salesforce platform and customization"
+    },
+    "prompt_hash": "3a66094600228e1e34283f0c80cc5f5ff832d301914a4382bae20d1b07ca99dc",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:05:14.376472"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Salesforce Fundamentals\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Fundamentals\"],\"subtopics\":[\"Salesforce Architecture\",\"User Interface & Navigation\"]},{\"title\":\"Data Modeling & Management\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Data+Modeling\"],\"subtopics\":[\"Objects & Fields\",\"Data Import & Export\"]},{\"title\":\"Security & Access\",\"estimatedHours\":8,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Security\"],\"subtopics\":[\"Profiles & Permission Sets\",\"Role Hierarchy & Sharing Rules\"]},{\"title\":\"Automation\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Automation\"],\"subtopics\":[\"Process Builder\",\"Flow Builder\"]},{\"title\":\"Integration\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Integration\"],\"subtopics\":[\"REST API\",\"SOAP API\"]},{\"title\":\"Lightning Components\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Lightning+Components\"],\"subtopics\":[\"Aura Components\",\"Lightning Web Components\"]},{\"title\":\"AppExchange & Custom Apps\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+AppExchange\"],\"subtopics\":[\"AppExchange Marketplace\",\"Custom App Development\"]},{\"title\":\"Deployment & DevOps\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+DevOps\"],\"subtopics\":[\"Change Sets\",\"Salesforce DX\"]}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 84.0,
+    "target_hours": 84,
+    "num_topics": 8,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Salesforce Fundamentals",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Fundamentals"
+        ],
+        "subtopics": [
+          "Salesforce Architecture",
+          "User Interface & Navigation"
+        ]
+      },
+      {
+        "title": "Data Modeling & Management",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Data+Modeling"
+        ],
+        "subtopics": [
+          "Objects & Fields",
+          "Data Import & Export"
+        ]
+      },
+      {
+        "title": "Security & Access",
+        "estimatedHours": 8,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Security"
+        ],
+        "subtopics": [
+          "Profiles & Permission Sets",
+          "Role Hierarchy & Sharing Rules"
+        ]
+      },
+      {
+        "title": "Automation",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Automation"
+        ],
+        "subtopics": [
+          "Process Builder",
+          "Flow Builder"
+        ]
+      },
+      {
+        "title": "Integration",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Integration"
+        ],
+        "subtopics": [
+          "REST API",
+          "SOAP API"
+        ]
+      },
+      {
+        "title": "Lightning Components",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Lightning+Components"
+        ],
+        "subtopics": [
+          "Aura Components",
+          "Lightning Web Components"
+        ]
+      },
+      {
+        "title": "AppExchange & Custom Apps",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+AppExchange"
+        ],
+        "subtopics": [
+          "AppExchange Marketplace",
+          "Custom App Development"
+        ]
+      },
+      {
+        "title": "Deployment & DevOps",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+DevOps"
+        ],
+        "subtopics": [
+          "Change Sets",
+          "Salesforce DX"
+        ]
+      }
+    ]
+  }
+}

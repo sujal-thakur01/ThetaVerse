@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "case": {
+      "position": "Frontend Engineer",
+      "company": "Airbnb",
+      "days": 25,
+      "hoursPerDay": 3.5,
+      "majorTopic": "TypeScript and modern React patterns"
+    },
+    "prompt_hash": "7a709801e8ae855be2d304757ce51e0c7e1b386894d535925f3d3c47e1becf5f",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:31:59.973230"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"TypeScript Fundamentals\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=TypeScript+Fundamentals\"],\"subtopics\":[\"Type Basics & Interfaces\",\"Generics & Utility Types\",\"Type Inference & Type Guards\",\"Module and Namespace Management\"]},{\"title\":\"Advanced TypeScript Patterns\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Advanced+TypeScript+Patterns\"],\"subtopics\":[\"Conditional Types\",\"Mapped Types\",\"Intersection & Union Types\",\"TypeScript with React Props\"]},{\"title\":\"React Functional Components & Hooks\",\"estimatedHours\":11,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=React+Functional+Components+Hooks\"],\"subtopics\":[\"Functional Component Syntax\",\"useState & useEffect\",\"Custom Hooks\",\"Hook Rules & Best Practices\"]},{\"title\":\"State Management with Context & Redux Toolkit\",\"estimatedHours\":11,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=React+Context+Redux+Toolkit\"],\"subtopics\":[\"React Context API\",\"Redux Toolkit Basics\",\"RTK Query\",\"State Normalization & Selectors\"]},{\"title\":\"Component Architecture & Design Patterns\",\"estimatedHours\":10,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=React+Component+Architecture+Patterns\"],\"subtopics\":[\"Container/Presentational Pattern\",\"Render Props\",\"Higher-Order Components\",\"Compound Components\"]},{\"title\":\"Performance Optimization & React Profiler\",\"estimatedHours\":9,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=React+Performance+Optimization+Profiler\"],\"subtopics\":[\"React.memo & useMemo\",\"Lazy Loading & Suspense\",\"Code Splitting\",\"React Profiler API\"]},{\"title\":\"Testing & CI for React Apps\",\"estimatedHours\":9,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=React+Testing+CI\"],\"subtopics\":[\"Jest & React Testing Library\",\"Snapshot Testing\",\"End-to-End Testing with Cypress\",\"CI Pipeline Integration\"]},{\"title\":\"Deployment & Observability\",\"estimatedHours\":13.5,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=React+Deployment+Observability\"],\"subtopics\":[\"Static Site Generation with Next.js\",\"Environment Variables & Build Config\",\"Error Tracking with Sentry\",\"Performance Monitoring with Lighthouse\"]}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 87.5,
+    "target_hours": 87.5,
+    "num_topics": 8,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "TypeScript Fundamentals",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=TypeScript+Fundamentals"
+        ],
+        "subtopics": [
+          "Type Basics & Interfaces",
+          "Generics & Utility Types",
+          "Type Inference & Type Guards",
+          "Module and Namespace Management"
+        ]
+      },
+      {
+        "title": "Advanced TypeScript Patterns",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Advanced+TypeScript+Patterns"
+        ],
+        "subtopics": [
+          "Conditional Types",
+          "Mapped Types",
+          "Intersection & Union Types",
+          "TypeScript with React Props"
+        ]
+      },
+      {
+        "title": "React Functional Components & Hooks",
+        "estimatedHours": 11,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=React+Functional+Components+Hooks"
+        ],
+        "subtopics": [
+          "Functional Component Syntax",
+          "useState & useEffect",
+          "Custom Hooks",
+          "Hook Rules & Best Practices"
+        ]
+      },
+      {
+        "title": "State Management with Context & Redux Toolkit",
+        "estimatedHours": 11,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=React+Context+Redux+Toolkit"
+        ],
+        "subtopics": [
+          "React Context API",
+          "Redux Toolkit Basics",
+          "RTK Query",
+          "State Normalization & Selectors"
+        ]
+      },
+      {
+        "title": "Component Architecture & Design Patterns",
+        "estimatedHours": 10,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=React+Component+Architecture+Patterns"
+        ],
+        "subtopics": [
+          "Container/Presentational Pattern",
+          "Render Props",
+          "Higher-Order Components",
+          "Compound Components"
+        ]
+      },
+      {
+        "title": "Performance Optimization & React Profiler",
+        "estimatedHours": 9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=React+Performance+Optimization+Profiler"
+        ],
+        "subtopics": [
+          "React.memo & useMemo",
+          "Lazy Loading & Suspense",
+          "Code Splitting",
+          "React Profiler API"
+        ]
+      },
+      {
+        "title": "Testing & CI for React Apps",
+        "estimatedHours": 9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=React+Testing+CI"
+        ],
+        "subtopics": [
+          "Jest & React Testing Library",
+          "Snapshot Testing",
+          "End-to-End Testing with Cypress",
+          "CI Pipeline Integration"
+        ]
+      },
+      {
+        "title": "Deployment & Observability",
+        "estimatedHours": 13.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=React+Deployment+Observability"
+        ],
+        "subtopics": [
+          "Static Site Generation with Next.js",
+          "Environment Variables & Build Config",
+          "Error Tracking with Sentry",
+          "Performance Monitoring with Lighthouse"
+        ]
+      }
+    ]
+  }
+}

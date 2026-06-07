@@ -1,0 +1,1212 @@
+{
+  "run_timestamp": "2026-05-20T12:30:18.056428",
+  "total_cases": 15,
+  "results": [
+    {
+      "case_id": "case_001",
+      "position": "Backend Engineer",
+      "company": "Google",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 120,
+          "target_hours": 120,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 100.0,
+          "covered_keywords": [
+            "design",
+            "distributed",
+            "system",
+            "systems"
+          ],
+          "missing_keywords": [],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 25.0,
+          "matches_count": 3,
+          "unmatched_ref_count": 9,
+          "unmatched_ref_topics": [
+            "Distributed System Fundamentals",
+            "Partition Tolerance & Replication Strategies",
+            "Consistent Hashing & Load Balancing",
+            "Distributed Consensus Algorithms (Paxos, Raft)",
+            "Service Discovery & Service Mesh"
+          ],
+          "matches": [
+            {
+              "generated": "Consistency Models",
+              "reference": "CAP Theorem & Consistency Models",
+              "similarity": 0.605
+            },
+            {
+              "generated": "Observability",
+              "reference": "Monitoring, Observability & Distributed Tracing",
+              "similarity": 0.642
+            },
+            {
+              "generated": "Event-Driven Systems",
+              "reference": "Event-Driven Architecture & Message Queues",
+              "similarity": 0.663
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_002",
+      "position": "Frontend Engineer",
+      "company": "Microsoft",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 63,
+          "target_hours": 63,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 100.0,
+          "covered_keywords": [
+            "react",
+            "architecture",
+            "performance"
+          ],
+          "missing_keywords": [],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 50.0,
+          "matches_count": 3,
+          "unmatched_ref_count": 3,
+          "unmatched_ref_topics": [
+            "Code Splitting & Lazy Loading",
+            "Server-Side Rendering & Static Site Generation",
+            "Web Performance Best Practices"
+          ],
+          "matches": [
+            {
+              "generated": "React Rendering Fundamentals",
+              "reference": "React Performance Fundamentals",
+              "similarity": 0.454
+            },
+            {
+              "generated": "Optimizing React Performance",
+              "reference": "Memoization Techniques in React",
+              "similarity": 0.544
+            },
+            {
+              "generated": "Web Architecture Patterns",
+              "reference": "Scalable Web Architecture for Frontend",
+              "similarity": 0.611
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_003",
+      "position": "Full Stack Engineer",
+      "company": "Amazon",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 98,
+          "target_hours": 98.0,
+          "variance": 0.0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 100.0,
+          "covered_keywords": [
+            "system",
+            "databases",
+            "algorithms",
+            "design"
+          ],
+          "missing_keywords": [],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 77.8,
+          "matches_count": 7,
+          "unmatched_ref_count": 2,
+          "unmatched_ref_topics": [
+            "CAP Theorem & Consistency Models",
+            "Review & Practice"
+          ],
+          "matches": [
+            {
+              "generated": "Data Structures & Algorithms Fundamentals",
+              "reference": "Data Structures & Algorithms Basics",
+              "similarity": 0.734
+            },
+            {
+              "generated": "Advanced Algorithms",
+              "reference": "Advanced Algorithms",
+              "similarity": 0.714
+            },
+            {
+              "generated": "Database Design & SQL",
+              "reference": "Database Design & SQL",
+              "similarity": 0.644
+            },
+            {
+              "generated": "NoSQL & Distributed Databases",
+              "reference": "NoSQL & Distributed Databases",
+              "similarity": 0.821
+            },
+            {
+              "generated": "System Design Basics",
+              "reference": "System Design Fundamentals",
+              "similarity": 0.537
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_004",
+      "position": "Junior Developer",
+      "company": "Startup",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 28.0,
+          "target_hours": 28,
+          "variance": 0.0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 100.0,
+          "covered_keywords": [
+            "javascript",
+            "manipulation"
+          ],
+          "missing_keywords": [],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 80.0,
+          "matches_count": 4,
+          "unmatched_ref_count": 1,
+          "unmatched_ref_topics": [
+            "Advanced DOM and Performance"
+          ],
+          "matches": [
+            {
+              "generated": "Variables, Data Types, and Operators",
+              "reference": "JavaScript Basics",
+              "similarity": 0.494
+            },
+            {
+              "generated": "Control Flow and Functions",
+              "reference": "Functions and Scope",
+              "similarity": 0.584
+            },
+            {
+              "generated": "Asynchronous JavaScript",
+              "reference": "Asynchronous JavaScript",
+              "similarity": 0.751
+            },
+            {
+              "generated": "The DOM: Selecting and Manipulating Elements",
+              "reference": "DOM Manipulation Basics",
+              "similarity": 0.563
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_005",
+      "position": "DevOps Engineer",
+      "company": "Netflix",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 140,
+          "target_hours": 140,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 100.0,
+          "covered_keywords": [
+            "docker",
+            "kubernetes",
+            "cloud",
+            "infrastructure"
+          ],
+          "missing_keywords": [],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 50.0,
+          "matches_count": 7,
+          "unmatched_ref_count": 7,
+          "unmatched_ref_topics": [
+            "Netflix DevOps Culture & Practices",
+            "Kubernetes Architecture & Core Concepts",
+            "Cloud Infrastructure: AWS vs GCP vs Azure",
+            "Infrastructure as Code: Terraform & CloudFormation",
+            "Observability: Prometheus, Grafana, Loki"
+          ],
+          "matches": [
+            {
+              "generated": "Docker Fundamentals",
+              "reference": "Docker Fundamentals & Advanced Usage",
+              "similarity": 0.611
+            },
+            {
+              "generated": "Helm Package Management",
+              "reference": "Helm & Package Management",
+              "similarity": 0.705
+            },
+            {
+              "generated": "CI/CD Pipelines",
+              "reference": "CI/CD Pipelines with Jenkins/GitHub Actions",
+              "similarity": 0.739
+            },
+            {
+              "generated": "Networking in Kubernetes",
+              "reference": "Networking & Service Discovery in Kubernetes",
+              "similarity": 0.608
+            },
+            {
+              "generated": "Security & Compliance",
+              "reference": "Security & Compliance in Cloud & Kubernetes",
+              "similarity": 0.476
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_006",
+      "position": "Machine Learning Engineer",
+      "company": "OpenAI",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 250,
+          "target_hours": 250,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 80.0,
+          "covered_keywords": [
+            "neural",
+            "networks",
+            "transformers",
+            "learning"
+          ],
+          "missing_keywords": [
+            "deep"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 36.0,
+          "matches_count": 9,
+          "unmatched_ref_count": 16,
+          "unmatched_ref_topics": [
+            "Deep Learning Foundations",
+            "Neural Network Basics",
+            "Activation Functions",
+            "Loss Functions",
+            "Optimization Algorithms"
+          ],
+          "matches": [
+            {
+              "generated": "Regularization Techniques",
+              "reference": "Regularization Techniques",
+              "similarity": 0.843
+            },
+            {
+              "generated": "Convolutional Neural Networks",
+              "reference": "Convolutional Neural Networks",
+              "similarity": 0.854
+            },
+            {
+              "generated": "Recurrent Neural Networks",
+              "reference": "Recurrent Neural Networks",
+              "similarity": 0.511
+            },
+            {
+              "generated": "Attention Mechanisms",
+              "reference": "Attention Mechanisms",
+              "similarity": 0.936
+            },
+            {
+              "generated": "Transformer Architecture",
+              "reference": "Transformer Architecture",
+              "similarity": 0.847
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_007",
+      "position": "QA Engineer",
+      "company": "Apple",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 63,
+          "target_hours": 63,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 100.0,
+          "covered_keywords": [
+            "automation",
+            "test"
+          ],
+          "missing_keywords": [],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 16.7,
+          "matches_count": 1,
+          "unmatched_ref_count": 5,
+          "unmatched_ref_topics": [
+            "Apple QA Engineering Overview & Toolchain",
+            "Test Automation Fundamentals with XCTest",
+            "CI/CD Pipelines for iOS Apps",
+            "Performance & Security Testing in Apple Ecosystem",
+            "Metrics, Reporting & Continuous Improvement"
+          ],
+          "matches": [
+            {
+              "generated": "Continuous Testing",
+              "reference": "Advanced Test Automation Strategies",
+              "similarity": 0.524
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_008",
+      "position": "Frontend Engineer",
+      "company": "Airbnb",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 87.5,
+          "target_hours": 87.5,
+          "variance": 0.0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 75.0,
+          "covered_keywords": [
+            "typescript",
+            "react",
+            "patterns"
+          ],
+          "missing_keywords": [
+            "modern"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 75.0,
+          "matches_count": 6,
+          "unmatched_ref_count": 2,
+          "unmatched_ref_topics": [
+            "Accessibility & Internationalization",
+            "Airbnb Design System & Component Library"
+          ],
+          "matches": [
+            {
+              "generated": "TypeScript Fundamentals",
+              "reference": "TypeScript Fundamentals",
+              "similarity": 0.825
+            },
+            {
+              "generated": "Advanced TypeScript Patterns",
+              "reference": "Advanced TypeScript Patterns",
+              "similarity": 0.731
+            },
+            {
+              "generated": "React Functional Components & Hooks",
+              "reference": "React Functional Components & Hooks",
+              "similarity": 0.738
+            },
+            {
+              "generated": "State Management with Context & Redux Toolkit",
+              "reference": "React Context & State Management",
+              "similarity": 0.595
+            },
+            {
+              "generated": "Performance Optimization & React Profiler",
+              "reference": "React Performance Optimization",
+              "similarity": 0.566
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_009",
+      "position": "Android Developer",
+      "company": "LinkedIn",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 105,
+          "target_hours": 105.0,
+          "variance": 0.0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 100.0,
+          "covered_keywords": [
+            "kotlin",
+            "android",
+            "architecture",
+            "testing"
+          ],
+          "missing_keywords": [],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 50.0,
+          "matches_count": 5,
+          "unmatched_ref_count": 5,
+          "unmatched_ref_topics": [
+            "Android Jetpack Components",
+            "Coroutines & Flow for Asynchronous Programming",
+            "Room Persistence Library & Data Layer",
+            "Navigation Component & Deep Linking",
+            "CI/CD & Test Coverage for Android"
+          ],
+          "matches": [
+            {
+              "generated": "Advanced Kotlin",
+              "reference": "Kotlin Basics & Advanced Features",
+              "similarity": 0.457
+            },
+            {
+              "generated": "Android Architecture Components",
+              "reference": "MVVM Architecture with LiveData & ViewModel",
+              "similarity": 0.5
+            },
+            {
+              "generated": "Dependency Injection",
+              "reference": "Dependency Injection with Hilt",
+              "similarity": 0.477
+            },
+            {
+              "generated": "Unit Testing",
+              "reference": "Unit Testing with JUnit & MockK",
+              "similarity": 0.726
+            },
+            {
+              "generated": "UI Testing",
+              "reference": "UI Testing with Espresso & UI Automator",
+              "similarity": 0.797
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_010",
+      "position": "iOS Developer",
+      "company": "Apple",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 128,
+          "target_hours": 128,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 100.0,
+          "covered_keywords": [
+            "design",
+            "swift",
+            "patterns",
+            "swiftui"
+          ],
+          "missing_keywords": [],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 58.3,
+          "matches_count": 7,
+          "unmatched_ref_count": 5,
+          "unmatched_ref_topics": [
+            "Swift Concurrency",
+            "SwiftUI Advanced: Layout, Animations, Accessibility",
+            "Design Patterns in Swift",
+            "SwiftUI Design Patterns",
+            "Interview Preparation"
+          ],
+          "matches": [
+            {
+              "generated": "Swift Basics",
+              "reference": "Swift Language Fundamentals",
+              "similarity": 0.567
+            },
+            {
+              "generated": "Advanced Swift Features",
+              "reference": "Advanced Swift: Protocols, Generics, Extensions",
+              "similarity": 0.621
+            },
+            {
+              "generated": "State Management in SwiftUI",
+              "reference": "SwiftUI Basics and State Management",
+              "similarity": 0.768
+            },
+            {
+              "generated": "Combine Framework Basics",
+              "reference": "Combine Framework and Reactive Programming",
+              "similarity": 0.551
+            },
+            {
+              "generated": "Testing & Debugging",
+              "reference": "Testing",
+              "similarity": 0.508
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_011",
+      "position": "Solutions Engineer",
+      "company": "Salesforce",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 84,
+          "target_hours": 84,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 33.3,
+          "covered_keywords": [
+            "salesforce"
+          ],
+          "missing_keywords": [
+            "platform",
+            "customization"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 25.0,
+          "matches_count": 2,
+          "unmatched_ref_count": 6,
+          "unmatched_ref_topics": [
+            "Apex Programming Basics",
+            "Visualforce+%26+Classic+UI+Customization",
+            "Salesforce+Integration+REST+SOAP",
+            "Data+Modeling+%26+Security",
+            "AppExchange+%26+Custom+App+Development"
+          ],
+          "matches": [
+            {
+              "generated": "Salesforce Architecture",
+              "reference": "Salesforce Platform Fundamentals",
+              "similarity": 0.504
+            },
+            {
+              "generated": "Lightning Components",
+              "reference": "Lightning Web Components (LWC) Development",
+              "similarity": 0.588
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_012",
+      "position": "Database Administrator",
+      "company": "Oracle",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 125.5,
+          "target_hours": 115.5,
+          "variance": 10.0,
+          "variance_pct": 8.7,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 66.7,
+          "covered_keywords": [
+            "optimization",
+            "tuning"
+          ],
+          "missing_keywords": [
+            "database"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 36.4,
+          "matches_count": 4,
+          "unmatched_ref_count": 7,
+          "unmatched_ref_topics": [
+            "Oracle Database Architecture",
+            "SQL Performance Basics",
+            "SQL Tuning Advisor & SQL Access Advisor",
+            "Memory Management (SGA, PGA)",
+            "I/O Optimization & Storage"
+          ],
+          "matches": [
+            {
+              "generated": "Indexing Strategies and Management",
+              "reference": "Indexing Strategies",
+              "similarity": 0.656
+            },
+            {
+              "generated": "Execution Plan Analysis",
+              "reference": "Execution Plan Analysis",
+              "similarity": 0.672
+            },
+            {
+              "generated": "Partitioning and Sharding Techniques",
+              "reference": "Partitioning and Sharding",
+              "similarity": 0.855
+            },
+            {
+              "generated": "Concurrency and Locking",
+              "reference": "Concurrency & Locking",
+              "similarity": 0.842
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_013",
+      "position": "Embedded Systems Engineer",
+      "company": "Tesla",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 180,
+          "target_hours": 180.0,
+          "variance": 0.0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 100.0,
+          "covered_keywords": [
+            "firmware",
+            "real",
+            "systems",
+            "time"
+          ],
+          "missing_keywords": [],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 44.4,
+          "matches_count": 8,
+          "unmatched_ref_count": 10,
+          "unmatched_ref_topics": [
+            "C Language Fundamentals",
+            "Embedded C/C++ Toolchains",
+            "RTOS Kernel Design and Scheduling",
+            "Peripheral Interface Programming (SPI, I2C, UART)",
+            "CAN Bus Protocol and Implementation"
+          ],
+          "matches": [
+            {
+              "generated": "C++ Advanced Features",
+              "reference": "C++ Core Language Features",
+              "similarity": 0.546
+            },
+            {
+              "generated": "Real-Time Operating Systems (RTOS)",
+              "reference": "Real-Time Operating Systems (RTOS) Basics",
+              "similarity": 0.529
+            },
+            {
+              "generated": "Interrupt Handling & ISRs",
+              "reference": "Interrupt Handling and ISRs",
+              "similarity": 0.583
+            },
+            {
+              "generated": "Memory Management & Optimization",
+              "reference": "Memory Management in Embedded Systems",
+              "similarity": 0.612
+            },
+            {
+              "generated": "Firmware Development Workflow",
+              "reference": "Firmware Development Lifecycle",
+              "similarity": 0.469
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_014",
+      "position": "Game Developer",
+      "company": "Unity",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 140,
+          "target_hours": 140,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 75.0,
+          "covered_keywords": [
+            "multiplayer",
+            "graphics",
+            "physics"
+          ],
+          "missing_keywords": [
+            "game"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 28.6,
+          "matches_count": 4,
+          "unmatched_ref_count": 10,
+          "unmatched_ref_topics": [
+            "Rigidbody and Collider Setup",
+            "Advanced Physics: Joints and Constraints",
+            "Physics Materials and Friction",
+            "Physics Optimization Techniques",
+            "Rendering Pipeline Basics"
+          ],
+          "matches": [
+            {
+              "generated": "Unity Physics Fundamentals",
+              "reference": "Unity Physics Fundamentals",
+              "similarity": 0.645
+            },
+            {
+              "generated": "Collision Detection",
+              "reference": "Collision Detection and Response",
+              "similarity": 0.724
+            },
+            {
+              "generated": "Shader Programming",
+              "reference": "Shader Development with Shader Graph",
+              "similarity": 0.57
+            },
+            {
+              "generated": "Lighting Techniques",
+              "reference": "Lighting and Post-Processing",
+              "similarity": 0.516
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    },
+    {
+      "case_id": "case_015",
+      "position": "Network Engineer",
+      "company": "Cisco",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0,
+          "issues": []
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 105,
+          "target_hours": 105.0,
+          "variance": 0.0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20.0
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 100.0,
+          "covered_keywords": [
+            "protocols",
+            "configuration",
+            "firewall",
+            "networking"
+          ],
+          "missing_keywords": [],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "coverage_pct": 50.0,
+          "matches_count": 5,
+          "unmatched_ref_count": 5,
+          "unmatched_ref_topics": [
+            "Spanning Tree Protocol (STP) & RSTP",
+            "NAT, PAT, and ACLs",
+            "Firewall Policies, Zones, and NAT on ASA",
+            "VPN Technologies: IPsec & SSL VPN",
+            "Security Hardening & Monitoring on Cisco Devices"
+          ],
+          "matches": [
+            {
+              "generated": "OSI Model & TCP/IP Basics",
+              "reference": "OSI Model & TCP/IP Basics",
+              "similarity": 0.771
+            },
+            {
+              "generated": "IP Addressing & Subnetting",
+              "reference": "IPv4 & IPv6 Addressing & Subnetting",
+              "similarity": 0.776
+            },
+            {
+              "generated": "Routing Protocols (RIP, OSPF, EIGRP)",
+              "reference": "Routing Protocols: OSPF & EIGRP",
+              "similarity": 0.522
+            },
+            {
+              "generated": "Switching & VLANs",
+              "reference": "VLANs, Trunking, and Inter-VLAN Routing",
+              "similarity": 0.608
+            },
+            {
+              "generated": "Firewall Basics (Cisco ASA)",
+              "reference": "Cisco ASA Firewall Basics & Configuration",
+              "similarity": 0.555
+            }
+          ]
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true
+    }
+  ],
+  "summary": {
+    "total_cases": 15,
+    "schema_passed": 15,
+    "content_passed": 15,
+    "both_passed": 15,
+    "by_layer": {
+      "rules": 15,
+      "diversity": 15,
+      "time_fit": 15,
+      "consistency": 15,
+      "relevance": 15,
+      "golden_comparison": 15
+    }
+  }
+}

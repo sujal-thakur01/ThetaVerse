@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "case": {
+      "position": "Game Developer",
+      "company": "Unity",
+      "days": 35,
+      "hoursPerDay": 4,
+      "majorTopic": "game physics, graphics, and multiplayer"
+    },
+    "prompt_hash": "14d3661e9adfc1e807887b5be32b7857db5dc03e3bde67d4690f9c2c2ade5da6",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.621795"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"game physics, graphics, and multiplayer focus area 1\", \"estimatedHours\": 10.0, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 2\", \"estimatedHours\": 10.0, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 3\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 4\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 5\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 6\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+6\"], \"subtopics\": [\"Core concept 6\", \"Interview practice 6\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 7\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+7\"], \"subtopics\": [\"Core concept 7\", \"Interview practice 7\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 8\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+8\"], \"subtopics\": [\"Core concept 8\", \"Interview practice 8\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 9\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+9\"], \"subtopics\": [\"Core concept 9\", \"Interview practice 9\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 10\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+10\"], \"subtopics\": [\"Core concept 10\", \"Interview practice 10\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 11\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+11\"], \"subtopics\": [\"Core concept 11\", \"Interview practice 11\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 12\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+12\"], \"subtopics\": [\"Core concept 12\", \"Interview practice 12\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 13\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+13\"], \"subtopics\": [\"Core concept 13\", \"Interview practice 13\"]}, {\"title\": \"game physics, graphics, and multiplayer focus area 14\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Unity+Game Developer+topic+14\"], \"subtopics\": [\"Core concept 14\", \"Interview practice 14\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "game physics, graphics, and multiplayer focus area 1",
+        "estimatedHours": 10.0,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 2",
+        "estimatedHours": 10.0,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 3",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 4",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 5",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 6",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+6"
+        ],
+        "subtopics": [
+          "Core concept 6",
+          "Interview practice 6"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 7",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+7"
+        ],
+        "subtopics": [
+          "Core concept 7",
+          "Interview practice 7"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 8",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+8"
+        ],
+        "subtopics": [
+          "Core concept 8",
+          "Interview practice 8"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 9",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+9"
+        ],
+        "subtopics": [
+          "Core concept 9",
+          "Interview practice 9"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 10",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+10"
+        ],
+        "subtopics": [
+          "Core concept 10",
+          "Interview practice 10"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 11",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+11"
+        ],
+        "subtopics": [
+          "Core concept 11",
+          "Interview practice 11"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 12",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+12"
+        ],
+        "subtopics": [
+          "Core concept 12",
+          "Interview practice 12"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 13",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+13"
+        ],
+        "subtopics": [
+          "Core concept 13",
+          "Interview practice 13"
+        ]
+      },
+      {
+        "title": "game physics, graphics, and multiplayer focus area 14",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Unity+Game Developer+topic+14"
+        ],
+        "subtopics": [
+          "Core concept 14",
+          "Interview practice 14"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 140.0,
+    "target_hours": 140,
+    "num_topics": 14,
+    "error": null
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "case": {
+      "position": "Network Engineer",
+      "company": "Cisco",
+      "days": 30,
+      "hoursPerDay": 3.5,
+      "majorTopic": "networking protocols and firewall configuration"
+    },
+    "prompt_hash": "5d20fb968275d3c17d11abe0a4b8537ad1a5f78d437ffb00bb3f9ca3c52adcc4",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.622312"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"networking protocols and firewall configuration focus area 1\", \"estimatedHours\": 10.5, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Cisco+Network Engineer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"networking protocols and firewall configuration focus area 2\", \"estimatedHours\": 10.5, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Cisco+Network Engineer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"networking protocols and firewall configuration focus area 3\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Cisco+Network Engineer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"networking protocols and firewall configuration focus area 4\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Cisco+Network Engineer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"networking protocols and firewall configuration focus area 5\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Cisco+Network Engineer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}, {\"title\": \"networking protocols and firewall configuration focus area 6\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Cisco+Network Engineer+topic+6\"], \"subtopics\": [\"Core concept 6\", \"Interview practice 6\"]}, {\"title\": \"networking protocols and firewall configuration focus area 7\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Cisco+Network Engineer+topic+7\"], \"subtopics\": [\"Core concept 7\", \"Interview practice 7\"]}, {\"title\": \"networking protocols and firewall configuration focus area 8\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Cisco+Network Engineer+topic+8\"], \"subtopics\": [\"Core concept 8\", \"Interview practice 8\"]}, {\"title\": \"networking protocols and firewall configuration focus area 9\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Cisco+Network Engineer+topic+9\"], \"subtopics\": [\"Core concept 9\", \"Interview practice 9\"]}, {\"title\": \"networking protocols and firewall configuration focus area 10\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Cisco+Network Engineer+topic+10\"], \"subtopics\": [\"Core concept 10\", \"Interview practice 10\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "networking protocols and firewall configuration focus area 1",
+        "estimatedHours": 10.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Cisco+Network Engineer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "networking protocols and firewall configuration focus area 2",
+        "estimatedHours": 10.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Cisco+Network Engineer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "networking protocols and firewall configuration focus area 3",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Cisco+Network Engineer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "networking protocols and firewall configuration focus area 4",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Cisco+Network Engineer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "networking protocols and firewall configuration focus area 5",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Cisco+Network Engineer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      },
+      {
+        "title": "networking protocols and firewall configuration focus area 6",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Cisco+Network Engineer+topic+6"
+        ],
+        "subtopics": [
+          "Core concept 6",
+          "Interview practice 6"
+        ]
+      },
+      {
+        "title": "networking protocols and firewall configuration focus area 7",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Cisco+Network Engineer+topic+7"
+        ],
+        "subtopics": [
+          "Core concept 7",
+          "Interview practice 7"
+        ]
+      },
+      {
+        "title": "networking protocols and firewall configuration focus area 8",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Cisco+Network Engineer+topic+8"
+        ],
+        "subtopics": [
+          "Core concept 8",
+          "Interview practice 8"
+        ]
+      },
+      {
+        "title": "networking protocols and firewall configuration focus area 9",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Cisco+Network Engineer+topic+9"
+        ],
+        "subtopics": [
+          "Core concept 9",
+          "Interview practice 9"
+        ]
+      },
+      {
+        "title": "networking protocols and firewall configuration focus area 10",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Cisco+Network Engineer+topic+10"
+        ],
+        "subtopics": [
+          "Core concept 10",
+          "Interview practice 10"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 105.0,
+    "target_hours": 105.0,
+    "num_topics": 10,
+    "error": null
+  }
+}

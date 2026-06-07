@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "case": {
+      "position": "Machine Learning Engineer",
+      "company": "OpenAI",
+      "days": 50,
+      "hoursPerDay": 5,
+      "majorTopic": "deep learning, transformers, and neural networks"
+    },
+    "prompt_hash": "fc9d5397987b6d616391e2ed5f06f0e3767b772d0e2f7a463ae7773dc570a2ea",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:04:14.968406"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Fundamentals of Deep Learning\",\"estimatedHours\":20,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Fundamentals+of+Deep+Learning\"],\"subtopics\":[\"Neural network basics\",\"Loss functions\",\"Gradient descent\"],\"},{ \"title\":\"Neural Network Architectures\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Neural+Network+Architectures\"],\"subtopics\":[\"Feedforward nets\",\"Modular design\",\"Layer types\"],\"},{ \"title\":\"Backpropagation & Optimization\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Backpropagation+and+Optimization\"],\"subtopics\":[\"Gradient computation\",\"Learning rate schedules\",\"Momentum\"],\"},{ \"title\":\"Regularization Techniques\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Regularization+Techniques+in+Deep+Learning\"],\"subtopics\":[\"Dropout\",\"Weight decay\",\"Batch norm\"],\"},{ \"title\":\"Convolutional Neural Networks\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Convolutional+Neural+Networks\"],\"subtopics\":[\"Convolution layers\",\"Pooling\",\"CNN variants\"],\"},{ \"title\":\"Recurrent Neural Networks & LSTMs\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=RNN+and+LSTM\"],\"subtopics\":[\"Vanishing gradients\",\"GRU\",\"Sequence modeling\"],\"},{ \"title\":\"Attention Mechanisms\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Attention+Mechanisms+in+NLP\"],\"subtopics\":[\"Scaled dot-product\",\"Multi-head attention\",\"Self-attention\"],\"},{ \"title\":\"Transformer Architecture\",\"estimatedHours\":20,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Transformer+Architecture\"],\"subtopics\":[\"Encoder-decoder\",\"Positional encoding\",\"Transformer variants\"],\"},{ \"title\":\"Pretrained Models & Transfer Learning\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Pretrain"
+  },
+  "validation": {
+    "parse_ok": false,
+    "schema_ok": false,
+    "time_fit_ok": false,
+    "total_hours": null,
+    "target_hours": 250,
+    "num_topics": 0,
+    "error": "6 validation errors for Roadmap\ntopics\n  Field required [type=missing, input_value={'title': 'Research Trend...en-source initiatives']}, input_type=dict]\n    For further information visit https://erro"
+  }
+}

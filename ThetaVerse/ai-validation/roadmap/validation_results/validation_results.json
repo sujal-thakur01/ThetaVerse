@@ -1,0 +1,2287 @@
+{
+  "run_timestamp": 1779256358.909726,
+  "validator_version": "1.0",
+  "total_cases": 40,
+  "results": [
+    {
+      "case_id": "case_001",
+      "position": "Backend Engineer",
+      "company": "Google",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 120,
+          "target_hours": 120,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": false,
+          "keyword_coverage_pct": 28.6,
+          "covered_keywords": [
+            "system",
+            "distributed"
+          ],
+          "missing_keywords": [
+            "backend",
+            "engineer",
+            "google",
+            "design",
+            "systems"
+          ],
+          "issues": [
+            "Low keyword coverage (29%). Missing: ['backend', 'engineer', 'google']"
+          ]
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_001",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "cap theorem & consistency models",
+              "event-driven architecture & message queues",
+              "monitoring, observability & distributed tracing",
+              "service discovery & service mesh",
+              "distributed system fundamentals"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_001",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "cap theorem & consistency models",
+                "event-driven architecture & message queues",
+                "monitoring, observability & distributed tracing",
+                "service discovery & service mesh",
+                "distributed system fundamentals"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 12
+    },
+    {
+      "case_id": "case_002",
+      "position": "Frontend Engineer",
+      "company": "Microsoft",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 63,
+          "target_hours": 63,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 66.7,
+          "covered_keywords": [
+            "frontend",
+            "react",
+            "performance",
+            "architecture"
+          ],
+          "missing_keywords": [
+            "engineer",
+            "microsoft"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_002",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "code splitting & lazy loading",
+              "server-side rendering & static site generation",
+              "memoization techniques in react",
+              "react performance fundamentals",
+              "web performance best practices"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_002",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "code splitting & lazy loading",
+                "server-side rendering & static site generation",
+                "memoization techniques in react",
+                "react performance fundamentals",
+                "web performance best practices"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 6
+    },
+    {
+      "case_id": "case_003",
+      "position": "Full Stack Engineer",
+      "company": "Amazon",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 108,
+          "target_hours": 98.0,
+          "variance": 10.0,
+          "variance_pct": 10.2,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)",
+            "Topic 0: 4 subtopics but 25h suggests \u22655"
+          ],
+          "issue_count": 2
+        },
+        "relevance": {
+          "relevance_ok": false,
+          "keyword_coverage_pct": 25.0,
+          "covered_keywords": [
+            "system",
+            "design"
+          ],
+          "missing_keywords": [
+            "full",
+            "stack",
+            "engineer",
+            "amazon",
+            "algorithms,",
+            "databases,"
+          ],
+          "issues": [
+            "Low keyword coverage (25%). Missing: ['full', 'stack', 'engineer']"
+          ]
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_003",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "cap theorem & consistency models",
+              "nosql & distributed databases",
+              "mock interviews & behavioral prep",
+              "system design fundamentals",
+              "review & practice"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_003",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "cap theorem & consistency models",
+                "nosql & distributed databases",
+                "mock interviews & behavioral prep",
+                "system design fundamentals",
+                "review & practice"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 9
+    },
+    {
+      "case_id": "case_004",
+      "position": "Junior Developer",
+      "company": "Startup",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 28,
+          "target_hours": 28,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": false,
+          "keyword_coverage_pct": 33.3,
+          "covered_keywords": [
+            "javascript",
+            "manipulation"
+          ],
+          "missing_keywords": [
+            "junior",
+            "developer",
+            "startup",
+            "fundamentals"
+          ],
+          "issues": [
+            "Low keyword coverage (33%). Missing: ['junior', 'developer', 'startup']"
+          ]
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_004",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "asynchronous javascript",
+              "functions and scope",
+              "javascript basics",
+              "dom manipulation basics",
+              "advanced dom and performance"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_004",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "asynchronous javascript",
+                "functions and scope",
+                "javascript basics",
+                "dom manipulation basics",
+                "advanced dom and performance"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 5
+    },
+    {
+      "case_id": "case_006",
+      "position": "DevOps Engineer",
+      "company": "Netflix",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 130,
+          "target_hours": 140,
+          "variance": -10,
+          "variance_pct": -7.1,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 57.1,
+          "covered_keywords": [
+            "devops",
+            "netflix",
+            "cloud",
+            "infrastructure"
+          ],
+          "missing_keywords": [
+            "engineer",
+            "kubernetes,",
+            "docker,"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_006",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "infrastructure as code: terraform & cloudformation",
+              "disaster recovery & high availability",
+              "netflix devops culture & practices",
+              "docker fundamentals & advanced usage",
+              "helm & package management"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_006",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "infrastructure as code: terraform & cloudformation",
+                "disaster recovery & high availability",
+                "netflix devops culture & practices",
+                "docker fundamentals & advanced usage",
+                "helm & package management"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 14
+    },
+    {
+      "case_id": "case_008",
+      "position": "Machine Learning Engineer",
+      "company": "OpenAI",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 250,
+          "target_hours": 250,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": false,
+          "keyword_coverage_pct": 44.4,
+          "covered_keywords": [
+            "learning",
+            "deep",
+            "neural",
+            "networks"
+          ],
+          "missing_keywords": [
+            "machine",
+            "engineer",
+            "openai",
+            "learning,",
+            "transformers,"
+          ],
+          "issues": [
+            "Low keyword coverage (44%). Missing: ['machine', 'engineer', 'openai']"
+          ]
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_008",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "distributed training",
+              "deployment and serving",
+              "regularization techniques",
+              "model compression",
+              "optimization algorithms"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_008",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "distributed training",
+                "deployment and serving",
+                "regularization techniques",
+                "model compression",
+                "optimization algorithms"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 25
+    },
+    {
+      "case_id": "case_009",
+      "position": "QA Engineer",
+      "company": "Apple",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 63,
+          "target_hours": 63,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 100.0,
+          "covered_keywords": [
+            "engineer",
+            "apple",
+            "test",
+            "automation",
+            "ci/cd"
+          ],
+          "missing_keywords": [],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_009",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "advanced test automation strategies",
+              "metrics, reporting & continuous improvement",
+              "ci/cd pipelines for ios apps",
+              "performance & security testing in apple ecosystem",
+              "apple qa engineering overview & toolchain"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_009",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "advanced test automation strategies",
+                "metrics, reporting & continuous improvement",
+                "ci/cd pipelines for ios apps",
+                "performance & security testing in apple ecosystem",
+                "apple qa engineering overview & toolchain"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 6
+    },
+    {
+      "case_id": "case_010",
+      "position": "Frontend Engineer",
+      "company": "Airbnb",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 87.5,
+          "target_hours": 87.5,
+          "variance": 0.0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 57.1,
+          "covered_keywords": [
+            "airbnb",
+            "typescript",
+            "react",
+            "patterns"
+          ],
+          "missing_keywords": [
+            "frontend",
+            "engineer",
+            "modern"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_010",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "advanced typescript patterns",
+              "typescript fundamentals",
+              "react context & state management",
+              "react functional components & hooks",
+              "testing with react testing library & jest"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_010",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "advanced typescript patterns",
+                "typescript fundamentals",
+                "react context & state management",
+                "react functional components & hooks",
+                "testing with react testing library & jest"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 8
+    },
+    {
+      "case_id": "case_014",
+      "position": "Android Developer",
+      "company": "LinkedIn",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 106,
+          "target_hours": 105.0,
+          "variance": 1.0,
+          "variance_pct": 1.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": false,
+          "keyword_coverage_pct": 42.9,
+          "covered_keywords": [
+            "android",
+            "android",
+            "testing"
+          ],
+          "missing_keywords": [
+            "developer",
+            "linkedin",
+            "kotlin,",
+            "architecture,"
+          ],
+          "issues": [
+            "Low keyword coverage (43%). Missing: ['developer', 'linkedin', 'kotlin,']"
+          ]
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_014",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "kotlin basics & advanced features",
+              "mvvm architecture with livedata & viewmodel",
+              "ci/cd & test coverage for android",
+              "room persistence library & data layer",
+              "android jetpack components"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_014",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "kotlin basics & advanced features",
+                "mvvm architecture with livedata & viewmodel",
+                "ci/cd & test coverage for android",
+                "room persistence library & data layer",
+                "android jetpack components"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 10
+    },
+    {
+      "case_id": "case_015",
+      "position": "iOS Developer",
+      "company": "Apple",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 126,
+          "target_hours": 128,
+          "variance": -2,
+          "variance_pct": -1.6,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 66.7,
+          "covered_keywords": [
+            "swift",
+            "swiftui",
+            "design",
+            "patterns"
+          ],
+          "missing_keywords": [
+            "developer",
+            "apple"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_015",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "design patterns in swift",
+              "architecture patterns",
+              "swiftui basics and state management",
+              "swift language fundamentals",
+              "swiftui advanced: layout, animations, accessibility"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_015",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "design patterns in swift",
+                "architecture patterns",
+                "swiftui basics and state management",
+                "swift language fundamentals",
+                "swiftui advanced: layout, animations, accessibility"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 12
+    },
+    {
+      "case_id": "case_016",
+      "position": "Solutions Engineer",
+      "company": "Salesforce",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 84,
+          "target_hours": 84,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (68% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 66.7,
+          "covered_keywords": [
+            "salesforce",
+            "salesforce",
+            "platform",
+            "customization"
+          ],
+          "missing_keywords": [
+            "solutions",
+            "engineer"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_016",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "deployment+%26+devops+practices",
+              "appexchange+%26+custom+app+development",
+              "visualforce+%26+classic+ui+customization",
+              "apex programming basics",
+              "data+modeling+%26+security"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_016",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "deployment+%26+devops+practices",
+                "appexchange+%26+custom+app+development",
+                "visualforce+%26+classic+ui+customization",
+                "apex programming basics",
+                "data+modeling+%26+security"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 8
+    },
+    {
+      "case_id": "case_017",
+      "position": "Database Administrator",
+      "company": "Oracle",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 113.5,
+          "target_hours": 115.5,
+          "variance": -2.0,
+          "variance_pct": -1.7,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 83.3,
+          "covered_keywords": [
+            "database",
+            "oracle",
+            "tuning",
+            "database",
+            "optimization"
+          ],
+          "missing_keywords": [
+            "administrator"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_017",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "partitioning and sharding",
+              "oracle database architecture",
+              "memory management (sga, pga)",
+              "sql tuning advisor & sql access advisor",
+              "i/o optimization & storage"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_017",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "partitioning and sharding",
+                "oracle database architecture",
+                "memory management (sga, pga)",
+                "sql tuning advisor & sql access advisor",
+                "i/o optimization & storage"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 11
+    },
+    {
+      "case_id": "case_018",
+      "position": "Embedded Systems Engineer",
+      "company": "Tesla",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 180,
+          "target_hours": 180.0,
+          "variance": 0.0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 50.0,
+          "covered_keywords": [
+            "embedded",
+            "systems",
+            "real-time",
+            "firmware"
+          ],
+          "missing_keywords": [
+            "engineer",
+            "tesla",
+            "c/c++,",
+            "systems,"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_018",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "power management and low-power design",
+              "real-time communication protocols",
+              "debugging and testing embedded firmware",
+              "interrupt handling and isrs",
+              "firmware development lifecycle"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_018",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "power management and low-power design",
+                "real-time communication protocols",
+                "debugging and testing embedded firmware",
+                "interrupt handling and isrs",
+                "firmware development lifecycle"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 18
+    },
+    {
+      "case_id": "case_019",
+      "position": "Game Developer",
+      "company": "Unity",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 140,
+          "target_hours": 140,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": false,
+          "keyword_coverage_pct": 28.6,
+          "covered_keywords": [
+            "unity",
+            "multiplayer"
+          ],
+          "missing_keywords": [
+            "game",
+            "developer",
+            "game",
+            "physics,",
+            "graphics,"
+          ],
+          "issues": [
+            "Low keyword coverage (29%). Missing: ['game', 'developer', 'game']"
+          ]
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_019",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "advanced physics: joints and constraints",
+              "rendering pipeline basics",
+              "networked physics synchronization",
+              "rigidbody and collider setup",
+              "collision detection and response"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_019",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "advanced physics: joints and constraints",
+                "rendering pipeline basics",
+                "networked physics synchronization",
+                "rigidbody and collider setup",
+                "collision detection and response"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 14
+    },
+    {
+      "case_id": "case_020",
+      "position": "Network Engineer",
+      "company": "Cisco",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 107,
+          "target_hours": 105.0,
+          "variance": 2.0,
+          "variance_pct": 1.9,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 57.1,
+          "covered_keywords": [
+            "cisco",
+            "protocols",
+            "firewall",
+            "configuration"
+          ],
+          "missing_keywords": [
+            "network",
+            "engineer",
+            "networking"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_020",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "vpn technologies: ipsec & ssl vpn",
+              "routing protocols: ospf & eigrp",
+              "spanning tree protocol (stp) & rstp",
+              "security hardening & monitoring on cisco devices",
+              "nat, pat, and acls"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_020",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "vpn technologies: ipsec & ssl vpn",
+                "routing protocols: ospf & eigrp",
+                "spanning tree protocol (stp) & rstp",
+                "security hardening & monitoring on cisco devices",
+                "nat, pat, and acls"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 10
+    },
+    {
+      "case_id": "case_021",
+      "position": "Systems Engineer",
+      "company": "Microsoft",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 152,
+          "target_hours": 152,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 71.4,
+          "covered_keywords": [
+            "systems",
+            "windows",
+            "systems",
+            "powershell",
+            "automation"
+          ],
+          "missing_keywords": [
+            "engineer",
+            "microsoft"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_021",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "azure integration for on-prem systems",
+              "scripting for system maintenance (scheduled tasks, log management)",
+              "active directory domain services (ad ds) management",
+              "windows security hardening and compliance",
+              "powershell advanced automation (modules, dsc)"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_021",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "azure integration for on-prem systems",
+                "scripting for system maintenance (scheduled tasks, log management)",
+                "active directory domain services (ad ds) management",
+                "windows security hardening and compliance",
+                "powershell advanced automation (modules, dsc)"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 15
+    },
+    {
+      "case_id": "case_023",
+      "position": "Intern - Backend",
+      "company": "Goldman Sachs",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 138,
+          "target_hours": 150.0,
+          "variance": -12.0,
+          "variance_pct": -8.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (78% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 50.0,
+          "covered_keywords": [
+            "python",
+            "basics",
+            "rest",
+            "apis"
+          ],
+          "missing_keywords": [
+            "intern",
+            "backend",
+            "goldman",
+            "sachs"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_023",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "authentication and authorization",
+              "file i/o and json handling",
+              "building apis with flask",
+              "database integration",
+              "object-oriented programming"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_023",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "authentication and authorization",
+                "file i/o and json handling",
+                "building apis with flask",
+                "database integration",
+                "object-oriented programming"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 15
+    },
+    {
+      "case_id": "case_024",
+      "position": "Contractor - React",
+      "company": "Acme Corp",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 42,
+          "target_hours": 42,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": false,
+          "keyword_coverage_pct": 25.0,
+          "covered_keywords": [
+            "component",
+            "library"
+          ],
+          "missing_keywords": [
+            "contractor",
+            "react",
+            "acme",
+            "corp",
+            "react",
+            "modernization"
+          ],
+          "issues": [
+            "Low keyword coverage (25%). Missing: ['contractor', 'react', 'acme']"
+          ]
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_024",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "migrating to functional components & hooks",
+              "assessing current library architecture",
+              "implementing storybook for component documentation",
+              "automating testing & ci integration",
+              "defining modern component design guidelines"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_024",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "migrating to functional components & hooks",
+                "assessing current library architecture",
+                "implementing storybook for component documentation",
+                "automating testing & ci integration",
+                "defining modern component design guidelines"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 5
+    },
+    {
+      "case_id": "case_027",
+      "position": "Blockchain Developer",
+      "company": "Coinbase",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 200,
+          "target_hours": 202.5,
+          "variance": -2.5,
+          "variance_pct": -1.2,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": false,
+          "keyword_coverage_pct": 42.9,
+          "covered_keywords": [
+            "smart",
+            "contract",
+            "development"
+          ],
+          "missing_keywords": [
+            "blockchain",
+            "developer",
+            "coinbase",
+            "ethereum"
+          ],
+          "issues": [
+            "Low keyword coverage (43%). Missing: ['blockchain', 'developer', 'coinbase']"
+          ]
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_027",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "decentralized exchange (uniswap) interaction",
+              "continuous integration and deployment",
+              "security best practices",
+              "web3.js library",
+              "zk-snarks and privacy"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_027",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "decentralized exchange (uniswap) interaction",
+                "continuous integration and deployment",
+                "security best practices",
+                "web3.js library",
+                "zk-snarks and privacy"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 20
+    },
+    {
+      "case_id": "case_029",
+      "position": "Site Reliability Engineer",
+      "company": "Amazon",
+      "validations": {
+        "rules": {
+          "rule_check_ok": false,
+          "issues": [
+            "Topic 0, subtopic 1: too short ('S3')"
+          ],
+          "issue_count": 1
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 147.5,
+          "target_hours": 157.5,
+          "variance": -10.0,
+          "variance_pct": -6.3,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": false,
+          "keyword_coverage_pct": 42.9,
+          "covered_keywords": [
+            "infrastructure",
+            "deployment",
+            "automation"
+          ],
+          "missing_keywords": [
+            "site",
+            "reliability",
+            "engineer",
+            "amazon"
+          ],
+          "issues": [
+            "Low keyword coverage (43%). Missing: ['site', 'reliability', 'engineer']"
+          ]
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_029",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "ec2 and auto scaling",
+              "containerization and ecs/eks",
+              "networking and vpc",
+              "deployment automation (codedeploy, codepipeline)",
+              "infrastructure as code (cloudformation, terraform)"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_029",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "ec2 and auto scaling",
+                "containerization and ecs/eks",
+                "networking and vpc",
+                "deployment automation (codedeploy, codepipeline)",
+                "infrastructure as code (cloudformation, terraform)"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 15
+    },
+    {
+      "case_id": "case_032",
+      "position": "Ruby on Rails Developer",
+      "company": "Shopify",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 98,
+          "target_hours": 98.0,
+          "variance": 0.0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 62.5,
+          "covered_keywords": [
+            "rails",
+            "shopify",
+            "rails",
+            "postgresql",
+            "optimization"
+          ],
+          "missing_keywords": [
+            "ruby",
+            "developer",
+            "framework"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_032",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "background jobs & sidekiq",
+              "security & compliance for shopify apps",
+              "api design & graphql in rails",
+              "postgresql indexing & query optimization",
+              "caching strategies in rails"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_032",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "background jobs & sidekiq",
+                "security & compliance for shopify apps",
+                "api design & graphql in rails",
+                "postgresql indexing & query optimization",
+                "caching strategies in rails"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 9
+    },
+    {
+      "case_id": "case_033",
+      "position": "Go Developer",
+      "company": "Docker",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 120,
+          "target_hours": 128,
+          "variance": -8,
+          "variance_pct": -6.2,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 75.0,
+          "covered_keywords": [
+            "docker",
+            "concurrency",
+            "microservices"
+          ],
+          "missing_keywords": [
+            "developer"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_033",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "deployment and scaling with docker and kubernetes",
+              "distributed tracing and observability",
+              "synchronization primitives",
+              "testing concurrency and microservices",
+              "context package and cancellation"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_033",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "deployment and scaling with docker and kubernetes",
+                "distributed tracing and observability",
+                "synchronization primitives",
+                "testing concurrency and microservices",
+                "context package and cancellation"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 12
+    },
+    {
+      "case_id": "case_035",
+      "position": "Python Developer",
+      "company": "Spotify",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 105.0,
+          "target_hours": 105.0,
+          "variance": 0.0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 66.7,
+          "covered_keywords": [
+            "python",
+            "fastapi",
+            "async",
+            "python"
+          ],
+          "missing_keywords": [
+            "developer",
+            "spotify"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_035",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "async database access with sqlalchemy async",
+              "building a simple fastapi app",
+              "testing async fastapi endpoints",
+              "async fundamentals in python",
+              "performance tuning and profiling"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_035",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "async database access with sqlalchemy async",
+                "building a simple fastapi app",
+                "testing async fastapi endpoints",
+                "async fundamentals in python",
+                "performance tuning and profiling"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 10
+    },
+    {
+      "case_id": "case_036",
+      "position": "Product Manager (Technical)",
+      "company": "Slack",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 75,
+          "target_hours": 75,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 71.4,
+          "covered_keywords": [
+            "product",
+            "slack",
+            "product",
+            "strategy",
+            "design"
+          ],
+          "missing_keywords": [
+            "manager",
+            "(technical)"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_036",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "product roadmap & prioritization",
+              "api strategy & design principles",
+              "slack product ecosystem & competitive landscape",
+              "metrics & success measurement",
+              "api governance & developer experience"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_036",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "product roadmap & prioritization",
+                "api strategy & design principles",
+                "slack product ecosystem & competitive landscape",
+                "metrics & success measurement",
+                "api governance & developer experience"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 7
+    },
+    {
+      "case_id": "case_037",
+      "position": "Performance Engineer",
+      "company": "Airbnb",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 140,
+          "target_hours": 140,
+          "variance": 0,
+          "variance_pct": 0.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (83% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 66.7,
+          "covered_keywords": [
+            "performance",
+            "engineer",
+            "airbnb",
+            "optimization"
+          ],
+          "missing_keywords": [
+            "profiling,",
+            "benchmarking,"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_037",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "i/o and network profiling",
+              "memory profiling and leak detection",
+              "continuous performance monitoring",
+              "microbenchmarking with jmh",
+              "distributed tracing and observability"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_037",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "i/o and network profiling",
+                "memory profiling and leak detection",
+                "continuous performance monitoring",
+                "microbenchmarking with jmh",
+                "distributed tracing and observability"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 14
+    },
+    {
+      "case_id": "case_039",
+      "position": "Community Developer",
+      "company": "Mozilla",
+      "validations": {
+        "rules": {
+          "rule_check_ok": true,
+          "issues": [],
+          "issue_count": 0
+        },
+        "diversity": {
+          "diversity_check_ok": true,
+          "duplicates": [],
+          "issue_count": 0
+        },
+        "time_fit": {
+          "time_fit_ok": true,
+          "total_hours": 52,
+          "target_hours": 52.5,
+          "variance": -0.5,
+          "variance_pct": -1.0,
+          "tolerance_pct": 20
+        },
+        "consistency": {
+          "consistency_ok": false,
+          "issues": [
+            "High-priority too high (100% > 60%)"
+          ],
+          "issue_count": 1
+        },
+        "relevance": {
+          "relevance_ok": true,
+          "keyword_coverage_pct": 75.0,
+          "covered_keywords": [
+            "community",
+            "mozilla",
+            "open",
+            "source",
+            "community",
+            "building"
+          ],
+          "missing_keywords": [
+            "developer",
+            "contribution"
+          ],
+          "issues": []
+        },
+        "golden_comparison": {
+          "comparison_ok": true,
+          "best_match": {
+            "reference_case": "case_039",
+            "coverage_pct": 100.0,
+            "drift_pct": 0.0,
+            "shared_topics": [
+              "engaging with mozilla community platforms",
+              "measuring impact and continuous improvement",
+              "understanding mozilla's open source ecosystem",
+              "building community outreach and events",
+              "contributing to mozilla projects"
+            ],
+            "missing_topics": [],
+            "extra_topics": []
+          },
+          "all_comparisons": [
+            {
+              "reference_case": "case_039",
+              "coverage_pct": 100.0,
+              "drift_pct": 0.0,
+              "shared_topics": [
+                "engaging with mozilla community platforms",
+                "measuring impact and continuous improvement",
+                "understanding mozilla's open source ecosystem",
+                "building community outreach and events",
+                "contributing to mozilla projects"
+              ],
+              "missing_topics": [],
+              "extra_topics": []
+            }
+          ],
+          "num_golden_refs": 1
+        }
+      },
+      "content_ok": false,
+      "schema_ok": true,
+      "parse_ok": true,
+      "num_topics": 5
+    }
+  ],
+  "summary": {
+    "total_cases": 26,
+    "schema_passed": 26,
+    "content_passed": 1,
+    "both_passed": 1,
+    "by_validation_layer": {
+      "rules": {
+        "pass": 25,
+        "fail": 1
+      },
+      "diversity": {
+        "pass": 26,
+        "fail": 0
+      },
+      "time_fit": {
+        "pass": 26,
+        "fail": 0
+      },
+      "consistency": {
+        "pass": 2,
+        "fail": 24
+      },
+      "relevance": {
+        "pass": 17,
+        "fail": 9
+      },
+      "golden_comparison": {
+        "pass": 26,
+        "fail": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "position": "Backend Engineer",
+    "company": "Google",
+    "days": 30,
+    "hoursPerDay": 4,
+    "majorTopic": "system design and distributed systems"
+  },
+  {
+    "position": "Frontend Engineer",
+    "company": "Microsoft",
+    "days": 21,
+    "hoursPerDay": 3,
+    "majorTopic": "react performance and web architecture"
+  },
+  {
+    "position": "Full Stack Engineer",
+    "company": "Amazon",
+    "days": 28,
+    "hoursPerDay": 3.5,
+    "majorTopic": "algorithms, databases, and system design"
+  },
+  {
+    "position": "Junior Developer",
+    "company": "Startup",
+    "days": 14,
+    "hoursPerDay": 2,
+    "majorTopic": "JavaScript fundamentals and DOM manipulation"
+  },
+  {
+    "position": "DevOps Engineer",
+    "company": "Netflix",
+    "days": 35,
+    "hoursPerDay": 4,
+    "majorTopic": "Kubernetes, Docker, and cloud infrastructure"
+  },
+  {
+    "position": "Machine Learning Engineer",
+    "company": "OpenAI",
+    "days": 50,
+    "hoursPerDay": 5,
+    "majorTopic": "deep learning, transformers, and neural networks"
+  },
+  {
+    "position": "QA Engineer",
+    "company": "Apple",
+    "days": 21,
+    "hoursPerDay": 3,
+    "majorTopic": "test automation and CI/CD"
+  },
+  {
+    "position": "Frontend Engineer",
+    "company": "Airbnb",
+    "days": 25,
+    "hoursPerDay": 3.5,
+    "majorTopic": "TypeScript and modern React patterns"
+  },
+  {
+    "position": "Android Developer",
+    "company": "LinkedIn",
+    "days": 30,
+    "hoursPerDay": 3.5,
+    "majorTopic": "Kotlin, Android architecture, and testing"
+  },
+  {
+    "position": "iOS Developer",
+    "company": "Apple",
+    "days": 32,
+    "hoursPerDay": 4,
+    "majorTopic": "Swift and SwiftUI design patterns"
+  },
+  {
+    "position": "Solutions Engineer",
+    "company": "Salesforce",
+    "days": 28,
+    "hoursPerDay": 3,
+    "majorTopic": "Salesforce platform and customization"
+  },
+  {
+    "position": "Database Administrator",
+    "company": "Oracle",
+    "days": 33,
+    "hoursPerDay": 3.5,
+    "majorTopic": "SQL tuning and database optimization"
+  },
+  {
+    "position": "Embedded Systems Engineer",
+    "company": "Tesla",
+    "days": 40,
+    "hoursPerDay": 4.5,
+    "majorTopic": "C/C++, real-time systems, and firmware"
+  },
+  {
+    "position": "Game Developer",
+    "company": "Unity",
+    "days": 35,
+    "hoursPerDay": 4,
+    "majorTopic": "game physics, graphics, and multiplayer"
+  },
+  {
+    "position": "Network Engineer",
+    "company": "Cisco",
+    "days": 30,
+    "hoursPerDay": 3.5,
+    "majorTopic": "networking protocols and firewall configuration"
+  }
+]

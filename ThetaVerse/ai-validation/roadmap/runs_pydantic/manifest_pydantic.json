@@ -1,0 +1,192 @@
+{
+  "run_started": "2026-05-20T12:30:18.056428",
+  "model": "openai/gpt-oss-20b",
+  "base_url": "https://api.groq.com/openai/v1/chat/completions",
+  "results": [
+    {
+      "case_id": "case_001",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 120.0,
+      "target_hours": 120,
+      "prompt_hash": "ac59e28eaad157d6ced089033f12dcc5176ede7ef6d0ec51b18da05e826fcbe8",
+      "response_file": "runs_pydantic/case_001.json",
+      "error": null
+    },
+    {
+      "case_id": "case_002",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 63.0,
+      "target_hours": 63,
+      "prompt_hash": "eab958bb0968b74eb4e91cc4f7e45fb8c09e2ac03119f76edc846c7854720192",
+      "response_file": "runs_pydantic/case_002.json",
+      "error": null
+    },
+    {
+      "case_id": "case_003",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 98.0,
+      "target_hours": 98.0,
+      "prompt_hash": "533fd251cca89f7d59281e6761c3cfac928c17f8b84b5d0aa2f35b0b7c0c3cb9",
+      "response_file": "runs_pydantic/case_003.json",
+      "error": null
+    },
+    {
+      "case_id": "case_004",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 28.0,
+      "target_hours": 28,
+      "prompt_hash": "2330d09fd7961ccaf950418b70d720f2c64e5d27b595e9f8b200f8fe4f5cced5",
+      "response_file": "runs_pydantic/case_004.json",
+      "error": null
+    },
+    {
+      "case_id": "case_005",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 140.0,
+      "target_hours": 140,
+      "prompt_hash": "24ac0514c0c9c00e8e123da1424bc2d18c8c98c0633655c0394028a278cb4091",
+      "response_file": "runs_pydantic/case_005.json",
+      "error": null
+    },
+    {
+      "case_id": "case_006",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 250.0,
+      "target_hours": 250,
+      "prompt_hash": "fc9d5397987b6d616391e2ed5f06f0e3767b772d0e2f7a463ae7773dc570a2ea",
+      "response_file": "runs_pydantic/case_006.json",
+      "error": null
+    },
+    {
+      "case_id": "case_007",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 63.0,
+      "target_hours": 63,
+      "prompt_hash": "28c34f764c648b5afbf27464f862a60e7815241a6d4fd1f5282fc97255a73abd",
+      "response_file": "runs_pydantic/case_007.json",
+      "error": null
+    },
+    {
+      "case_id": "case_008",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 87.5,
+      "target_hours": 87.5,
+      "prompt_hash": "7a709801e8ae855be2d304757ce51e0c7e1b386894d535925f3d3c47e1becf5f",
+      "response_file": "runs_pydantic/case_008.json",
+      "error": null
+    },
+    {
+      "case_id": "case_009",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 105.0,
+      "target_hours": 105.0,
+      "prompt_hash": "9fd185dad875c40c1c7333429091f7c83c4e129407c3bd1bfd9111d7e2a2543c",
+      "response_file": "runs_pydantic/case_009.json",
+      "error": null
+    },
+    {
+      "case_id": "case_010",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 128.0,
+      "target_hours": 128,
+      "prompt_hash": "547406a471a16931b8766acd3a64a55453ec5957247ec3c08616e5fd2f4bbd1c",
+      "response_file": "runs_pydantic/case_010.json",
+      "error": null
+    },
+    {
+      "case_id": "case_011",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 84.0,
+      "target_hours": 84,
+      "prompt_hash": "3a66094600228e1e34283f0c80cc5f5ff832d301914a4382bae20d1b07ca99dc",
+      "response_file": "runs_pydantic/case_011.json",
+      "error": null
+    },
+    {
+      "case_id": "case_012",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 125.5,
+      "target_hours": 115.5,
+      "prompt_hash": "b48dd3e428d8122503678f75b326d4413d38ce02399284ad3467377a907982a9",
+      "response_file": "runs_pydantic/case_012.json",
+      "error": null
+    },
+    {
+      "case_id": "case_013",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 180.0,
+      "target_hours": 180.0,
+      "prompt_hash": "32bbc09533e1cfb4de85d721028b41061c31b23ad68259fd2f66f153bbb0c6d8",
+      "response_file": "runs_pydantic/case_013.json",
+      "error": null
+    },
+    {
+      "case_id": "case_014",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 140.0,
+      "target_hours": 140,
+      "prompt_hash": "14d3661e9adfc1e807887b5be32b7857db5dc03e3bde67d4690f9c2c2ade5da6",
+      "response_file": "runs_pydantic/case_014.json",
+      "error": null
+    },
+    {
+      "case_id": "case_015",
+      "ok": true,
+      "schema_ok": true,
+      "parse_ok": true,
+      "time_fit_ok": true,
+      "total_hours": 105.0,
+      "target_hours": 105.0,
+      "prompt_hash": "5d20fb968275d3c17d11abe0a4b8537ad1a5f78d437ffb00bb3f9ca3c52adcc4",
+      "response_file": "runs_pydantic/case_015.json",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total": 15,
+    "passed": 15,
+    "failed": 0
+  }
+}

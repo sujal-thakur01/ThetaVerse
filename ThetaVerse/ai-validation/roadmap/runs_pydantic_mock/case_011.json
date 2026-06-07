@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "case": {
+      "position": "Solutions Engineer",
+      "company": "Salesforce",
+      "days": 28,
+      "hoursPerDay": 3,
+      "majorTopic": "Salesforce platform and customization"
+    },
+    "prompt_hash": "3a66094600228e1e34283f0c80cc5f5ff832d301914a4382bae20d1b07ca99dc",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.620241"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"Salesforce platform and customization focus area 1\", \"estimatedHours\": 10.5, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"Salesforce platform and customization focus area 2\", \"estimatedHours\": 10.5, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"Salesforce platform and customization focus area 3\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"Salesforce platform and customization focus area 4\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"Salesforce platform and customization focus area 5\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}, {\"title\": \"Salesforce platform and customization focus area 6\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+6\"], \"subtopics\": [\"Core concept 6\", \"Interview practice 6\"]}, {\"title\": \"Salesforce platform and customization focus area 7\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+7\"], \"subtopics\": [\"Core concept 7\", \"Interview practice 7\"]}, {\"title\": \"Salesforce platform and customization focus area 8\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+8\"], \"subtopics\": [\"Core concept 8\", \"Interview practice 8\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Salesforce platform and customization focus area 1",
+        "estimatedHours": 10.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "Salesforce platform and customization focus area 2",
+        "estimatedHours": 10.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "Salesforce platform and customization focus area 3",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "Salesforce platform and customization focus area 4",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "Salesforce platform and customization focus area 5",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      },
+      {
+        "title": "Salesforce platform and customization focus area 6",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+6"
+        ],
+        "subtopics": [
+          "Core concept 6",
+          "Interview practice 6"
+        ]
+      },
+      {
+        "title": "Salesforce platform and customization focus area 7",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+7"
+        ],
+        "subtopics": [
+          "Core concept 7",
+          "Interview practice 7"
+        ]
+      },
+      {
+        "title": "Salesforce platform and customization focus area 8",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Solutions Engineer+topic+8"
+        ],
+        "subtopics": [
+          "Core concept 8",
+          "Interview practice 8"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 84.0,
+    "target_hours": 84,
+    "num_topics": 8,
+    "error": null
+  }
+}

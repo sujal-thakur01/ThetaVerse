@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "case": {
+      "position": "Network Engineer",
+      "company": "Cisco",
+      "days": 30,
+      "hoursPerDay": 3.5,
+      "majorTopic": "networking protocols and firewall configuration"
+    },
+    "prompt_hash": "5d20fb968275d3c17d11abe0a4b8537ad1a5f78d437ffb00bb3f9ca3c52adcc4",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:05:35.997615"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"OSI Model & TCP/IP Fundamentals\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=OSI+Model+TCP+IP+Fundamentals\"],\"subtopics\":[\"Layer Functions\",\"Protocol Stack\",\"IP Addressing\"]},{\"title\":\"Routing Protocols: OSPF & EIGRP\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=OSPF+EIGRP+Routing+Protocols\"],\"subtopics\":[\"OSPF Design\",\"EIGRP Metrics\",\"Route Redistribution\"]},{\"title\":\"VLANs, STP, and Inter-VLAN Routing\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=VLAN+STP+Inter-VLAN+Routing\"],\"subtopics\":[\"VLAN Configuration\",\"STP Mechanisms\",\"Router-on-a-Stick\"]},{\"title\":\"NAT & PAT\",\"estimatedHours\":8,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=NAT+PAT+Cisco\"],\"subtopics\":[\"Static NAT\",\"Dynamic NAT\",\"Port Address Translation\"]},{\"title\":\"Access Control Lists (ACLs)\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=ACL+Cisco+Configuration\"],\"subtopics\":[\"Standard ACLs\",\"Extended ACLs\",\"ACL Placement\"]},{\"title\":\"Cisco ASA Firewall Basics\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Cisco+ASA+Firewall+Basics\"],\"subtopics\":[\"Interface Configuration\",\"Security Levels\",\"Basic Rules\"]},{\"title\":\"VPN Technologies (IPSec, SSL)\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=IPSec+SSL+VPN+Cisco\"],\"subtopics\":[\"Site-to-Site VPN\",\"Remote Access VPN\",\"Key Management\"]},{\"title\":\"Advanced Firewall Features (IPS, IDS, URL Filtering)\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Advanced+Firewall+Features+Cisco\"],\"subtopics\":[\"Intrusion Prevention\",\"URL Filtering\",\"Threat Intelligence\"]},{\"title\":\"Security Best Practices & Troubleshooting\",\"estimatedHours\":16,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Security+Best+Practices"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 105.0,
+    "target_hours": 105.0,
+    "num_topics": 9,
+    "error": null
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "case": {
+      "position": "Backend Engineer",
+      "company": "Google",
+      "days": 30,
+      "hoursPerDay": 4,
+      "majorTopic": "system design and distributed systems"
+    },
+    "prompt_hash": "ac59e28eaad157d6ced089033f12dcc5176ede7ef6d0ec51b18da05e826fcbe8",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.615472"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"system design and distributed systems focus area 1\", \"estimatedHours\": 10.0, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Google+Backend Engineer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"system design and distributed systems focus area 2\", \"estimatedHours\": 10.0, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Google+Backend Engineer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"system design and distributed systems focus area 3\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Google+Backend Engineer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"system design and distributed systems focus area 4\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Google+Backend Engineer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"system design and distributed systems focus area 5\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Google+Backend Engineer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}, {\"title\": \"system design and distributed systems focus area 6\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Google+Backend Engineer+topic+6\"], \"subtopics\": [\"Core concept 6\", \"Interview practice 6\"]}, {\"title\": \"system design and distributed systems focus area 7\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Google+Backend Engineer+topic+7\"], \"subtopics\": [\"Core concept 7\", \"Interview practice 7\"]}, {\"title\": \"system design and distributed systems focus area 8\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Google+Backend Engineer+topic+8\"], \"subtopics\": [\"Core concept 8\", \"Interview practice 8\"]}, {\"title\": \"system design and distributed systems focus area 9\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Google+Backend Engineer+topic+9\"], \"subtopics\": [\"Core concept 9\", \"Interview practice 9\"]}, {\"title\": \"system design and distributed systems focus area 10\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Google+Backend Engineer+topic+10\"], \"subtopics\": [\"Core concept 10\", \"Interview practice 10\"]}, {\"title\": \"system design and distributed systems focus area 11\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Google+Backend Engineer+topic+11\"], \"subtopics\": [\"Core concept 11\", \"Interview practice 11\"]}, {\"title\": \"system design and distributed systems focus area 12\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Google+Backend Engineer+topic+12\"], \"subtopics\": [\"Core concept 12\", \"Interview practice 12\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "system design and distributed systems focus area 1",
+        "estimatedHours": 10.0,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Google+Backend Engineer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "system design and distributed systems focus area 2",
+        "estimatedHours": 10.0,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Google+Backend Engineer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "system design and distributed systems focus area 3",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Google+Backend Engineer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "system design and distributed systems focus area 4",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Google+Backend Engineer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "system design and distributed systems focus area 5",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Google+Backend Engineer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      },
+      {
+        "title": "system design and distributed systems focus area 6",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Google+Backend Engineer+topic+6"
+        ],
+        "subtopics": [
+          "Core concept 6",
+          "Interview practice 6"
+        ]
+      },
+      {
+        "title": "system design and distributed systems focus area 7",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Google+Backend Engineer+topic+7"
+        ],
+        "subtopics": [
+          "Core concept 7",
+          "Interview practice 7"
+        ]
+      },
+      {
+        "title": "system design and distributed systems focus area 8",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Google+Backend Engineer+topic+8"
+        ],
+        "subtopics": [
+          "Core concept 8",
+          "Interview practice 8"
+        ]
+      },
+      {
+        "title": "system design and distributed systems focus area 9",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Google+Backend Engineer+topic+9"
+        ],
+        "subtopics": [
+          "Core concept 9",
+          "Interview practice 9"
+        ]
+      },
+      {
+        "title": "system design and distributed systems focus area 10",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Google+Backend Engineer+topic+10"
+        ],
+        "subtopics": [
+          "Core concept 10",
+          "Interview practice 10"
+        ]
+      },
+      {
+        "title": "system design and distributed systems focus area 11",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Google+Backend Engineer+topic+11"
+        ],
+        "subtopics": [
+          "Core concept 11",
+          "Interview practice 11"
+        ]
+      },
+      {
+        "title": "system design and distributed systems focus area 12",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Google+Backend Engineer+topic+12"
+        ],
+        "subtopics": [
+          "Core concept 12",
+          "Interview practice 12"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 120.0,
+    "target_hours": 120,
+    "num_topics": 12,
+    "error": null
+  }
+}

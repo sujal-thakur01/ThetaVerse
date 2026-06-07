@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "case": {
+      "position": "Network Engineer",
+      "company": "Cisco",
+      "days": 30,
+      "hoursPerDay": 3.5,
+      "majorTopic": "networking protocols and firewall configuration"
+    },
+    "prompt_hash": "5d20fb968275d3c17d11abe0a4b8537ad1a5f78d437ffb00bb3f9ca3c52adcc4",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:33:19.616286"
+  },
+  "raw": {
+    "content": "{\n  \"topics\": [\n    {\n      \"title\": \"OSI Model & TCP/IP Basics\",\n      \"estimatedHours\": 10,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=OSI+Model+TCP+IP+Basics\"],\n      \"subtopics\": [\"Layer Functions\", \"Protocol Stack\"]\n    },\n    {\n      \"title\": \"IP Addressing & Subnetting\",\n      \"estimatedHours\": 10,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=IP+Addressing+Subnetting\"],\n      \"subtopics\": [\"IPv4/IPv6 Addressing\", \"CIDR & VLSM\"]\n    },\n    {\n      \"title\": \"Routing Protocols (RIP, OSPF, EIGRP)\",\n      \"estimatedHours\": 15,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=Routing+Protocols+RIP+OSPF+EIGRP\"],\n      \"subtopics\": [\"Protocol Selection\", \"Metric Calculation\"]\n    },\n    {\n      \"title\": \"Switching & VLANs\",\n      \"estimatedHours\": 10,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=Switching+VLANs\"],\n      \"subtopics\": [\"VLAN Configuration\", \"Inter-VLAN Routing\"]\n    },\n    {\n      \"title\": \"Advanced Routing (BGP, MPLS)\",\n      \"estimatedHours\": 15,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=Advanced+Routing+BGP+MPLS\"],\n      \"subtopics\": [\"BGP Peering\", \"MPLS Label Switching\"]\n    },\n    {\n      \"title\": \"Network Security Fundamentals\",\n      \"estimatedHours\": 10,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=Network+Security+Fundamentals\"],\n      \"subtopics\": [\"Threat Landscape\", \"Security Policies\"]\n    },\n    {\n      \"title\": \"Firewall Basics (Cisco ASA)\",\n      \"estimatedHours\": 10,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=Cisco+ASA+Firewall+Basics\"],\n      \"subtopics\": [\"ASA Architecture\", \"Basic ACLs\"]\n    },\n    {\n      \"title\": \"Advanced Firewall Configuration (NAT, ACL, VPN)\",\n      \"estimatedHours\": 15,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=Advanced+Firewall+Configuration+NAT+ACL+VPN\"],\n      \"subtopics\": [\"NAT Types\", \"VPN Types\", \"Policy-Based Routing\"]\n    },\n    {\n      \"title\": \"Monitoring & Troubleshooting\",\n      \"estimatedHours\": 10,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=Network+Monitoring+Troubleshooting\"],\n      \"subtopics\": [\"SNMP & NetFlow\", \"Packet Capture\"]\n    }\n  ]\n}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 105.0,
+    "target_hours": 105.0,
+    "num_topics": 9,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "OSI Model & TCP/IP Basics",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OSI+Model+TCP+IP+Basics"
+        ],
+        "subtopics": [
+          "Layer Functions",
+          "Protocol Stack"
+        ]
+      },
+      {
+        "title": "IP Addressing & Subnetting",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=IP+Addressing+Subnetting"
+        ],
+        "subtopics": [
+          "IPv4/IPv6 Addressing",
+          "CIDR & VLSM"
+        ]
+      },
+      {
+        "title": "Routing Protocols (RIP, OSPF, EIGRP)",
+        "estimatedHours": 15,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Routing+Protocols+RIP+OSPF+EIGRP"
+        ],
+        "subtopics": [
+          "Protocol Selection",
+          "Metric Calculation"
+        ]
+      },
+      {
+        "title": "Switching & VLANs",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Switching+VLANs"
+        ],
+        "subtopics": [
+          "VLAN Configuration",
+          "Inter-VLAN Routing"
+        ]
+      },
+      {
+        "title": "Advanced Routing (BGP, MPLS)",
+        "estimatedHours": 15,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Advanced+Routing+BGP+MPLS"
+        ],
+        "subtopics": [
+          "BGP Peering",
+          "MPLS Label Switching"
+        ]
+      },
+      {
+        "title": "Network Security Fundamentals",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Network+Security+Fundamentals"
+        ],
+        "subtopics": [
+          "Threat Landscape",
+          "Security Policies"
+        ]
+      },
+      {
+        "title": "Firewall Basics (Cisco ASA)",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Cisco+ASA+Firewall+Basics"
+        ],
+        "subtopics": [
+          "ASA Architecture",
+          "Basic ACLs"
+        ]
+      },
+      {
+        "title": "Advanced Firewall Configuration (NAT, ACL, VPN)",
+        "estimatedHours": 15,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Advanced+Firewall+Configuration+NAT+ACL+VPN"
+        ],
+        "subtopics": [
+          "NAT Types",
+          "VPN Types",
+          "Policy-Based Routing"
+        ]
+      },
+      {
+        "title": "Monitoring & Troubleshooting",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Network+Monitoring+Troubleshooting"
+        ],
+        "subtopics": [
+          "SNMP & NetFlow",
+          "Packet Capture"
+        ]
+      }
+    ]
+  }
+}

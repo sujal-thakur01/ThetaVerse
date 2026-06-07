@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "case": {
+      "position": "Full Stack Engineer",
+      "company": "Amazon",
+      "days": 28,
+      "hoursPerDay": 3.5,
+      "majorTopic": "algorithms, databases, and system design"
+    },
+    "prompt_hash": "533fd251cca89f7d59281e6761c3cfac928c17f8b84b5d0aa2f35b0b7c0c3cb9",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:31:03.752965"
+  },
+  "raw": {
+    "content": "{\n  \"topics\": [\n    {\n      \"title\": \"Data Structures & Algorithms Fundamentals\",\n      \"estimatedHours\": 18,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=data+structures+algorithms+fundamentals\"],\n      \"subtopics\": [\n        \"Arrays & Strings\",\n        \"Linked Lists\",\n        \"Stacks & Queues\",\n        \"Trees & Binary Search Trees\",\n        \"Hash Tables\",\n        \"Sorting Algorithms\",\n        \"Searching Algorithms\",\n        \"Complexity Analysis\"\n      ]\n    },\n    {\n      \"title\": \"Advanced Algorithms\",\n      \"estimatedHours\": 12,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=advanced+algorithms+interview\"],\n      \"subtopics\": [\n        \"Graph Algorithms (DFS, BFS, Dijkstra)\",\n        \"Dynamic Programming\",\n        \"Greedy Algorithms\",\n        \"Backtracking\",\n        \"Divide and Conquer\",\n        \"Bit Manipulation\",\n        \"Randomized Algorithms\"\n      ]\n    },\n    {\n      \"title\": \"Database Design & SQL\",\n      \"estimatedHours\": 10,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=database+design+sql+interview\"],\n      \"subtopics\": [\n        \"Normalization & Denormalization\",\n        \"ER Modeling\",\n        \"SQL Queries & Joins\",\n        \"Indexing & Query Optimization\",\n        \"Transactions & ACID\",\n        \"Stored Procedures & Triggers\",\n        \"Data Modeling for OLTP\"\n      ]\n    },\n    {\n      \"title\": \"NoSQL & Distributed Databases\",\n      \"estimatedHours\": 10,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=nosql+distributed+databases+interview\"],\n      \"subtopics\": [\n        \"Key-Value Stores\",\n        \"Document Stores\",\n        \"Column-Family Stores\",\n        \"Graph Databases\",\n        \"CAP Theorem\",\n        \"Partitioning & Sharding\",\n        \"Consistency Models\"\n      ]\n    },\n    {\n      \"title\": \"System Design Basics\",\n      \"estimatedHours\": 12,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=system+design+basics+interview\"],\n      \"subtopics\": [\n        \"High-Level Architecture\",\n        \"Load Balancing\",\n        \"Caching Strategies\",\n        \"Message Queues\",\n        \"API Design\",\n        \"Data Consistency\",\n        \"Fault Tolerance\"\n      ]\n    },\n    {\n      \"title\": \"Scalability & Performance\",\n      \"estimatedHours\": 12,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=scalability+performance+interview\"],\n      \"subtopics\": [\n        \"Horizontal vs Vertical Scaling\",\n        \"Performance Bottlenecks\",\n        \"Profiling & Monitoring\",\n        \"Latency Optimization\",\n        \"Throughput & Concurrency\",\n        \"CDN & Edge Computing\",\n        \"Autoscaling\"\n      ]\n    },\n    {\n      \"title\": \"Cloud & DevOps fundamentals\",\n      \"estimatedHours\": 8,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=cloud+devops+basics+interview\"],\n      \"subtopics\": [\n        \"Cloud Service Models (IaaS, PaaS, SaaS)\",\n        \"AWS Basics (EC2, S3, RDS)\",\n        \"CI/CD Pipelines\",\n        \"Infrastructure as Code\",\n        \"Containerization (Docker, Kubernetes)\",\n        \"Monitoring & Logging\"\n      ]\n    },\n    {\n      \"title\": \"Security & Reliability\",\n      \"estimatedHours\": 8,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=security+reliability+interview\"],\n      \"subtopics\": [\n        \"Authentication & Authorization\",\n        \"Encryption (TLS, at rest)\",\n        \"OWASP Top 10\",\n        \"Disaster Recovery\",\n        \"Redundancy & Failover\",\n        \"Incident Response\",\n        \"Compliance & Auditing\"\n      ]\n    },\n    {\n      \"title\": \"Interview Preparation & Mock Interviews\",\n      \"estimatedHours\": 8,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\"https://www.google.com/search?q=interview+preparation+mock+interviews\"],\n      \"subtopics\": [\n        \"Problem Solving Techniques\",\n        \"Behavioral Questions\",\n        \"System Design Interviews\",\n        \"Mock Coding Sessions\",\n        \"Feedback & Improvement\",\n        \"Time Management\"\n      ]\n    }\n  ]\n}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 98.0,
+    "target_hours": 98.0,
+    "num_topics": 9,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Data Structures & Algorithms Fundamentals",
+        "estimatedHours": 18,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=data+structures+algorithms+fundamentals"
+        ],
+        "subtopics": [
+          "Arrays & Strings",
+          "Linked Lists",
+          "Stacks & Queues",
+          "Trees & Binary Search Trees",
+          "Hash Tables",
+          "Sorting Algorithms",
+          "Searching Algorithms",
+          "Complexity Analysis"
+        ]
+      },
+      {
+        "title": "Advanced Algorithms",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=advanced+algorithms+interview"
+        ],
+        "subtopics": [
+          "Graph Algorithms (DFS, BFS, Dijkstra)",
+          "Dynamic Programming",
+          "Greedy Algorithms",
+          "Backtracking",
+          "Divide and Conquer",
+          "Bit Manipulation",
+          "Randomized Algorithms"
+        ]
+      },
+      {
+        "title": "Database Design & SQL",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=database+design+sql+interview"
+        ],
+        "subtopics": [
+          "Normalization & Denormalization",
+          "ER Modeling",
+          "SQL Queries & Joins",
+          "Indexing & Query Optimization",
+          "Transactions & ACID",
+          "Stored Procedures & Triggers",
+          "Data Modeling for OLTP"
+        ]
+      },
+      {
+        "title": "NoSQL & Distributed Databases",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=nosql+distributed+databases+interview"
+        ],
+        "subtopics": [
+          "Key-Value Stores",
+          "Document Stores",
+          "Column-Family Stores",
+          "Graph Databases",
+          "CAP Theorem",
+          "Partitioning & Sharding",
+          "Consistency Models"
+        ]
+      },
+      {
+        "title": "System Design Basics",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=system+design+basics+interview"
+        ],
+        "subtopics": [
+          "High-Level Architecture",
+          "Load Balancing",
+          "Caching Strategies",
+          "Message Queues",
+          "API Design",
+          "Data Consistency",
+          "Fault Tolerance"
+        ]
+      },
+      {
+        "title": "Scalability & Performance",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=scalability+performance+interview"
+        ],
+        "subtopics": [
+          "Horizontal vs Vertical Scaling",
+          "Performance Bottlenecks",
+          "Profiling & Monitoring",
+          "Latency Optimization",
+          "Throughput & Concurrency",
+          "CDN & Edge Computing",
+          "Autoscaling"
+        ]
+      },
+      {
+        "title": "Cloud & DevOps fundamentals",
+        "estimatedHours": 8,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=cloud+devops+basics+interview"
+        ],
+        "subtopics": [
+          "Cloud Service Models (IaaS, PaaS, SaaS)",
+          "AWS Basics (EC2, S3, RDS)",
+          "CI/CD Pipelines",
+          "Infrastructure as Code",
+          "Containerization (Docker, Kubernetes)",
+          "Monitoring & Logging"
+        ]
+      },
+      {
+        "title": "Security & Reliability",
+        "estimatedHours": 8,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=security+reliability+interview"
+        ],
+        "subtopics": [
+          "Authentication & Authorization",
+          "Encryption (TLS, at rest)",
+          "OWASP Top 10",
+          "Disaster Recovery",
+          "Redundancy & Failover",
+          "Incident Response",
+          "Compliance & Auditing"
+        ]
+      },
+      {
+        "title": "Interview Preparation & Mock Interviews",
+        "estimatedHours": 8,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=interview+preparation+mock+interviews"
+        ],
+        "subtopics": [
+          "Problem Solving Techniques",
+          "Behavioral Questions",
+          "System Design Interviews",
+          "Mock Coding Sessions",
+          "Feedback & Improvement",
+          "Time Management"
+        ]
+      }
+    ]
+  }
+}

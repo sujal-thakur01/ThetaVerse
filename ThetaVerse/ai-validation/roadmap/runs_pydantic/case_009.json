@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "case": {
+      "position": "Android Developer",
+      "company": "LinkedIn",
+      "days": 30,
+      "hoursPerDay": 3.5,
+      "majorTopic": "Kotlin, Android architecture, and testing"
+    },
+    "prompt_hash": "9fd185dad875c40c1c7333429091f7c83c4e129407c3bd1bfd9111d7e2a2543c",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:32:37.842692"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Kotlin Basics\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Kotlin+basics\"],\"subtopics\":[\"Data types and variables\",\"Control flow and functions\"]},{\"title\":\"Advanced Kotlin\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Advanced+Kotlin\"],\"subtopics\":[\"Coroutines and Flow\",\"Extension functions and DSLs\"]},{\"title\":\"Android Architecture Components\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Android+Architecture+Components\"],\"subtopics\":[\"LiveData and ViewModel\",\"Room persistence library\"]},{\"title\":\"MVVM Pattern\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=MVVM+Android\"],\"subtopics\":[\"Data binding\",\"Repository pattern\"]},{\"title\":\"Jetpack Compose\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Jetpack+Compose\"],\"subtopics\":[\"Composable functions\",\"State management\"]},{\"title\":\"Dependency Injection\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Dependency+Injection+Android\"],\"subtopics\":[\"Hilt setup\",\"Dagger fundamentals\"]},{\"title\":\"Unit Testing\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Android+unit+testing\"],\"subtopics\":[\"JUnit 5\",\"Mockito and MockK\"]},{\"title\":\"UI Testing\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Android+UI+testing\"],\"subtopics\":[\"Espresso\",\"UI Automator\"]},{\"title\":\"Performance Optimization\",\"estimatedHours\":9,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Android+performance+optimization\"],\"subtopics\":[\"Memory leaks\",\"Battery usage\"]}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 105.0,
+    "target_hours": 105.0,
+    "num_topics": 9,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Kotlin Basics",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Kotlin+basics"
+        ],
+        "subtopics": [
+          "Data types and variables",
+          "Control flow and functions"
+        ]
+      },
+      {
+        "title": "Advanced Kotlin",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Advanced+Kotlin"
+        ],
+        "subtopics": [
+          "Coroutines and Flow",
+          "Extension functions and DSLs"
+        ]
+      },
+      {
+        "title": "Android Architecture Components",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Android+Architecture+Components"
+        ],
+        "subtopics": [
+          "LiveData and ViewModel",
+          "Room persistence library"
+        ]
+      },
+      {
+        "title": "MVVM Pattern",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=MVVM+Android"
+        ],
+        "subtopics": [
+          "Data binding",
+          "Repository pattern"
+        ]
+      },
+      {
+        "title": "Jetpack Compose",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Jetpack+Compose"
+        ],
+        "subtopics": [
+          "Composable functions",
+          "State management"
+        ]
+      },
+      {
+        "title": "Dependency Injection",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Dependency+Injection+Android"
+        ],
+        "subtopics": [
+          "Hilt setup",
+          "Dagger fundamentals"
+        ]
+      },
+      {
+        "title": "Unit Testing",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Android+unit+testing"
+        ],
+        "subtopics": [
+          "JUnit 5",
+          "Mockito and MockK"
+        ]
+      },
+      {
+        "title": "UI Testing",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Android+UI+testing"
+        ],
+        "subtopics": [
+          "Espresso",
+          "UI Automator"
+        ]
+      },
+      {
+        "title": "Performance Optimization",
+        "estimatedHours": 9,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Android+performance+optimization"
+        ],
+        "subtopics": [
+          "Memory leaks",
+          "Battery usage"
+        ]
+      }
+    ]
+  }
+}

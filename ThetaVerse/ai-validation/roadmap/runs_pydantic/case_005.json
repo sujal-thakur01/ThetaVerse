@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "case": {
+      "position": "DevOps Engineer",
+      "company": "Netflix",
+      "days": 35,
+      "hoursPerDay": 4,
+      "majorTopic": "Kubernetes, Docker, and cloud infrastructure"
+    },
+    "prompt_hash": "24ac0514c0c9c00e8e123da1424bc2d18c8c98c0633655c0394028a278cb4091",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:31:38.389962"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Kubernetes Fundamentals\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Kubernetes+Fundamentals\"],\"subtopics\":[\"Cluster Architecture\",\"Pod Lifecycle\"]},{\"title\":\"Docker Fundamentals\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Docker+Fundamentals\"],\"subtopics\":[\"Dockerfile Basics\",\"Container Runtime\"]},{\"title\":\"Helm Package Management\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Helm+Package+Management\"],\"subtopics\":[\"Chart Structure\",\"Release Management\"]},{\"title\":\"CI/CD Pipelines\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=CI+CD+Pipelines+DevOps\"],\"subtopics\":[\"Pipeline as Code\",\"Automated Testing\"]},{\"title\":\"Cloud Infrastructure (AWS/EKS)\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=AWS+EKS+DevOps\"],\"subtopics\":[\"EKS Cluster Setup\",\"IAM Roles\"]},{\"title\":\"Monitoring & Logging\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Kubernetes+Monitoring+Logging\"],\"subtopics\":[\"Prometheus+Grafana\",\"ELK Stack\"]},{\"title\":\"Networking in Kubernetes\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Kubernetes+Networking\"],\"subtopics\":[\"CNI Plugins\",\"Service Mesh\"]},{\"title\":\"Security & Compliance\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Kubernetes+Security+Compliance\"],\"subtopics\":[\"RBAC\",\"Network Policies\"]},{\"title\":\"Autoscaling & Performance\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Kubernetes+Autoscaling\"],\"subtopics\":[\"Horizontal Pod Autoscaler\",\"Cluster Autoscaler\"]},{\"title\":\"Disaster Recovery & High Availability\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Kubernetes+Disaster+Recovery\"],\"subtopics\":[\"Backup Strategies\",\"Multi-Region Deployments\"]}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 140.0,
+    "target_hours": 140,
+    "num_topics": 10,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Kubernetes Fundamentals",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Kubernetes+Fundamentals"
+        ],
+        "subtopics": [
+          "Cluster Architecture",
+          "Pod Lifecycle"
+        ]
+      },
+      {
+        "title": "Docker Fundamentals",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Docker+Fundamentals"
+        ],
+        "subtopics": [
+          "Dockerfile Basics",
+          "Container Runtime"
+        ]
+      },
+      {
+        "title": "Helm Package Management",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Helm+Package+Management"
+        ],
+        "subtopics": [
+          "Chart Structure",
+          "Release Management"
+        ]
+      },
+      {
+        "title": "CI/CD Pipelines",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=CI+CD+Pipelines+DevOps"
+        ],
+        "subtopics": [
+          "Pipeline as Code",
+          "Automated Testing"
+        ]
+      },
+      {
+        "title": "Cloud Infrastructure (AWS/EKS)",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=AWS+EKS+DevOps"
+        ],
+        "subtopics": [
+          "EKS Cluster Setup",
+          "IAM Roles"
+        ]
+      },
+      {
+        "title": "Monitoring & Logging",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Kubernetes+Monitoring+Logging"
+        ],
+        "subtopics": [
+          "Prometheus+Grafana",
+          "ELK Stack"
+        ]
+      },
+      {
+        "title": "Networking in Kubernetes",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Kubernetes+Networking"
+        ],
+        "subtopics": [
+          "CNI Plugins",
+          "Service Mesh"
+        ]
+      },
+      {
+        "title": "Security & Compliance",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Kubernetes+Security+Compliance"
+        ],
+        "subtopics": [
+          "RBAC",
+          "Network Policies"
+        ]
+      },
+      {
+        "title": "Autoscaling & Performance",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Kubernetes+Autoscaling"
+        ],
+        "subtopics": [
+          "Horizontal Pod Autoscaler",
+          "Cluster Autoscaler"
+        ]
+      },
+      {
+        "title": "Disaster Recovery & High Availability",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Kubernetes+Disaster+Recovery"
+        ],
+        "subtopics": [
+          "Backup Strategies",
+          "Multi-Region Deployments"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "case": {
+      "position": "Reliability Engineer",
+      "company": "Google",
+      "days": 36,
+      "hoursPerDay": 4,
+      "majorTopic": "incident response and observability"
+    },
+    "prompt_hash": "864656f45d7a2aca811c5961ffce711453aa4f9beeed5a9d5f5c9c5a85ae3a78",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:06:25.283288"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Incident Response Basics\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=incident+response+basics\"],\"subtopics\":[\"Incident lifecycle\",\"On-call rotations\",\"Communication protocols\"}},{\"title\":\"SRE Incident Management\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=SRE+incident+management\"],\"subtopics\":[\"Incident triage\",\"Root cause analysis\",\"Escalation paths\"}},{\"title\":\"Observability Foundations\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=observability+foundations\"],\"subtopics\":[\"Metrics, logs, traces\",\"Signal-to-noise ratio\",\"Observability vs monitoring\"}},{\"title\":\"Metrics & Dashboards\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=metrics+and+dashboards+SRE\"],\"subtopics\":[\"Key performance indicators\",\"Dashboard design\",\"Visualization best practices\"}},{\"title\":\"Log Management\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=log+management+SRE\"],\"subtopics\":[\"Log ingestion\",\"Structured logging\",\"Log retention policies\"}},{\"title\":\"Distributed Tracing\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=distributed+tracing+SRE\"],\"subtopics\":[\"Tracing concepts\",\"OpenTelemetry\",\"Trace analysis\"]},{\"title\":\"Alerting Strategies\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=alerting+strategies+SRE\"],\"subtopics\":[\"Alert thresholds\",\"Noise reduction\",\"Alert routing\"]},{\"title\":\"Incident Playbooks\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=incident+playbooks+SRE\"],\"subtopics\":[\"Playbook templates\",\"Version control\",\"Review cycles\"}},{\"title\":\"Postmortem Culture\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=postmortem+culture+SRE\"],\"subtopics\":[\"Blameless postmortems\",\"Acti"
+  },
+  "validation": {
+    "parse_ok": false,
+    "schema_ok": false,
+    "time_fit_ok": false,
+    "total_hours": null,
+    "target_hours": 144,
+    "num_topics": 0,
+    "error": "6 validation errors for Roadmap\ntopics\n  Field required [type=missing, input_value={'title': 'Service Level ...gets', 'Error budgets']}, input_type=dict]\n    For further information visit https://erro"
+  }
+}

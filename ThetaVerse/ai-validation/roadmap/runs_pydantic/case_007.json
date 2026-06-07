@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "case": {
+      "position": "QA Engineer",
+      "company": "Apple",
+      "days": 21,
+      "hoursPerDay": 3,
+      "majorTopic": "test automation and CI/CD"
+    },
+    "prompt_hash": "28c34f764c648b5afbf27464f862a60e7815241a6d4fd1f5282fc97255a73abd",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:31:52.257598"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Test Automation Foundations\",\"estimatedHours\":9,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=test+automation+basics\"],\"subtopics\":[\"Test Design Principles\",\"Automation vs Manual Testing\"]},{\"title\":\"Automation Tools (XCTest, Appium)\",\"estimatedHours\":9,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=appium+testing\"],\"subtopics\":[\"XCTest Setup\",\"Appium Cross-Platform\"]},{\"title\":\"CI/CD Basics\",\"estimatedHours\":9,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=ci+cd+basics\"],\"subtopics\":[\"Version Control Integration\",\"Pipeline Concepts\"]},{\"title\":\"CI/CD with Fastlane\",\"estimatedHours\":9,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=fastlane+ci+cd\"],\"subtopics\":[\"Fastlane Setup\",\"Automated Builds & Distribution\"]},{\"title\":\"Continuous Testing\",\"estimatedHours\":9,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=continuous+testing\"],\"subtopics\":[\"Test Execution Automation\",\"Feedback Loops\"]},{\"title\":\"Performance Testing\",\"estimatedHours\":9,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=performance+testing+automation\"],\"subtopics\":[\"Load Testing Basics\",\"Performance Metrics\"]},{\"title\":\"Security & Accessibility Testing\",\"estimatedHours\":9,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=security+accessibility+testing\"],\"subtopics\":[\"Automated Security Checks\",\"Accessibility Validation\"]}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 63.0,
+    "target_hours": 63,
+    "num_topics": 7,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Test Automation Foundations",
+        "estimatedHours": 9,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=test+automation+basics"
+        ],
+        "subtopics": [
+          "Test Design Principles",
+          "Automation vs Manual Testing"
+        ]
+      },
+      {
+        "title": "Automation Tools (XCTest, Appium)",
+        "estimatedHours": 9,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=appium+testing"
+        ],
+        "subtopics": [
+          "XCTest Setup",
+          "Appium Cross-Platform"
+        ]
+      },
+      {
+        "title": "CI/CD Basics",
+        "estimatedHours": 9,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=ci+cd+basics"
+        ],
+        "subtopics": [
+          "Version Control Integration",
+          "Pipeline Concepts"
+        ]
+      },
+      {
+        "title": "CI/CD with Fastlane",
+        "estimatedHours": 9,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=fastlane+ci+cd"
+        ],
+        "subtopics": [
+          "Fastlane Setup",
+          "Automated Builds & Distribution"
+        ]
+      },
+      {
+        "title": "Continuous Testing",
+        "estimatedHours": 9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=continuous+testing"
+        ],
+        "subtopics": [
+          "Test Execution Automation",
+          "Feedback Loops"
+        ]
+      },
+      {
+        "title": "Performance Testing",
+        "estimatedHours": 9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=performance+testing+automation"
+        ],
+        "subtopics": [
+          "Load Testing Basics",
+          "Performance Metrics"
+        ]
+      },
+      {
+        "title": "Security & Accessibility Testing",
+        "estimatedHours": 9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=security+accessibility+testing"
+        ],
+        "subtopics": [
+          "Automated Security Checks",
+          "Accessibility Validation"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "case": {
+      "position": "Full Stack Engineer",
+      "company": "Amazon",
+      "days": 28,
+      "hoursPerDay": 3.5,
+      "majorTopic": "algorithms, databases, and system design"
+    },
+    "prompt_hash": "533fd251cca89f7d59281e6761c3cfac928c17f8b84b5d0aa2f35b0b7c0c3cb9",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.616576"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"algorithms, databases, and system design focus area 1\", \"estimatedHours\": 10.9, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"algorithms, databases, and system design focus area 2\", \"estimatedHours\": 10.9, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"algorithms, databases, and system design focus area 3\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"algorithms, databases, and system design focus area 4\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"algorithms, databases, and system design focus area 5\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}, {\"title\": \"algorithms, databases, and system design focus area 6\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+6\"], \"subtopics\": [\"Core concept 6\", \"Interview practice 6\"]}, {\"title\": \"algorithms, databases, and system design focus area 7\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+7\"], \"subtopics\": [\"Core concept 7\", \"Interview practice 7\"]}, {\"title\": \"algorithms, databases, and system design focus area 8\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+8\"], \"subtopics\": [\"Core concept 8\", \"Interview practice 8\"]}, {\"title\": \"algorithms, databases, and system design focus area 9\", \"estimatedHours\": 10.9, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+9\"], \"subtopics\": [\"Core concept 9\", \"Interview practice 9\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "algorithms, databases, and system design focus area 1",
+        "estimatedHours": 10.9,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "algorithms, databases, and system design focus area 2",
+        "estimatedHours": 10.9,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "algorithms, databases, and system design focus area 3",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "algorithms, databases, and system design focus area 4",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "algorithms, databases, and system design focus area 5",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      },
+      {
+        "title": "algorithms, databases, and system design focus area 6",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+6"
+        ],
+        "subtopics": [
+          "Core concept 6",
+          "Interview practice 6"
+        ]
+      },
+      {
+        "title": "algorithms, databases, and system design focus area 7",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+7"
+        ],
+        "subtopics": [
+          "Core concept 7",
+          "Interview practice 7"
+        ]
+      },
+      {
+        "title": "algorithms, databases, and system design focus area 8",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+8"
+        ],
+        "subtopics": [
+          "Core concept 8",
+          "Interview practice 8"
+        ]
+      },
+      {
+        "title": "algorithms, databases, and system design focus area 9",
+        "estimatedHours": 10.9,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Amazon+Full Stack Engineer+topic+9"
+        ],
+        "subtopics": [
+          "Core concept 9",
+          "Interview practice 9"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 98.10000000000001,
+    "target_hours": 98.0,
+    "num_topics": 9,
+    "error": null
+  }
+}

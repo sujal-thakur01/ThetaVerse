@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "case": {
+      "position": "Database Administrator",
+      "company": "Oracle",
+      "days": 33,
+      "hoursPerDay": 3.5,
+      "majorTopic": "SQL tuning and database optimization"
+    },
+    "prompt_hash": "b48dd3e428d8122503678f75b326d4413d38ce02399284ad3467377a907982a9",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:05:18.161081"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"SQL Query Optimization Basics\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=SQL+Query+Optimization+Basics\"],\"subtopics\":[\"Understanding Query Execution Flow\",\"Identifying Inefficient Queries\",\"Basic Rewrite Techniques\"]},{\"title\":\"Indexing Strategies and Maintenance\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Indexing+Strategies+and+Maintenance\"],\"subtopics\":[\"Index Types and Usage\",\"Index Creation and Rebuilding\",\"Monitoring Index Health\"]},{\"title\":\"Execution Plan Analysis\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Execution+Plan+Analysis\"],\"subtopics\":[\"Using EXPLAIN PLAN\",\"Interpreting Cost Metrics\",\"Plan Cache Management\"]},{\"title\":\"Buffer Cache and Memory Management\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Buffer+Cache+and+Memory+Management\"],\"subtopics\":[\"SGA Components\",\"Cache Hit Ratio Optimization\",\"Memory Allocation Tuning\"]},{\"title\":\"Partitioning and Sharding Techniques\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Partitioning+and+Sharding+Techniques\"],\"subtopics\":[\"Range, List, Hash Partitioning\",\"Partition Maintenance\",\"Sharding Strategies\"]},{\"title\":\"Concurrency Control and Locking\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Concurrency+Control+and+Locking\"],\"subtopics\":[\"Lock Types and Hierarchy\",\"Deadlock Detection\",\"Optimizing Concurrency\"]},{\"title\":\"Performance Monitoring and Alerting\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Performance+Monitoring+and+Alerting\"],\"subtopics\":[\"AWR and ASH Reports\",\"Custom Alerts\",\"Performance Baselines\"]},{\"title\":\"Advanced SQL Tuning Techniques\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Advanced+SQL+Tuning+Techniques\"],\"sub"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 115.5,
+    "target_hours": 115.5,
+    "num_topics": 9,
+    "error": null
+  }
+}

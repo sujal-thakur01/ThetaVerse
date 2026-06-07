@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "case": {
+      "position": "Machine Learning Engineer",
+      "company": "OpenAI",
+      "days": 50,
+      "hoursPerDay": 5,
+      "majorTopic": "deep learning, transformers, and neural networks"
+    },
+    "prompt_hash": "fc9d5397987b6d616391e2ed5f06f0e3767b772d0e2f7a463ae7773dc570a2ea",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:31:45.911609"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Fundamentals of Machine Learning\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Fundamentals+of+Machine+Learning\"],\"subtopics\":[\"Supervised vs Unsupervised Learning\",\"Evaluation Metrics\"]},{\"title\":\"Linear Algebra & Calculus Refresher\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Linear+Algebra+for+ML\"],\"subtopics\":[\"Vector Spaces\",\"Gradient Descent\"]},{\"title\":\"Python & PyTorch Basics\",\"estimatedHours\":18,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=PyTorch+basics\"],\"subtopics\":[\"Tensor Operations\",\"Autograd\"]},{\"title\":\"Neural Network Architecture\",\"estimatedHours\":18,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Neural+Network+architecture\"],\"subtopics\":[\"Feedforward Networks\",\"Activation Functions\"]},{\"title\":\"Backpropagation & Optimization\",\"estimatedHours\":18,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Backpropagation+and+Optimization\"],\"subtopics\":[\"Gradient Computation\",\"Learning Rate Schedules\"]},{\"title\":\"Regularization Techniques\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Regularization+in+Neural+Networks\"],\"subtopics\":[\"Dropout\",\"Weight Decay\"]},{\"title\":\"Convolutional Neural Networks\",\"estimatedHours\":18,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Convolutional+Neural+Networks\"],\"subtopics\":[\"Convolutional Layers\",\"Pooling\"]},{\"title\":\"Recurrent Neural Networks\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Recurrent+Neural+Networks\"],\"subtopics\":[\"LSTM\",\"GRU\"]},{\"title\":\"Attention Mechanisms\",\"estimatedHours\":18,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Attention+Mechanisms+in+NLP\"],\"subtopics\":[\"Scaled Dot-Product Attention\",\"Multi-Head Attention\"]},{\"title\":\"Transformer Architecture\",\"estimatedHours\":22,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Transformer+architecture\"],\"subtopics\":[\"Encoder-Decoder Structure\",\"Positional Encoding\"]},{\"title\":\"Pretrained Language Models\",\"estimatedHours\":18,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Pretrained+Language+Models\"],\"subtopics\":[\"BERT\",\"GPT\"]},{\"title\":\"Fine-tuning & Transfer Learning\",\"estimatedHours\":18,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Fine-tuning+Transformer+models\"],\"subtopics\":[\"Domain Adaptation\",\"Layer Freezing\"]},{\"title\":\"Generative Models\",\"estimatedHours\":18,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Generative+Adversarial+Networks\"],\"subtopics\":[\"GANs\",\"VAEs\"]},{\"title\":\"Model Evaluation & Deployment\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Model+Evaluation+and+Deployment\"],\"subtopics\":[\"Cross-Validation\",\"ONNX\"]},{\"title\":\"Ethical AI & Bias Mitigation\",\"estimatedHours\":8,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Ethical+AI+bias+mitigation\"],\"subtopics\":[\"Fairness Metrics\",\"Explainability\"]},{\"title\":\"Advanced Optimization & Scaling\",\"estimatedHours\":16,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Advanced+Optimization+for+Deep+Learning\"],\"subtopics\":[\"AdamW\",\"Mixed Precision Training\"]}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 250.0,
+    "target_hours": 250,
+    "num_topics": 16,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Fundamentals of Machine Learning",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Fundamentals+of+Machine+Learning"
+        ],
+        "subtopics": [
+          "Supervised vs Unsupervised Learning",
+          "Evaluation Metrics"
+        ]
+      },
+      {
+        "title": "Linear Algebra & Calculus Refresher",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Linear+Algebra+for+ML"
+        ],
+        "subtopics": [
+          "Vector Spaces",
+          "Gradient Descent"
+        ]
+      },
+      {
+        "title": "Python & PyTorch Basics",
+        "estimatedHours": 18,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=PyTorch+basics"
+        ],
+        "subtopics": [
+          "Tensor Operations",
+          "Autograd"
+        ]
+      },
+      {
+        "title": "Neural Network Architecture",
+        "estimatedHours": 18,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Neural+Network+architecture"
+        ],
+        "subtopics": [
+          "Feedforward Networks",
+          "Activation Functions"
+        ]
+      },
+      {
+        "title": "Backpropagation & Optimization",
+        "estimatedHours": 18,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Backpropagation+and+Optimization"
+        ],
+        "subtopics": [
+          "Gradient Computation",
+          "Learning Rate Schedules"
+        ]
+      },
+      {
+        "title": "Regularization Techniques",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Regularization+in+Neural+Networks"
+        ],
+        "subtopics": [
+          "Dropout",
+          "Weight Decay"
+        ]
+      },
+      {
+        "title": "Convolutional Neural Networks",
+        "estimatedHours": 18,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Convolutional+Neural+Networks"
+        ],
+        "subtopics": [
+          "Convolutional Layers",
+          "Pooling"
+        ]
+      },
+      {
+        "title": "Recurrent Neural Networks",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Recurrent+Neural+Networks"
+        ],
+        "subtopics": [
+          "LSTM",
+          "GRU"
+        ]
+      },
+      {
+        "title": "Attention Mechanisms",
+        "estimatedHours": 18,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Attention+Mechanisms+in+NLP"
+        ],
+        "subtopics": [
+          "Scaled Dot-Product Attention",
+          "Multi-Head Attention"
+        ]
+      },
+      {
+        "title": "Transformer Architecture",
+        "estimatedHours": 22,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Transformer+architecture"
+        ],
+        "subtopics": [
+          "Encoder-Decoder Structure",
+          "Positional Encoding"
+        ]
+      },
+      {
+        "title": "Pretrained Language Models",
+        "estimatedHours": 18,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Pretrained+Language+Models"
+        ],
+        "subtopics": [
+          "BERT",
+          "GPT"
+        ]
+      },
+      {
+        "title": "Fine-tuning & Transfer Learning",
+        "estimatedHours": 18,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Fine-tuning+Transformer+models"
+        ],
+        "subtopics": [
+          "Domain Adaptation",
+          "Layer Freezing"
+        ]
+      },
+      {
+        "title": "Generative Models",
+        "estimatedHours": 18,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Generative+Adversarial+Networks"
+        ],
+        "subtopics": [
+          "GANs",
+          "VAEs"
+        ]
+      },
+      {
+        "title": "Model Evaluation & Deployment",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Model+Evaluation+and+Deployment"
+        ],
+        "subtopics": [
+          "Cross-Validation",
+          "ONNX"
+        ]
+      },
+      {
+        "title": "Ethical AI & Bias Mitigation",
+        "estimatedHours": 8,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Ethical+AI+bias+mitigation"
+        ],
+        "subtopics": [
+          "Fairness Metrics",
+          "Explainability"
+        ]
+      },
+      {
+        "title": "Advanced Optimization & Scaling",
+        "estimatedHours": 16,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Advanced+Optimization+for+Deep+Learning"
+        ],
+        "subtopics": [
+          "AdamW",
+          "Mixed Precision Training"
+        ]
+      }
+    ]
+  }
+}

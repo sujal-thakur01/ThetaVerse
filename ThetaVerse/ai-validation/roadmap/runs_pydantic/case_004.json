@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "case": {
+      "position": "Junior Developer",
+      "company": "Startup",
+      "days": 14,
+      "hoursPerDay": 2,
+      "majorTopic": "JavaScript fundamentals and DOM manipulation"
+    },
+    "prompt_hash": "2330d09fd7961ccaf950418b70d720f2c64e5d27b595e9f8b200f8fe4f5cced5",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:31:21.660830"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Variables, Data Types, and Operators\",\"estimatedHours\":3.5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=JavaScript+variables+and+data+types\"],\"subtopics\":[\"Primitive vs. Reference Types\",\"Arithmetic and Logical Operators\"],\"},{ \"title\":\"Control Flow and Functions\",\"estimatedHours\":3.5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=JavaScript+control+flow+and+functions\"],\"subtopics\":[\"If/Else and Switch Statements\",\"Function Declarations, Expressions, and Parameters\"],\"},{ \"title\":\"Objects and Arrays\",\"estimatedHours\":3.5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=JavaScript+objects+and+arrays\"],\"subtopics\":[\"Object Literals and Property Access\",\"Array Methods and Iteration\"],\"},{ \"title\":\"ES6+ Features\",\"estimatedHours\":3.5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=ES6+features+JavaScript\"],\"subtopics\":[\"let/const and Block Scope\",\"Arrow Functions and Template Literals\"],\"},{ \"title\":\"Asynchronous JavaScript\",\"estimatedHours\":3.5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=JavaScript+promises+async+await\"],\"subtopics\":[\"Promises and .then/.catch\",\"Async/Await Syntax and Error Handling\"],\"},{ \"title\":\"The DOM: Selecting and Manipulating Elements\",\"estimatedHours\":3.5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=JavaScript+DOM+selection+and+manipulation\"],\"subtopics\":[\"querySelector/querySelectorAll\",\"Creating, Updating, and Removing Elements\"],\"},{ \"title\":\"Event Handling and Delegation\",\"estimatedHours\":3.5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=JavaScript+event+handling+delegation\"],\"subtopics\":[\"addEventListener and Event Propagation\",\"Event Delegation Patterns\"],\"},{ \"title\":\"Building a Simple Interactive Webpage\",\"estimatedHours\":3.5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=JavaScript+interactive+webpage+tutorial\"],\"subtopics\":[\"Integrating DOM Manipulation with Events\",\"Deploying a Static Page\"],\"}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 28.0,
+    "target_hours": 28,
+    "num_topics": 8,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Variables, Data Types, and Operators",
+        "estimatedHours": 3.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=JavaScript+variables+and+data+types"
+        ],
+        "subtopics": [
+          "Primitive vs. Reference Types",
+          "Arithmetic and Logical Operators"
+        ]
+      },
+      {
+        "title": "Control Flow and Functions",
+        "estimatedHours": 3.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=JavaScript+control+flow+and+functions"
+        ],
+        "subtopics": [
+          "If/Else and Switch Statements",
+          "Function Declarations, Expressions, and Parameters"
+        ]
+      },
+      {
+        "title": "Objects and Arrays",
+        "estimatedHours": 3.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=JavaScript+objects+and+arrays"
+        ],
+        "subtopics": [
+          "Object Literals and Property Access",
+          "Array Methods and Iteration"
+        ]
+      },
+      {
+        "title": "ES6+ Features",
+        "estimatedHours": 3.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=ES6+features+JavaScript"
+        ],
+        "subtopics": [
+          "let/const and Block Scope",
+          "Arrow Functions and Template Literals"
+        ]
+      },
+      {
+        "title": "Asynchronous JavaScript",
+        "estimatedHours": 3.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=JavaScript+promises+async+await"
+        ],
+        "subtopics": [
+          "Promises and .then/.catch",
+          "Async/Await Syntax and Error Handling"
+        ]
+      },
+      {
+        "title": "The DOM: Selecting and Manipulating Elements",
+        "estimatedHours": 3.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=JavaScript+DOM+selection+and+manipulation"
+        ],
+        "subtopics": [
+          "querySelector/querySelectorAll",
+          "Creating, Updating, and Removing Elements"
+        ]
+      },
+      {
+        "title": "Event Handling and Delegation",
+        "estimatedHours": 3.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=JavaScript+event+handling+delegation"
+        ],
+        "subtopics": [
+          "addEventListener and Event Propagation",
+          "Event Delegation Patterns"
+        ]
+      },
+      {
+        "title": "Building a Simple Interactive Webpage",
+        "estimatedHours": 3.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=JavaScript+interactive+webpage+tutorial"
+        ],
+        "subtopics": [
+          "Integrating DOM Manipulation with Events",
+          "Deploying a Static Page"
+        ]
+      }
+    ]
+  }
+}

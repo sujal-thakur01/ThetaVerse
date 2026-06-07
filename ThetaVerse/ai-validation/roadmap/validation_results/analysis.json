@@ -1,0 +1,164 @@
+{
+  "total_cases": 26,
+  "layer_breakdown": {
+    "consistency": [
+      {
+        "case": "case_001",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_002",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_003",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_003",
+        "issue": "Topic 0: 4 subtopics but 25h suggests \u22655"
+      },
+      {
+        "case": "case_006",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_008",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_009",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_010",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_014",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_015",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_016",
+        "issue": "High-priority too high (68% > 60%)"
+      },
+      {
+        "case": "case_017",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_018",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_019",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_020",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_023",
+        "issue": "High-priority too high (78% > 60%)"
+      },
+      {
+        "case": "case_024",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_027",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_029",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_032",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_033",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_035",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_036",
+        "issue": "High-priority too high (100% > 60%)"
+      },
+      {
+        "case": "case_037",
+        "issue": "High-priority too high (83% > 60%)"
+      },
+      {
+        "case": "case_039",
+        "issue": "High-priority too high (100% > 60%)"
+      }
+    ],
+    "relevance": [
+      {
+        "case": "case_001",
+        "coverage_pct": 28.6
+      },
+      {
+        "case": "case_003",
+        "coverage_pct": 25.0
+      },
+      {
+        "case": "case_004",
+        "coverage_pct": 33.3
+      },
+      {
+        "case": "case_008",
+        "coverage_pct": 44.4
+      },
+      {
+        "case": "case_014",
+        "coverage_pct": 42.9
+      },
+      {
+        "case": "case_019",
+        "coverage_pct": 28.6
+      },
+      {
+        "case": "case_024",
+        "coverage_pct": 25.0
+      },
+      {
+        "case": "case_027",
+        "coverage_pct": 42.9
+      },
+      {
+        "case": "case_029",
+        "coverage_pct": 42.9
+      }
+    ],
+    "rules": [
+      {
+        "case": "case_029",
+        "issue": "Topic 0, subtopic 1: too short ('S3')"
+      }
+    ]
+  },
+  "failure_patterns": {
+    "consistency_failed": 25,
+    "high_priority_too_high": 24,
+    "relevance_failed": 9,
+    "subtopic_count_mismatch": 1,
+    "rules_failed": 1,
+    "rule_check_ok": 0,
+    "hour_imbalance": 0
+  },
+  "recommendations": [
+    "\u274c CONSISTENCY CHECK: 25/26 cases failed (96%)\n   Root cause: Groq marks all topics as 'High' priority (100%),\n   but validation expects 25-60% High priority\n   \u2192 FIX: Relax to 0-100% (accept LLM artifact) OR add priority prompt\n   Breakdown:\n     - High-priority > 60%: 24 cases\n     - Subtopic count mismatch: 1 cases\n     - Hour imbalance: 0 cases",
+    "\u26a0\ufe0f  RELEVANCE CHECK: 9/26 cases failed (35%)\n   Cause: Keyword coverage < 50% (Groq ignores some request keywords)\n   \u2192 FIX: Relax threshold to 30% OR improve prompt specificity"
+  ]
+}

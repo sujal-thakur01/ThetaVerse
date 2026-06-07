@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "case": {
+      "position": "Frontend Engineer",
+      "company": "Microsoft",
+      "days": 21,
+      "hoursPerDay": 3,
+      "majorTopic": "react performance and web architecture"
+    },
+    "prompt_hash": "eab958bb0968b74eb4e91cc4f7e45fb8c09e2ac03119f76edc846c7854720192",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.615979"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"react performance and web architecture focus area 1\", \"estimatedHours\": 10.5, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Microsoft+Frontend Engineer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"react performance and web architecture focus area 2\", \"estimatedHours\": 10.5, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Microsoft+Frontend Engineer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"react performance and web architecture focus area 3\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Microsoft+Frontend Engineer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"react performance and web architecture focus area 4\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Microsoft+Frontend Engineer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"react performance and web architecture focus area 5\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Microsoft+Frontend Engineer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}, {\"title\": \"react performance and web architecture focus area 6\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Microsoft+Frontend Engineer+topic+6\"], \"subtopics\": [\"Core concept 6\", \"Interview practice 6\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "react performance and web architecture focus area 1",
+        "estimatedHours": 10.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Microsoft+Frontend Engineer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "react performance and web architecture focus area 2",
+        "estimatedHours": 10.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Microsoft+Frontend Engineer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "react performance and web architecture focus area 3",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Microsoft+Frontend Engineer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "react performance and web architecture focus area 4",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Microsoft+Frontend Engineer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "react performance and web architecture focus area 5",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Microsoft+Frontend Engineer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      },
+      {
+        "title": "react performance and web architecture focus area 6",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Microsoft+Frontend Engineer+topic+6"
+        ],
+        "subtopics": [
+          "Core concept 6",
+          "Interview practice 6"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 63.0,
+    "target_hours": 63,
+    "num_topics": 6,
+    "error": null
+  }
+}

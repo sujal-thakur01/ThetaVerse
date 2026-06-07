@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "case": {
+      "position": "Frontend Engineer",
+      "company": "Microsoft",
+      "days": 21,
+      "hoursPerDay": 3,
+      "majorTopic": "react performance and web architecture"
+    },
+    "prompt_hash": "eab958bb0968b74eb4e91cc4f7e45fb8c09e2ac03119f76edc846c7854720192",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:30:25.521918"
+  },
+  "raw": {
+    "content": "{\n  \"topics\": [\n    {\n      \"title\": \"React Rendering Fundamentals\",\n      \"estimatedHours\": 10,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\n        \"https://www.google.com/search?q=react+rendering+fundamentals\",\n        \"https://reactjs.org/docs/rendering.html\"\n      ],\n      \"subtopics\": [\n        \"Virtual DOM mechanics\",\n        \"Component lifecycle\",\n        \"Reconciliation algorithm\"\n      ]\n    },\n    {\n      \"title\": \"Optimizing React Performance\",\n      \"estimatedHours\": 12,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\n        \"https://www.google.com/search?q=react+performance+optimization\",\n        \"https://reactjs.org/docs/optimizing-performance.html\"\n      ],\n      \"subtopics\": [\n        \"Memoization with React.memo\",\n        \"useMemo and useCallback\",\n        \"Lazy loading components\",\n        \"Code splitting with React.lazy\"\n      ]\n    },\n    {\n      \"title\": \"Advanced State Management\",\n      \"estimatedHours\": 8,\n      \"priority\": \"Medium\",\n      \"referenceLinks\": [\n        \"https://www.google.com/search?q=react+state+management+advanced\",\n        \"https://reactjs.org/docs/hooks-state.html\"\n      ],\n      \"subtopics\": [\n        \"Context API vs Redux\",\n        \"Selectors and memoized selectors\",\n        \"Optimistic updates\",\n        \"Server state with React Query\"\n      ]\n    },\n    {\n      \"title\": \"Web Architecture Patterns\",\n      \"estimatedHours\": 10,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\n        \"https://www.google.com/search?q=web+architecture+patterns\",\n        \"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Architecture\"\n      ],\n      \"subtopics\": [\n        \"Micro frontends\",\n        \"Monorepo vs polyrepo\",\n        \"Layered architecture\",\n        \"API gateway patterns\"\n      ]\n    },\n    {\n      \"title\": \"Build Tooling & Bundling\",\n      \"estimatedHours\": 8,\n      \"priority\": \"Medium\",\n      \"referenceLinks\": [\n        \"https://www.google.com/search?q=react+build+tooling\",\n        \"https://webpack.js.org/concepts/\"\n      ],\n      \"subtopics\": [\n        \"Webpack optimization techniques\",\n        \"Tree shaking\",\n        \"Module federation\",\n        \"ESBuild vs Vite\"\n      ]\n    },\n    {\n      \"title\": \"Performance Monitoring & Profiling\",\n      \"estimatedHours\": 7,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\n        \"https://www.google.com/search?q=react+performance+profiling\",\n        \"https://reactjs.org/docs/profiler.html\"\n      ],\n      \"subtopics\": [\n        \"React Profiler API\",\n        \"Chrome DevTools performance panel\",\n        \"Web Vitals integration\",\n        \"Automated performance testing\"\n      ]\n    },\n    {\n      \"title\": \"Accessibility & SEO Best Practices\",\n      \"estimatedHours\": 8,\n      \"priority\": \"High\",\n      \"referenceLinks\": [\n        \"https://www.google.com/search?q=react+accessibility+best+practices\",\n        \"https://developers.google.com/search/docs/advanced/seo\"\n      ],\n      \"subtopics\": [\n        \"ARIA roles and attributes\",\n        \"Keyboard navigation\",\n        \"Semantic HTML in React\",\n        \"Server-side rendering for SEO\"\n      ]\n    }\n  ]\n}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 63.0,
+    "target_hours": 63,
+    "num_topics": 7,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "React Rendering Fundamentals",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=react+rendering+fundamentals",
+          "https://reactjs.org/docs/rendering.html"
+        ],
+        "subtopics": [
+          "Virtual DOM mechanics",
+          "Component lifecycle",
+          "Reconciliation algorithm"
+        ]
+      },
+      {
+        "title": "Optimizing React Performance",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=react+performance+optimization",
+          "https://reactjs.org/docs/optimizing-performance.html"
+        ],
+        "subtopics": [
+          "Memoization with React.memo",
+          "useMemo and useCallback",
+          "Lazy loading components",
+          "Code splitting with React.lazy"
+        ]
+      },
+      {
+        "title": "Advanced State Management",
+        "estimatedHours": 8,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=react+state+management+advanced",
+          "https://reactjs.org/docs/hooks-state.html"
+        ],
+        "subtopics": [
+          "Context API vs Redux",
+          "Selectors and memoized selectors",
+          "Optimistic updates",
+          "Server state with React Query"
+        ]
+      },
+      {
+        "title": "Web Architecture Patterns",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=web+architecture+patterns",
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Architecture"
+        ],
+        "subtopics": [
+          "Micro frontends",
+          "Monorepo vs polyrepo",
+          "Layered architecture",
+          "API gateway patterns"
+        ]
+      },
+      {
+        "title": "Build Tooling & Bundling",
+        "estimatedHours": 8,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=react+build+tooling",
+          "https://webpack.js.org/concepts/"
+        ],
+        "subtopics": [
+          "Webpack optimization techniques",
+          "Tree shaking",
+          "Module federation",
+          "ESBuild vs Vite"
+        ]
+      },
+      {
+        "title": "Performance Monitoring & Profiling",
+        "estimatedHours": 7,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=react+performance+profiling",
+          "https://reactjs.org/docs/profiler.html"
+        ],
+        "subtopics": [
+          "React Profiler API",
+          "Chrome DevTools performance panel",
+          "Web Vitals integration",
+          "Automated performance testing"
+        ]
+      },
+      {
+        "title": "Accessibility & SEO Best Practices",
+        "estimatedHours": 8,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=react+accessibility+best+practices",
+          "https://developers.google.com/search/docs/advanced/seo"
+        ],
+        "subtopics": [
+          "ARIA roles and attributes",
+          "Keyboard navigation",
+          "Semantic HTML in React",
+          "Server-side rendering for SEO"
+        ]
+      }
+    ]
+  }
+}

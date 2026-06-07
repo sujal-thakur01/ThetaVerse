@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "case": {
+      "position": "QA Engineer",
+      "company": "Apple",
+      "days": 21,
+      "hoursPerDay": 3,
+      "majorTopic": "test automation and CI/CD"
+    },
+    "prompt_hash": "28c34f764c648b5afbf27464f862a60e7815241a6d4fd1f5282fc97255a73abd",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.618692"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"test automation and CI/CD focus area 1\", \"estimatedHours\": 10.5, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+QA Engineer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"test automation and CI/CD focus area 2\", \"estimatedHours\": 10.5, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+QA Engineer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"test automation and CI/CD focus area 3\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+QA Engineer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"test automation and CI/CD focus area 4\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+QA Engineer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"test automation and CI/CD focus area 5\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+QA Engineer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}, {\"title\": \"test automation and CI/CD focus area 6\", \"estimatedHours\": 10.5, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+QA Engineer+topic+6\"], \"subtopics\": [\"Core concept 6\", \"Interview practice 6\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "test automation and CI/CD focus area 1",
+        "estimatedHours": 10.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+QA Engineer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "test automation and CI/CD focus area 2",
+        "estimatedHours": 10.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+QA Engineer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "test automation and CI/CD focus area 3",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+QA Engineer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "test automation and CI/CD focus area 4",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+QA Engineer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "test automation and CI/CD focus area 5",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+QA Engineer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      },
+      {
+        "title": "test automation and CI/CD focus area 6",
+        "estimatedHours": 10.5,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+QA Engineer+topic+6"
+        ],
+        "subtopics": [
+          "Core concept 6",
+          "Interview practice 6"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 63.0,
+    "target_hours": 63,
+    "num_topics": 6,
+    "error": null
+  }
+}

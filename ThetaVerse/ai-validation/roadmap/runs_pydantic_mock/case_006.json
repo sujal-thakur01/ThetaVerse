@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "case": {
+      "position": "Machine Learning Engineer",
+      "company": "OpenAI",
+      "days": 50,
+      "hoursPerDay": 5,
+      "majorTopic": "deep learning, transformers, and neural networks"
+    },
+    "prompt_hash": "fc9d5397987b6d616391e2ed5f06f0e3767b772d0e2f7a463ae7773dc570a2ea",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.618155"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"deep learning, transformers, and neural networks focus area 1\", \"estimatedHours\": 10.0, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 2\", \"estimatedHours\": 10.0, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 3\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 4\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 5\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 6\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+6\"], \"subtopics\": [\"Core concept 6\", \"Interview practice 6\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 7\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+7\"], \"subtopics\": [\"Core concept 7\", \"Interview practice 7\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 8\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+8\"], \"subtopics\": [\"Core concept 8\", \"Interview practice 8\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 9\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+9\"], \"subtopics\": [\"Core concept 9\", \"Interview practice 9\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 10\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+10\"], \"subtopics\": [\"Core concept 10\", \"Interview practice 10\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 11\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+11\"], \"subtopics\": [\"Core concept 11\", \"Interview practice 11\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 12\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+12\"], \"subtopics\": [\"Core concept 12\", \"Interview practice 12\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 13\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+13\"], \"subtopics\": [\"Core concept 13\", \"Interview practice 13\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 14\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+14\"], \"subtopics\": [\"Core concept 14\", \"Interview practice 14\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 15\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+15\"], \"subtopics\": [\"Core concept 15\", \"Interview practice 15\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 16\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+16\"], \"subtopics\": [\"Core concept 16\", \"Interview practice 16\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 17\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+17\"], \"subtopics\": [\"Core concept 17\", \"Interview practice 17\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 18\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+18\"], \"subtopics\": [\"Core concept 18\", \"Interview practice 18\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 19\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+19\"], \"subtopics\": [\"Core concept 19\", \"Interview practice 19\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 20\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+20\"], \"subtopics\": [\"Core concept 20\", \"Interview practice 20\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 21\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+21\"], \"subtopics\": [\"Core concept 21\", \"Interview practice 21\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 22\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+22\"], \"subtopics\": [\"Core concept 22\", \"Interview practice 22\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 23\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+23\"], \"subtopics\": [\"Core concept 23\", \"Interview practice 23\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 24\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+24\"], \"subtopics\": [\"Core concept 24\", \"Interview practice 24\"]}, {\"title\": \"deep learning, transformers, and neural networks focus area 25\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+25\"], \"subtopics\": [\"Core concept 25\", \"Interview practice 25\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "deep learning, transformers, and neural networks focus area 1",
+        "estimatedHours": 10.0,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 2",
+        "estimatedHours": 10.0,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 3",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 4",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 5",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 6",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+6"
+        ],
+        "subtopics": [
+          "Core concept 6",
+          "Interview practice 6"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 7",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+7"
+        ],
+        "subtopics": [
+          "Core concept 7",
+          "Interview practice 7"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 8",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+8"
+        ],
+        "subtopics": [
+          "Core concept 8",
+          "Interview practice 8"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 9",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+9"
+        ],
+        "subtopics": [
+          "Core concept 9",
+          "Interview practice 9"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 10",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+10"
+        ],
+        "subtopics": [
+          "Core concept 10",
+          "Interview practice 10"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 11",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+11"
+        ],
+        "subtopics": [
+          "Core concept 11",
+          "Interview practice 11"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 12",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+12"
+        ],
+        "subtopics": [
+          "Core concept 12",
+          "Interview practice 12"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 13",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+13"
+        ],
+        "subtopics": [
+          "Core concept 13",
+          "Interview practice 13"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 14",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+14"
+        ],
+        "subtopics": [
+          "Core concept 14",
+          "Interview practice 14"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 15",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+15"
+        ],
+        "subtopics": [
+          "Core concept 15",
+          "Interview practice 15"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 16",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+16"
+        ],
+        "subtopics": [
+          "Core concept 16",
+          "Interview practice 16"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 17",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+17"
+        ],
+        "subtopics": [
+          "Core concept 17",
+          "Interview practice 17"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 18",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+18"
+        ],
+        "subtopics": [
+          "Core concept 18",
+          "Interview practice 18"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 19",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+19"
+        ],
+        "subtopics": [
+          "Core concept 19",
+          "Interview practice 19"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 20",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+20"
+        ],
+        "subtopics": [
+          "Core concept 20",
+          "Interview practice 20"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 21",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+21"
+        ],
+        "subtopics": [
+          "Core concept 21",
+          "Interview practice 21"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 22",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+22"
+        ],
+        "subtopics": [
+          "Core concept 22",
+          "Interview practice 22"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 23",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+23"
+        ],
+        "subtopics": [
+          "Core concept 23",
+          "Interview practice 23"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 24",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+24"
+        ],
+        "subtopics": [
+          "Core concept 24",
+          "Interview practice 24"
+        ]
+      },
+      {
+        "title": "deep learning, transformers, and neural networks focus area 25",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=OpenAI+Machine Learning Engineer+topic+25"
+        ],
+        "subtopics": [
+          "Core concept 25",
+          "Interview practice 25"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 250.0,
+    "target_hours": 250,
+    "num_topics": 25,
+    "error": null
+  }
+}

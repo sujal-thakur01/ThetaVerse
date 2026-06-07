@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "case": {
+      "position": "Database Administrator",
+      "company": "Oracle",
+      "days": 33,
+      "hoursPerDay": 3.5,
+      "majorTopic": "SQL tuning and database optimization"
+    },
+    "prompt_hash": "b48dd3e428d8122503678f75b326d4413d38ce02399284ad3467377a907982a9",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:32:59.148399"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"SQL Query Optimization Basics\",\"estimatedHours\":16,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=SQL+Query+Optimization+Basics\"],\"subtopics\":[\"Understanding Query Execution Flow\",\"Identifying Slow Queries\",\"Using Explain Plan\"]},{\"title\":\"Indexing Strategies and Management\",\"estimatedHours\":16,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Indexing+Strategies+Oracle\"],\"subtopics\":[\"Types of Indexes\",\"Index Maintenance\",\"Indexing for OLTP vs OLAP\"]},{\"title\":\"Execution Plan Analysis\",\"estimatedHours\":16,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Execution+Plan+Analysis+Oracle\"],\"subtopics\":[\"Reading Explain Plan\",\"Cost-Based Optimizer Tuning\",\"Plan Stability Techniques\"]},{\"title\":\"Partitioning and Sharding Techniques\",\"estimatedHours\":21,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Partitioning+and+Sharding+Oracle\"],\"subtopics\":[\"Range, List, Hash Partitioning\",\"Partition Pruning\",\"Sharding Strategies\"]},{\"title\":\"Memory and Buffer Cache Tuning\",\"estimatedHours\":13,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Memory+and+Buffer+Cache+Tuning+Oracle\"],\"subtopics\":[\"SGA vs PGA\",\"Buffer Cache Hit Ratio\",\"Memory Allocation Best Practices\"]},{\"title\":\"I/O and Disk Performance\",\"estimatedHours\":13.5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=I/O+and+Disk+Performance+Oracle\"],\"subtopics\":[\"Disk I/O Metrics\",\"RAID Configurations\",\"I/O Bottleneck Identification\"]},{\"title\":\"Concurrency and Locking\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Concurrency+and+Locking+Oracle\"],\"subtopics\":[\"Lock Types\",\"Deadlock Detection\",\"Optimistic vs Pessimistic Concurrency\"]},{\"title\":\"Advanced SQL Features (Analytic, Window)\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Advanced+SQL+Features+Oracle\"],\"subtopics\":[\"Window Functions\",\"Analytic Functions\",\"CUBE and ROLLUP\"]},{\"title\":\"Performance Monitoring and Alerting\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Performance+Monitoring+Oracle\"],\"subtopics\":[\"AWR and ASH Reports\",\"Custom Alerts\",\"Performance Dashboards\"]}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 125.5,
+    "target_hours": 115.5,
+    "num_topics": 9,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "SQL Query Optimization Basics",
+        "estimatedHours": 16,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=SQL+Query+Optimization+Basics"
+        ],
+        "subtopics": [
+          "Understanding Query Execution Flow",
+          "Identifying Slow Queries",
+          "Using Explain Plan"
+        ]
+      },
+      {
+        "title": "Indexing Strategies and Management",
+        "estimatedHours": 16,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Indexing+Strategies+Oracle"
+        ],
+        "subtopics": [
+          "Types of Indexes",
+          "Index Maintenance",
+          "Indexing for OLTP vs OLAP"
+        ]
+      },
+      {
+        "title": "Execution Plan Analysis",
+        "estimatedHours": 16,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Execution+Plan+Analysis+Oracle"
+        ],
+        "subtopics": [
+          "Reading Explain Plan",
+          "Cost-Based Optimizer Tuning",
+          "Plan Stability Techniques"
+        ]
+      },
+      {
+        "title": "Partitioning and Sharding Techniques",
+        "estimatedHours": 21,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Partitioning+and+Sharding+Oracle"
+        ],
+        "subtopics": [
+          "Range, List, Hash Partitioning",
+          "Partition Pruning",
+          "Sharding Strategies"
+        ]
+      },
+      {
+        "title": "Memory and Buffer Cache Tuning",
+        "estimatedHours": 13,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Memory+and+Buffer+Cache+Tuning+Oracle"
+        ],
+        "subtopics": [
+          "SGA vs PGA",
+          "Buffer Cache Hit Ratio",
+          "Memory Allocation Best Practices"
+        ]
+      },
+      {
+        "title": "I/O and Disk Performance",
+        "estimatedHours": 13.5,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=I/O+and+Disk+Performance+Oracle"
+        ],
+        "subtopics": [
+          "Disk I/O Metrics",
+          "RAID Configurations",
+          "I/O Bottleneck Identification"
+        ]
+      },
+      {
+        "title": "Concurrency and Locking",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Concurrency+and+Locking+Oracle"
+        ],
+        "subtopics": [
+          "Lock Types",
+          "Deadlock Detection",
+          "Optimistic vs Pessimistic Concurrency"
+        ]
+      },
+      {
+        "title": "Advanced SQL Features (Analytic, Window)",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Advanced+SQL+Features+Oracle"
+        ],
+        "subtopics": [
+          "Window Functions",
+          "Analytic Functions",
+          "CUBE and ROLLUP"
+        ]
+      },
+      {
+        "title": "Performance Monitoring and Alerting",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Performance+Monitoring+Oracle"
+        ],
+        "subtopics": [
+          "AWR and ASH Reports",
+          "Custom Alerts",
+          "Performance Dashboards"
+        ]
+      }
+    ]
+  }
+}

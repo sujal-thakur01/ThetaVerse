@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "case": {
+      "position": "Solutions Engineer",
+      "company": "Salesforce",
+      "days": 28,
+      "hoursPerDay": 3,
+      "majorTopic": "Salesforce platform and customization"
+    },
+    "prompt_hash": "3a66094600228e1e34283f0c80cc5f5ff832d301914a4382bae20d1b07ca99dc",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:32:52.040768"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Salesforce Architecture\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Architecture\"],\"subtopics\":[\"Multi‑tenant Model\",\"Data Storage Limits\",\"API Architecture\"]},{\"title\":\"Data Modeling\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Data+Modeling\"],\"subtopics\":[\"Objects & Fields\",\"Relationships\",\"Record Types & Page Layouts\"]},{\"title\":\"Security & Sharing\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Security+Model\"],\"subtopics\":[\"Profiles & Permission Sets\",\"Role Hierarchy\",\"Sharing Rules & Manual Sharing\"]},{\"title\":\"Automation (Process Builder, Flow)\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Automation+Tools\"],\"subtopics\":[\"Process Builder Basics\",\"Flow Builder & Screen Flows\",\"Automation Best Practices\"]},{\"title\":\"Apex Basics\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Apex+Programming+Basics\"],\"subtopics\":[\"Triggers & Classes\",\"SOQL & SOSL\",\"Governor Limits\"]},{\"title\":\"Lightning Components\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Lightning+Components\"],\"subtopics\":[\"Aura Components\",\"Lightning Web Components\",\"Component Communication\"]},{\"title\":\"Integration\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Integration+Methods\"],\"subtopics\":[\"REST & SOAP APIs\",\"Outbound Messaging\",\"Middleware Solutions\"]},{\"title\":\"Deployment & Release Management\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Salesforce+Deployment+Tools\"],\"subtopics\":[\"Change Sets\",\"ANT Migration Tool\",\"Salesforce DX\"]}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 84.0,
+    "target_hours": 84,
+    "num_topics": 8,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Salesforce Architecture",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Architecture"
+        ],
+        "subtopics": [
+          "Multi‑tenant Model",
+          "Data Storage Limits",
+          "API Architecture"
+        ]
+      },
+      {
+        "title": "Data Modeling",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Data+Modeling"
+        ],
+        "subtopics": [
+          "Objects & Fields",
+          "Relationships",
+          "Record Types & Page Layouts"
+        ]
+      },
+      {
+        "title": "Security & Sharing",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Security+Model"
+        ],
+        "subtopics": [
+          "Profiles & Permission Sets",
+          "Role Hierarchy",
+          "Sharing Rules & Manual Sharing"
+        ]
+      },
+      {
+        "title": "Automation (Process Builder, Flow)",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Automation+Tools"
+        ],
+        "subtopics": [
+          "Process Builder Basics",
+          "Flow Builder & Screen Flows",
+          "Automation Best Practices"
+        ]
+      },
+      {
+        "title": "Apex Basics",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apex+Programming+Basics"
+        ],
+        "subtopics": [
+          "Triggers & Classes",
+          "SOQL & SOSL",
+          "Governor Limits"
+        ]
+      },
+      {
+        "title": "Lightning Components",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Lightning+Components"
+        ],
+        "subtopics": [
+          "Aura Components",
+          "Lightning Web Components",
+          "Component Communication"
+        ]
+      },
+      {
+        "title": "Integration",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Integration+Methods"
+        ],
+        "subtopics": [
+          "REST & SOAP APIs",
+          "Outbound Messaging",
+          "Middleware Solutions"
+        ]
+      },
+      {
+        "title": "Deployment & Release Management",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Salesforce+Deployment+Tools"
+        ],
+        "subtopics": [
+          "Change Sets",
+          "ANT Migration Tool",
+          "Salesforce DX"
+        ]
+      }
+    ]
+  }
+}

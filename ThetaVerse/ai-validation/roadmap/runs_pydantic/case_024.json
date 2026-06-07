@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "case": {
+      "position": "Contractor - React",
+      "company": "Acme Corp",
+      "days": 7,
+      "hoursPerDay": 6,
+      "majorTopic": "React component library modernization"
+    },
+    "prompt_hash": "6709ed159012f47fbb3d2d1a7a7af3bad993c57ae543c1865c6780de67615663",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:06:14.705234"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Component Architecture Review\",\"estimatedHours\":6,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=component+architecture+review+react\"],\"subtopics\":[\"Audit existing component hierarchy\",\"Identify reusable patterns\",\"Define component contracts\",\"Plan refactor roadmap\"]},{\"title\":\"Design System Integration\",\"estimatedHours\":5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=design+system+integration+react\"],\"subtopics\":[\"Align with brand guidelines\",\"Map components to design tokens\",\"Implement shared style library\",\"Validate visual consistency\"]},{\"title\":\"Accessibility Enhancements\",\"estimatedHours\":5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=react+accessibility+best+practices\"],\"subtopics\":[\"Audit current a11y compliance\",\"Add ARIA attributes\",\"Keyboard navigation support\",\"Automated a11y testing\"]},{\"title\":\"Styling Strategy\",\"estimatedHours\":5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=css+in+js+react\"],\"subtopics\":[\"Evaluate CSS-in-JS options\",\"Implement theme provider\",\"Scope styles per component\",\"Optimize style loading\"]},{\"title\":\"State Management Refactor\",\"estimatedHours\":5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=react+state+management+refactor\"],\"subtopics\":[\"Assess current state patterns\",\"Introduce context or Redux Toolkit\",\"Decouple state from UI\",\"Ensure testability\"]},{\"title\":\"Testing Strategy\",\"estimatedHours\":5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=react+testing+strategy\"],\"subtopics\":[\"Unit test coverage goals\",\"Component snapshot testing\",\"Integration tests with React Testing Library\",\"Continuous integration setup\"]},{\"title\":\"Performance Optimization\",\"estimatedHours\":5,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=react+performance+optimization\"],\"subtopics\":[\"Code splitting with React.lazy\",\"Memoization of heavy components\",\"Avoid unnecessary re-ren"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 42.0,
+    "target_hours": 42,
+    "num_topics": 8,
+    "error": null
+  }
+}

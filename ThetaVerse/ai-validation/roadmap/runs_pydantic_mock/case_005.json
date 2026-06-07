@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "case": {
+      "position": "DevOps Engineer",
+      "company": "Netflix",
+      "days": 35,
+      "hoursPerDay": 4,
+      "majorTopic": "Kubernetes, Docker, and cloud infrastructure"
+    },
+    "prompt_hash": "24ac0514c0c9c00e8e123da1424bc2d18c8c98c0633655c0394028a278cb4091",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.617620"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 1\", \"estimatedHours\": 10.0, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 2\", \"estimatedHours\": 10.0, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 3\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 4\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 5\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 6\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+6\"], \"subtopics\": [\"Core concept 6\", \"Interview practice 6\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 7\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+7\"], \"subtopics\": [\"Core concept 7\", \"Interview practice 7\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 8\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+8\"], \"subtopics\": [\"Core concept 8\", \"Interview practice 8\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 9\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+9\"], \"subtopics\": [\"Core concept 9\", \"Interview practice 9\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 10\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+10\"], \"subtopics\": [\"Core concept 10\", \"Interview practice 10\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 11\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+11\"], \"subtopics\": [\"Core concept 11\", \"Interview practice 11\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 12\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+12\"], \"subtopics\": [\"Core concept 12\", \"Interview practice 12\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 13\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+13\"], \"subtopics\": [\"Core concept 13\", \"Interview practice 13\"]}, {\"title\": \"Kubernetes, Docker, and cloud infrastructure focus area 14\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Netflix+DevOps Engineer+topic+14\"], \"subtopics\": [\"Core concept 14\", \"Interview practice 14\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 1",
+        "estimatedHours": 10.0,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 2",
+        "estimatedHours": 10.0,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 3",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 4",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 5",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 6",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+6"
+        ],
+        "subtopics": [
+          "Core concept 6",
+          "Interview practice 6"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 7",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+7"
+        ],
+        "subtopics": [
+          "Core concept 7",
+          "Interview practice 7"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 8",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+8"
+        ],
+        "subtopics": [
+          "Core concept 8",
+          "Interview practice 8"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 9",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+9"
+        ],
+        "subtopics": [
+          "Core concept 9",
+          "Interview practice 9"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 10",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+10"
+        ],
+        "subtopics": [
+          "Core concept 10",
+          "Interview practice 10"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 11",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+11"
+        ],
+        "subtopics": [
+          "Core concept 11",
+          "Interview practice 11"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 12",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+12"
+        ],
+        "subtopics": [
+          "Core concept 12",
+          "Interview practice 12"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 13",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+13"
+        ],
+        "subtopics": [
+          "Core concept 13",
+          "Interview practice 13"
+        ]
+      },
+      {
+        "title": "Kubernetes, Docker, and cloud infrastructure focus area 14",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Netflix+DevOps Engineer+topic+14"
+        ],
+        "subtopics": [
+          "Core concept 14",
+          "Interview practice 14"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 140.0,
+    "target_hours": 140,
+    "num_topics": 14,
+    "error": null
+  }
+}

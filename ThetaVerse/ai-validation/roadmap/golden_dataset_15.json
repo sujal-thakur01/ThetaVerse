@@ -1,0 +1,2717 @@
+{
+  "version": "1.0",
+  "created_from_run": "filtered from golden_dataset.json",
+  "total_cases": 15,
+  "passing_cases": 15,
+  "references": [
+    {
+      "case_id": "case_001",
+      "position": "Backend Engineer",
+      "company": "Google",
+      "days": 30,
+      "hoursPerDay": 4,
+      "majorTopic": "system design and distributed systems",
+      "total_hours": 120.0,
+      "target_hours": 120.0,
+      "num_topics": 12,
+      "mean_title_similarity": 0.012325637325637325,
+      "topics": [
+        {
+          "title": "Distributed System Fundamentals",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=distributed+system+basics"
+          ],
+          "subtopics": [
+            "Definition & Characteristics",
+            "Latency & Throughput",
+            "Fault Tolerance",
+            "Scalability"
+          ]
+        },
+        {
+          "title": "CAP Theorem & Consistency Models",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=CAP+theorem+consistency+models"
+          ],
+          "subtopics": [
+            "CAP Trade-offs",
+            "Strong vs Eventual Consistency",
+            "Use Cases"
+          ]
+        },
+        {
+          "title": "Partition Tolerance & Replication Strategies",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=replication+strategies+partition+tolerance"
+          ],
+          "subtopics": [
+            "Master-Slave Replication",
+            "Multi-Master Replication",
+            "Read/Write Splitting"
+          ]
+        },
+        {
+          "title": "Consistent Hashing & Load Balancing",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=consistent+hashing+load+balancing"
+          ],
+          "subtopics": [
+            "Virtual Nodes",
+            "Ring Topology",
+            "Dynamic Rebalancing"
+          ]
+        },
+        {
+          "title": "Distributed Consensus Algorithms (Paxos, Raft)",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=raft+algorithm+explanation"
+          ],
+          "subtopics": [
+            "Leader Election",
+            "Log Replication",
+            "Safety & Liveness"
+          ]
+        },
+        {
+          "title": "Service Discovery & Service Mesh",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=service+mesh+architecture"
+          ],
+          "subtopics": [
+            "DNS-based Discovery",
+            "Health Checks",
+            "Traffic Routing"
+          ]
+        },
+        {
+          "title": "Event-Driven Architecture & Message Queues",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=event-driven+architecture+message+queues"
+          ],
+          "subtopics": [
+            "Publish-Subscribe",
+            "Message Brokers",
+            "Event Sourcing"
+          ]
+        },
+        {
+          "title": "Data Partitioning & Sharding",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=data+sharding+strategies"
+          ],
+          "subtopics": [
+            "Horizontal vs Vertical Sharding",
+            "Shard Key Selection",
+            "Rebalancing"
+          ]
+        },
+        {
+          "title": "Distributed Transactions & Two-Phase Commit",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=two+phase+commit+distributed+transactions"
+          ],
+          "subtopics": [
+            "Prepare & Commit Phases",
+            "Compensation Transactions",
+            "Alternatives"
+          ]
+        },
+        {
+          "title": "Monitoring, Observability & Distributed Tracing",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=distributed+tracing+observability"
+          ],
+          "subtopics": [
+            "Metrics & Logs",
+            "Tracing Systems",
+            "Alerting"
+          ]
+        },
+        {
+          "title": "Scalability & Performance Optimization",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=performance+optimization+distributed+systems"
+          ],
+          "subtopics": [
+            "Caching Strategies",
+            "Connection Pooling",
+            "Concurrency Control"
+          ]
+        },
+        {
+          "title": "Cloud-Native Deployment & Kubernetes",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=kubernetes+deployment+best+practices"
+          ],
+          "subtopics": [
+            "Pods & Services",
+            "Horizontal Pod Autoscaler",
+            "CI/CD Pipelines"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 2.582,
+        "prompt_hash": "694319c6eeabf52bf1e71dfb003d557a19285dffc16b1d0774c4352531ba3ae6"
+      }
+    },
+    {
+      "case_id": "case_002",
+      "position": "Frontend Engineer",
+      "company": "Microsoft",
+      "days": 21,
+      "hoursPerDay": 3,
+      "majorTopic": "react performance and web architecture",
+      "total_hours": 63.0,
+      "target_hours": 63.0,
+      "num_topics": 6,
+      "mean_title_similarity": 0.030555555555555555,
+      "topics": [
+        {
+          "title": "React Performance Fundamentals",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=React+performance+fundamentals"
+          ],
+          "subtopics": [
+            "React rendering cycle",
+            "Virtual DOM optimization",
+            "Key usage",
+            "Avoiding unnecessary re-renders",
+            "React Profiler"
+          ]
+        },
+        {
+          "title": "Memoization Techniques in React",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=React+memoization+techniques"
+          ],
+          "subtopics": [
+            "React.memo",
+            "useMemo",
+            "useCallback",
+            "Avoiding stale closures",
+            "Performance trade-offs"
+          ]
+        },
+        {
+          "title": "Code Splitting & Lazy Loading",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=React+code+splitting+lazy+loading"
+          ],
+          "subtopics": [
+            "React.lazy",
+            "Suspense",
+            "Dynamic imports",
+            "Chunking strategy",
+            "Impact on bundle size"
+          ]
+        },
+        {
+          "title": "Server-Side Rendering & Static Site Generation",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=React+SSR+vs+SSG"
+          ],
+          "subtopics": [
+            "SSR vs SSG",
+            "Next.js",
+            "Performance implications",
+            "Hydration",
+            "SEO considerations"
+          ]
+        },
+        {
+          "title": "Web Performance Best Practices",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=web+performance+best+practices"
+          ],
+          "subtopics": [
+            "Critical rendering path",
+            "Resource prioritization",
+            "HTTP/2 & caching",
+            "Image optimization",
+            "Performance budgets"
+          ]
+        },
+        {
+          "title": "Scalable Web Architecture for Frontend",
+          "estimatedHours": 13,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=frontend+architecture+patterns"
+          ],
+          "subtopics": [
+            "Component architecture patterns",
+            "Atomic design",
+            "Micro frontends",
+            "State management architecture",
+            "Testing strategy"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 2.883,
+        "prompt_hash": "148465096cdeb0b5022487878ca57bf8d310fd77100c00a1c10ce07e70a5a30d"
+      }
+    },
+    {
+      "case_id": "case_003",
+      "position": "Full Stack Engineer",
+      "company": "Amazon",
+      "days": 28,
+      "hoursPerDay": 3.5,
+      "majorTopic": "algorithms, databases, and system design",
+      "total_hours": 108.0,
+      "target_hours": 98.0,
+      "num_topics": 9,
+      "mean_title_similarity": 0.011111111111111112,
+      "topics": [
+        {
+          "title": "Data Structures & Algorithms Basics",
+          "estimatedHours": 25,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Data+Structures+and+Algorithms+Basics"
+          ],
+          "subtopics": [
+            "Arrays & Linked Lists",
+            "Stacks & Queues",
+            "Hash Tables",
+            "Trees & Graphs"
+          ]
+        },
+        {
+          "title": "Advanced Algorithms",
+          "estimatedHours": 15,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Advanced+Algorithms"
+          ],
+          "subtopics": [
+            "Sorting & Searching",
+            "Dynamic Programming",
+            "Greedy Algorithms",
+            "Backtracking"
+          ]
+        },
+        {
+          "title": "Database Design & SQL",
+          "estimatedHours": 15,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Database+Design+and+SQL"
+          ],
+          "subtopics": [
+            "Normalization",
+            "ACID Properties",
+            "Joins & Subqueries",
+            "Indexing"
+          ]
+        },
+        {
+          "title": "NoSQL & Distributed Databases",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=NoSQL+and+Distributed+Databases"
+          ],
+          "subtopics": [
+            "Key-Value Stores",
+            "Document Stores",
+            "Column Stores",
+            "Graph Databases"
+          ]
+        },
+        {
+          "title": "System Design Fundamentals",
+          "estimatedHours": 20,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=System+Design+Fundamentals"
+          ],
+          "subtopics": [
+            "Load Balancing",
+            "Caching",
+            "Message Queues",
+            "Microservices"
+          ]
+        },
+        {
+          "title": "Scalability & Performance",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Scalability+and+Performance"
+          ],
+          "subtopics": [
+            "Horizontal vs Vertical Scaling",
+            "Latency Optimization",
+            "Throughput",
+            "Monitoring & Metrics"
+          ]
+        },
+        {
+          "title": "CAP Theorem & Consistency Models",
+          "estimatedHours": 5,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=CAP+Theorem+and+Consistency+Models"
+          ],
+          "subtopics": [
+            "Consistency",
+            "Availability",
+            "Partition Tolerance",
+            "Eventual Consistency"
+          ]
+        },
+        {
+          "title": "Mock Interviews & Behavioral Prep",
+          "estimatedHours": 5,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Mock+Interviews+and+Behavioral+Preparation"
+          ],
+          "subtopics": [
+            "STAR Method",
+            "Common Behavioral Questions",
+            "Technical Interview Flow",
+            "Feedback Loop"
+          ]
+        },
+        {
+          "title": "Review & Practice",
+          "estimatedHours": 3,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Review+and+Practice+for+Amazon+Full+Stack+Engineer"
+          ],
+          "subtopics": [
+            "Problem Solving Practice",
+            "System Design Whiteboard",
+            "Final Mock Interview",
+            "Self-Assessment"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 2.775,
+        "prompt_hash": "d7c532f530c21bae61dc9665b377e751ca1d132bba66fd721137616617eb9be6"
+      }
+    },
+    {
+      "case_id": "case_004",
+      "position": "Junior Developer",
+      "company": "Startup",
+      "days": 14,
+      "hoursPerDay": 2,
+      "majorTopic": "JavaScript fundamentals and DOM manipulation",
+      "total_hours": 28.0,
+      "target_hours": 28.0,
+      "num_topics": 5,
+      "mean_title_similarity": 0.09166666666666666,
+      "topics": [
+        {
+          "title": "JavaScript Basics",
+          "estimatedHours": 5,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=JavaScript+basics+variables+data+types"
+          ],
+          "subtopics": [
+            "Variables and Scope",
+            "Data Types",
+            "Operators",
+            "Control Flow"
+          ]
+        },
+        {
+          "title": "Functions and Scope",
+          "estimatedHours": 4,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=JavaScript+functions+scope"
+          ],
+          "subtopics": [
+            "Function Declaration vs Expression",
+            "Arrow Functions",
+            "Hoisting",
+            "Closures"
+          ]
+        },
+        {
+          "title": "Asynchronous JavaScript",
+          "estimatedHours": 4,
+          "priority": "Medium",
+          "referenceLinks": [
+            "https://www.google.com/search?q=JavaScript+async+await+promises"
+          ],
+          "subtopics": [
+            "Callbacks",
+            "Promises",
+            "Async/Await",
+            "Error Handling"
+          ]
+        },
+        {
+          "title": "DOM Manipulation Basics",
+          "estimatedHours": 6,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=JavaScript+DOM+manipulation+basics"
+          ],
+          "subtopics": [
+            "Selecting Elements",
+            "Modifying Content",
+            "Event Handling",
+            "Creating Elements"
+          ]
+        },
+        {
+          "title": "Advanced DOM and Performance",
+          "estimatedHours": 9,
+          "priority": "Medium",
+          "referenceLinks": [
+            "https://www.google.com/search?q=JavaScript+DOM+performance+optimization"
+          ],
+          "subtopics": [
+            "Event Delegation",
+            "Virtual DOM",
+            "Debouncing and Throttling",
+            "Memory Leaks"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 1.901,
+        "prompt_hash": "a0d45642dfc28608f84f6b2860c0a3d8cf39ab574e838a80d787fcf5645375ae"
+      }
+    },
+    {
+      "case_id": "case_006",
+      "position": "DevOps Engineer",
+      "company": "Netflix",
+      "days": 35,
+      "hoursPerDay": 4,
+      "majorTopic": "Kubernetes, Docker, and cloud infrastructure",
+      "total_hours": 130.0,
+      "target_hours": 140.0,
+      "num_topics": 14,
+      "mean_title_similarity": 0.009065934065934065,
+      "topics": [
+        {
+          "title": "Netflix DevOps Culture & Practices",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Netflix+DevOps+Culture+and+Practices"
+          ],
+          "subtopics": [
+            "Microservices Architecture",
+            "Chaos Engineering",
+            "Observability",
+            "Continuous Delivery",
+            "Team Autonomy"
+          ]
+        },
+        {
+          "title": "Docker Fundamentals & Advanced Usage",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Docker+Fundamentals+and+Advanced+Usage"
+          ],
+          "subtopics": [
+            "Dockerfile Best Practices",
+            "Multi-stage Builds",
+            "Image Optimization",
+            "Container Networking",
+            "Docker Compose"
+          ]
+        },
+        {
+          "title": "Kubernetes Architecture & Core Concepts",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Kubernetes+Architecture+and+Core+Concepts"
+          ],
+          "subtopics": [
+            "Cluster Components",
+            "Pods & ReplicaSets",
+            "Deployments",
+            "Services",
+            "Ingress Controllers"
+          ]
+        },
+        {
+          "title": "Helm & Package Management",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Helm+Package+Management+and+Charts"
+          ],
+          "subtopics": [
+            "Helm Charts",
+            "Chart Repositories",
+            "Release Management",
+            "Templating",
+            "Helm Hooks"
+          ]
+        },
+        {
+          "title": "CI/CD Pipelines with Jenkins/GitHub Actions",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=CI/CD+Pipelines+with+Jenkins+and+GitHub+Actions"
+          ],
+          "subtopics": [
+            "Pipeline as Code",
+            "Automated Testing",
+            "Artifact Management",
+            "Deployment Strategies",
+            "Pipeline Security"
+          ]
+        },
+        {
+          "title": "Cloud Infrastructure: AWS vs GCP vs Azure",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Cloud+Infrastructure+AWS+GCP+Azure+Comparison"
+          ],
+          "subtopics": [
+            "Compute Services",
+            "Managed Kubernetes (EKS, GKE, AKS)",
+            "Networking",
+            "Cost Management",
+            "Region Selection"
+          ]
+        },
+        {
+          "title": "Infrastructure as Code: Terraform & CloudFormation",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Infrastructure+as+Code+Terraform+CloudFormation"
+          ],
+          "subtopics": [
+            "Terraform Modules",
+            "State Management",
+            "Provider Plugins",
+            "CloudFormation Stacks",
+            "IaC Testing"
+          ]
+        },
+        {
+          "title": "Observability: Prometheus, Grafana, Loki",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Observability+Prometheus+Grafana+Loki"
+          ],
+          "subtopics": [
+            "Metrics Collection",
+            "Alerting Rules",
+            "Dashboards",
+            "Log Aggregation",
+            "Tracing Integration"
+          ]
+        },
+        {
+          "title": "Service Mesh: Istio, Linkerd",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Service+Mesh+Istio+Linkerd"
+          ],
+          "subtopics": [
+            "Traffic Management",
+            "Security Policies",
+            "Observability",
+            "Sidecar Injection",
+            "Mesh Governance"
+          ]
+        },
+        {
+          "title": "Networking & Service Discovery in Kubernetes",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Kubernetes+Networking+Service+Discovery"
+          ],
+          "subtopics": [
+            "CNI Plugins",
+            "DNS Services",
+            "Load Balancing",
+            "Network Policies",
+            "Ingress vs LoadBalancer"
+          ]
+        },
+        {
+          "title": "Security & Compliance in Cloud & Kubernetes",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Security+Compliance+Cloud+Kubernetes"
+          ],
+          "subtopics": [
+            "RBAC",
+            "Secrets Management",
+            "Compliance Standards",
+            "Vulnerability Scanning",
+            "Audit Logging"
+          ]
+        },
+        {
+          "title": "Performance Tuning & Autoscaling",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Performance+Tuning+Autoscaling+Kubernetes"
+          ],
+          "subtopics": [
+            "Horizontal Pod Autoscaler",
+            "Vertical Pod Autoscaler",
+            "Resource Requests & Limits",
+            "Cluster Autoscaler",
+            "Performance Profiling"
+          ]
+        },
+        {
+          "title": "Disaster Recovery & High Availability",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Disaster+Recovery+High+Availability+Kubernetes"
+          ],
+          "subtopics": [
+            "Backup Strategies",
+            "Multi-Region Deployments",
+            "Failover Mechanisms",
+            "Chaos Testing",
+            "Recovery Time Objectives"
+          ]
+        },
+        {
+          "title": "Interview Preparation & Mock Questions",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=DevOps+Engineer+Interview+Preparation+Mock+Questions"
+          ],
+          "subtopics": [
+            "Behavioral Questions",
+            "Technical Scenarios",
+            "Whiteboard Exercises",
+            "Case Studies",
+            "Feedback Loop"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 10.767,
+        "prompt_hash": "066d85deaa205f00152e8fbfc1aff2a9a8f989bf748a01fa361f2d2b5ba975ed"
+      }
+    },
+    {
+      "case_id": "case_008",
+      "position": "Machine Learning Engineer",
+      "company": "OpenAI",
+      "days": 50,
+      "hoursPerDay": 5,
+      "majorTopic": "deep learning, transformers, and neural networks",
+      "total_hours": 250.0,
+      "target_hours": 250.0,
+      "num_topics": 25,
+      "mean_title_similarity": 0.011257936507936508,
+      "topics": [
+        {
+          "title": "Deep Learning Foundations",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Deep+Learning+Foundations"
+          ],
+          "subtopics": [
+            "History of DL",
+            "Key Concepts",
+            "Frameworks Overview"
+          ]
+        },
+        {
+          "title": "Neural Network Basics",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Neural+Network+Basics"
+          ],
+          "subtopics": [
+            "Perceptron",
+            "Multi-layer Perceptron",
+            "Backpropagation"
+          ]
+        },
+        {
+          "title": "Activation Functions",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Activation+Functions"
+          ],
+          "subtopics": [
+            "ReLU",
+            "Sigmoid",
+            "Tanh",
+            "Softmax"
+          ]
+        },
+        {
+          "title": "Loss Functions",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Loss+Functions"
+          ],
+          "subtopics": [
+            "Cross-Entropy",
+            "MSE",
+            "Huber Loss"
+          ]
+        },
+        {
+          "title": "Optimization Algorithms",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Optimization+Algorithms"
+          ],
+          "subtopics": [
+            "SGD",
+            "Adam",
+            "RMSprop"
+          ]
+        },
+        {
+          "title": "Regularization Techniques",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Regularization+Techniques"
+          ],
+          "subtopics": [
+            "Dropout",
+            "Batch Normalization",
+            "Weight Decay"
+          ]
+        },
+        {
+          "title": "Convolutional Neural Networks",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Convolutional+Neural+Networks"
+          ],
+          "subtopics": [
+            "Convolution Layer",
+            "Pooling",
+            "CNN Architectures"
+          ]
+        },
+        {
+          "title": "Recurrent Neural Networks",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Recurrent+Neural+Networks"
+          ],
+          "subtopics": [
+            "Simple RNN",
+            "Sequence Modeling",
+            "Vanishing Gradient"
+          ]
+        },
+        {
+          "title": "Long Short-Term Memory",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Long+Short-Term+Memory"
+          ],
+          "subtopics": [
+            "LSTM Gates",
+            "Cell State",
+            "Applications"
+          ]
+        },
+        {
+          "title": "Gated Recurrent Units",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Gated+Recurrent+Units"
+          ],
+          "subtopics": [
+            "GRU Gates",
+            "Comparison to LSTM",
+            "Use Cases"
+          ]
+        },
+        {
+          "title": "Attention Mechanisms",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Attention+Mechanisms"
+          ],
+          "subtopics": [
+            "Self-Attention",
+            "Scaled Dot-Product",
+            "Multi-Head Attention"
+          ]
+        },
+        {
+          "title": "Transformer Architecture",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Transformer+Architecture"
+          ],
+          "subtopics": [
+            "Encoder-Decoder",
+            "Positional Encoding",
+            "Layer Normalization"
+          ]
+        },
+        {
+          "title": "BERT and Variants",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=BERT+and+Variants"
+          ],
+          "subtopics": [
+            "Masked Language Modeling",
+            "Next Sentence Prediction",
+            "BERT-base vs BERT-large"
+          ]
+        },
+        {
+          "title": "GPT and Language Models",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=GPT+and+Language+Models"
+          ],
+          "subtopics": [
+            "Autoregressive Modeling",
+            "Transformer Decoder",
+            "GPT-3 Scale"
+          ]
+        },
+        {
+          "title": "Fine-tuning Transformers",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Fine-tuning+Transformers"
+          ],
+          "subtopics": [
+            "Domain Adaptation",
+            "Prompt Tuning",
+            "Few-shot Learning"
+          ]
+        },
+        {
+          "title": "Transfer Learning",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Transfer+Learning"
+          ],
+          "subtopics": [
+            "Feature Extraction",
+            "Fine-tuning Strategies",
+            "Pretrained Models"
+          ]
+        },
+        {
+          "title": "Data Augmentation",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Data+Augmentation"
+          ],
+          "subtopics": [
+            "Image Augmentation",
+            "Text Augmentation",
+            "Audio Augmentation"
+          ]
+        },
+        {
+          "title": "Model Evaluation Metrics",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Model+Evaluation+Metrics"
+          ],
+          "subtopics": [
+            "Accuracy",
+            "Precision-Recall",
+            "F1 Score",
+            "ROC-AUC"
+          ]
+        },
+        {
+          "title": "Hyperparameter Tuning",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Hyperparameter+Tuning"
+          ],
+          "subtopics": [
+            "Grid Search",
+            "Random Search",
+            "Bayesian Optimization"
+          ]
+        },
+        {
+          "title": "Distributed Training",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Distributed+Training"
+          ],
+          "subtopics": [
+            "Data Parallelism",
+            "Model Parallelism",
+            "Horovod"
+          ]
+        },
+        {
+          "title": "Mixed Precision Training",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Mixed+Precision+Training"
+          ],
+          "subtopics": [
+            "FP16",
+            "Loss Scaling",
+            "Performance Gains"
+          ]
+        },
+        {
+          "title": "Model Compression",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Model+Compression"
+          ],
+          "subtopics": [
+            "Pruning",
+            "Quantization",
+            "Knowledge Distillation"
+          ]
+        },
+        {
+          "title": "Explainable AI",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Explainable+AI"
+          ],
+          "subtopics": [
+            "SHAP",
+            "LIME",
+            "Feature Attribution"
+          ]
+        },
+        {
+          "title": "Ethics and Bias in ML",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Ethics+and+Bias+in+ML"
+          ],
+          "subtopics": [
+            "Bias Detection",
+            "Fairness Metrics",
+            "Responsible AI"
+          ]
+        },
+        {
+          "title": "Deployment and Serving",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Deployment+and+Serving"
+          ],
+          "subtopics": [
+            "Model Export",
+            "ONNX",
+            "Inference Optimization"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 7.194,
+        "prompt_hash": "cd40c77610d8bb3f51090d4db03b14233a32c1f96b510a0b85fcf05f158f829a"
+      }
+    },
+    {
+      "case_id": "case_009",
+      "position": "QA Engineer",
+      "company": "Apple",
+      "days": 21,
+      "hoursPerDay": 3,
+      "majorTopic": "test automation and CI/CD",
+      "total_hours": 63.0,
+      "target_hours": 63.0,
+      "num_topics": 6,
+      "mean_title_similarity": 0.02571428571428571,
+      "topics": [
+        {
+          "title": "Apple QA Engineering Overview & Toolchain",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Apple+QA+engineering+overview",
+            "https://www.google.com/search?q=Xcode+Test+Navigator"
+          ],
+          "subtopics": [
+            "Apple QA processes",
+            "Xcode Test Navigator",
+            "TestFlight integration"
+          ]
+        },
+        {
+          "title": "Test Automation Fundamentals with XCTest",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=XCTest+framework",
+            "https://www.google.com/search?q=XCUITest+tutorial"
+          ],
+          "subtopics": [
+            "XCTest framework basics",
+            "UI testing with XCUITest",
+            "Mocking and stubbing"
+          ]
+        },
+        {
+          "title": "CI/CD Pipelines for iOS Apps",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Fastlane+iOS+tutorial",
+            "https://www.google.com/search?q=GitHub+Actions+for+iOS+CI"
+          ],
+          "subtopics": [
+            "Fastlane setup",
+            "GitHub Actions for iOS",
+            "Automated code signing"
+          ]
+        },
+        {
+          "title": "Performance & Security Testing in Apple Ecosystem",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=iOS+performance+testing+Instruments",
+            "https://www.google.com/search?q=OWASP+mobile+security+testing"
+          ],
+          "subtopics": [
+            "Instruments profiling",
+            "App Store Connect metrics",
+            "Security testing with OWASP"
+          ]
+        },
+        {
+          "title": "Advanced Test Automation Strategies",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=data+driven+testing+iOS",
+            "https://www.google.com/search?q=parallel+test+execution+iOS"
+          ],
+          "subtopics": [
+            "Data-driven testing",
+            "Parallel test execution",
+            "Continuous testing culture"
+          ]
+        },
+        {
+          "title": "Metrics, Reporting & Continuous Improvement",
+          "estimatedHours": 11,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=test+coverage+iOS",
+            "https://www.google.com/search?q=bug+triage+process"
+          ],
+          "subtopics": [
+            "Test coverage analysis",
+            "Bug triage workflow",
+            "Feedback loops with DevOps"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 20.045,
+        "prompt_hash": "c90642905a087a214082f542154c9b32cffbb44978f05abc030355dc79b3a70f"
+      }
+    },
+    {
+      "case_id": "case_010",
+      "position": "Frontend Engineer",
+      "company": "Airbnb",
+      "days": 25,
+      "hoursPerDay": 3.5,
+      "majorTopic": "TypeScript and modern React patterns",
+      "total_hours": 87.5,
+      "target_hours": 87.5,
+      "num_topics": 8,
+      "mean_title_similarity": 0.043934240362811794,
+      "topics": [
+        {
+          "title": "TypeScript Fundamentals",
+          "estimatedHours": 17,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=TypeScript+Fundamentals+for+React+Developers"
+          ],
+          "subtopics": [
+            "Basic Types and Interfaces",
+            "Functions and Generics",
+            "Modules and Namespaces",
+            "Type Inference and Utility Types"
+          ]
+        },
+        {
+          "title": "Advanced TypeScript Patterns",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Advanced+TypeScript+Patterns+for+React"
+          ],
+          "subtopics": [
+            "Mapped Types and Conditional Types",
+            "Discriminated Unions",
+            "Type Guards and Runtime Checks",
+            "Advanced Generics"
+          ]
+        },
+        {
+          "title": "React Functional Components & Hooks",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=React+Functional+Components+and+Hooks+Best+Practices"
+          ],
+          "subtopics": [
+            "useState and useEffect",
+            "Custom Hooks",
+            "useReducer and useContext",
+            "Hook Rules and Linting"
+          ]
+        },
+        {
+          "title": "React Context & State Management",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=React+Context+and+State+Management+Patterns"
+          ],
+          "subtopics": [
+            "Context API Basics",
+            "State Normalization",
+            "Redux vs Context",
+            "Optimizing Context Updates"
+          ]
+        },
+        {
+          "title": "React Performance Optimization",
+          "estimatedHours": 13,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=React+Performance+Optimization+Techniques"
+          ],
+          "subtopics": [
+            "Memoization with React.memo",
+            "useMemo and useCallback",
+            "Code Splitting and Lazy Loading",
+            "Virtualization and Windowing"
+          ]
+        },
+        {
+          "title": "Testing with React Testing Library & Jest",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Testing+React+Components+with+Testing+Library+and+Jest"
+          ],
+          "subtopics": [
+            "Unit Tests for Components",
+            "Mocking and Spies",
+            "Testing Custom Hooks",
+            "Snapshot Testing and Coverage"
+          ]
+        },
+        {
+          "title": "Accessibility & Internationalization",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=React+Accessibility+and+Internationalization+Best+Practices"
+          ],
+          "subtopics": [
+            "ARIA Roles and Attributes",
+            "Keyboard Navigation",
+            "i18n with react-i18next",
+            "Locale-aware Formatting"
+          ]
+        },
+        {
+          "title": "Airbnb Design System & Component Library",
+          "estimatedHours": 7.5,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Airbnb+Design+System+React+Components"
+          ],
+          "subtopics": [
+            "Airbnb UI Library Overview",
+            "Custom Component Development",
+            "Theming and Styling",
+            "Component Testing and Documentation"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 5.617,
+        "prompt_hash": "08ccb5ec6c273a4a38e078e701cd6994cf9d4f116a8ca6164d55ecf4c5da40ef"
+      }
+    },
+    {
+      "case_id": "case_014",
+      "position": "Android Developer",
+      "company": "LinkedIn",
+      "days": 30,
+      "hoursPerDay": 3.5,
+      "majorTopic": "Kotlin, Android architecture, and testing",
+      "total_hours": 106.0,
+      "target_hours": 105.0,
+      "num_topics": 10,
+      "mean_title_similarity": 0.02382716049382716,
+      "topics": [
+        {
+          "title": "Kotlin Basics & Advanced Features",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Kotlin+language+basics",
+            "https://www.google.com/search?q=Kotlin+advanced+features"
+          ],
+          "subtopics": [
+            "Basic syntax",
+            "Null safety",
+            "Extension functions",
+            "Higher-order functions",
+            "Coroutines basics"
+          ]
+        },
+        {
+          "title": "Android Jetpack Components",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Android+Jetpack+components",
+            "https://www.google.com/search?q=Android+Architecture+Components"
+          ],
+          "subtopics": [
+            "Lifecycle-aware components",
+            "Data Binding",
+            "ViewModel",
+            "LiveData",
+            "WorkManager"
+          ]
+        },
+        {
+          "title": "MVVM Architecture with LiveData & ViewModel",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=MVVM+Android+LiveData",
+            "https://www.google.com/search?q=Android+ViewModel+architecture"
+          ],
+          "subtopics": [
+            "ViewModel lifecycle",
+            "LiveData observers",
+            "Repository pattern",
+            "Data binding with ViewModel"
+          ]
+        },
+        {
+          "title": "Dependency Injection with Hilt",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Hilt+Android+DI",
+            "https://www.google.com/search?q=Dependency+Injection+Android+Hilt"
+          ],
+          "subtopics": [
+            "Hilt modules",
+            "Component scopes",
+            "Injecting ViewModels",
+            "Testing with Hilt"
+          ]
+        },
+        {
+          "title": "Coroutines & Flow for Asynchronous Programming",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Kotlin+Coroutines+Android",
+            "https://www.google.com/search?q=Flow+Android+example"
+          ],
+          "subtopics": [
+            "Suspend functions",
+            "Coroutine scopes",
+            "Flow operators",
+            "Error handling",
+            "Testing coroutines"
+          ]
+        },
+        {
+          "title": "Room Persistence Library & Data Layer",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Room+Android+database",
+            "https://www.google.com/search?q=Room+architecture+layer"
+          ],
+          "subtopics": [
+            "Entity definition",
+            "DAO interfaces",
+            "Database migrations",
+            "Room with Coroutines",
+            "Testing Room"
+          ]
+        },
+        {
+          "title": "Navigation Component & Deep Linking",
+          "estimatedHours": 9,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Navigation+Component+Android",
+            "https://www.google.com/search?q=Deep+Linking+Android+Navigation"
+          ],
+          "subtopics": [
+            "NavGraph",
+            "Safe Args",
+            "Deep link handling",
+            "Navigation animations"
+          ]
+        },
+        {
+          "title": "UI Testing with Espresso & UI Automator",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Espresso+Android+testing",
+            "https://www.google.com/search?q=UI+Automator+Android+testing"
+          ],
+          "subtopics": [
+            "Espresso matchers",
+            "Idling resources",
+            "UI Automator basics",
+            "Testing fragments"
+          ]
+        },
+        {
+          "title": "Unit Testing with JUnit & MockK",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=JUnit+Android+testing",
+            "https://www.google.com/search?q=MockK+Android+unit+testing"
+          ],
+          "subtopics": [
+            "JUnit 5",
+            "MockK stubs",
+            "Testing ViewModel",
+            "Testing Repository"
+          ]
+        },
+        {
+          "title": "CI/CD & Test Coverage for Android",
+          "estimatedHours": 9,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Android+CI+CD+GitHub+Actions",
+            "https://www.google.com/search?q=Android+test+coverage+Jacoco"
+          ],
+          "subtopics": [
+            "Gradle CI scripts",
+            "GitHub Actions workflow",
+            "Jacoco coverage reports",
+            "Automated test runs"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 20.352,
+        "prompt_hash": "1f5130a4f8893ce993e09723a16bbe307614fa1c5127f815c97aacdab6629beb"
+      }
+    },
+    {
+      "case_id": "case_015",
+      "position": "iOS Developer",
+      "company": "Apple",
+      "days": 32,
+      "hoursPerDay": 4,
+      "majorTopic": "Swift and SwiftUI design patterns",
+      "total_hours": 126.0,
+      "target_hours": 128.0,
+      "num_topics": 12,
+      "mean_title_similarity": 0.038185425685425683,
+      "topics": [
+        {
+          "title": "Swift Language Fundamentals",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Swift+Language+Fundamentals"
+          ],
+          "subtopics": [
+            "Variables & Constants",
+            "Data Types",
+            "Control Flow",
+            "Functions",
+            "Closures",
+            "Optionals",
+            "Error Handling",
+            "Enumerations",
+            "Structures",
+            "Classes",
+            "Inheritance",
+            "Protocols",
+            "Extensions",
+            "Memory Management",
+            "ARC",
+            "Value vs Reference Types"
+          ]
+        },
+        {
+          "title": "Advanced Swift: Protocols, Generics, Extensions",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Advanced+Swift+Protocols+Generics+Extensions"
+          ],
+          "subtopics": [
+            "Protocol-Oriented Programming",
+            "Associated Types",
+            "Protocol Extensions",
+            "Generics Basics",
+            "Generic Constraints",
+            "Type Erasure",
+            "Result Type",
+            "Error Handling Patterns",
+            "Advanced Extensions",
+            "Protocol Composition"
+          ]
+        },
+        {
+          "title": "Swift Concurrency",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Swift+Concurrency+async+await+Actors"
+          ],
+          "subtopics": [
+            "async/await",
+            "Task",
+            "TaskGroup",
+            "Actors",
+            "Structured Concurrency",
+            "Continuations",
+            "Concurrency Safety",
+            "Threading",
+            "GCD",
+            "OperationQueue",
+            "Performance"
+          ]
+        },
+        {
+          "title": "SwiftUI Basics and State Management",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=SwiftUI+Basics+State+Management"
+          ],
+          "subtopics": [
+            "Views",
+            "Modifiers",
+            "State",
+            "Binding",
+            "ObservedObject",
+            "StateObject",
+            "Environment",
+            "EnvironmentObject",
+            "@AppStorage",
+            "@SceneStorage",
+            "Navigation",
+            "List",
+            "Form",
+            "Preview"
+          ]
+        },
+        {
+          "title": "SwiftUI Advanced: Layout, Animations, Accessibility",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=SwiftUI+Advanced+Layout+Animations+Accessibility"
+          ],
+          "subtopics": [
+            "GeometryReader",
+            "ZStack",
+            "HStack",
+            "VStack",
+            "LazyVStack",
+            "LazyHStack",
+            "Animations",
+            "Transitions",
+            "Accessibility",
+            "VoiceOver",
+            "Dynamic Type",
+            "Dark Mode",
+            "Custom Modifiers",
+            "Performance"
+          ]
+        },
+        {
+          "title": "Design Patterns in Swift",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Swift+Design+Patterns+Singleton+Factory+Observer"
+          ],
+          "subtopics": [
+            "Singleton",
+            "Factory",
+            "Builder",
+            "Observer",
+            "Delegation",
+            "MVC",
+            "MVVM",
+            "Coordinator",
+            "Dependency Injection",
+            "Protocol-Oriented Design"
+          ]
+        },
+        {
+          "title": "SwiftUI Design Patterns",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=SwiftUI+Design+Patterns+MVVM+Coordinator"
+          ],
+          "subtopics": [
+            "MVVM with SwiftUI",
+            "Coordinator for Navigation",
+            "EnvironmentObject for shared state",
+            "Combine for reactive",
+            "Custom ViewModifiers",
+            "ViewBuilder",
+            "ViewModel lifecycle",
+            "Dependency Injection",
+            "Testing Views",
+            "Reusable Components"
+          ]
+        },
+        {
+          "title": "Combine Framework and Reactive Programming",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Combine+Framework+Reactive+Programming"
+          ],
+          "subtopics": [
+            "Publishers",
+            "Subscribers",
+            "Operators",
+            "Subjects",
+            "Error Handling",
+            "Debounce",
+            "Throttle",
+            "CombineLatest",
+            "FlatMap",
+            "Just",
+            "Deferred",
+            "Testing Combine"
+          ]
+        },
+        {
+          "title": "Architecture Patterns",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Architecture+Patterns+MVVM+VIPER+Clean+Architecture"
+          ],
+          "subtopics": [
+            "MVVM",
+            "VIPER",
+            "Clean Architecture",
+            "Redux",
+            "Flux",
+            "TCA",
+            "Layered Architecture",
+            "Domain-Driven Design",
+            "Dependency Injection",
+            "Testing Strategy"
+          ]
+        },
+        {
+          "title": "Testing",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Testing+XCTest+UI+Snapshot+Mocking"
+          ],
+          "subtopics": [
+            "Unit Tests",
+            "XCTest",
+            "UI Tests",
+            "Snapshot Tests",
+            "Mocking",
+            "Test-Driven Development",
+            "Continuous Integration",
+            "Code Coverage",
+            "Performance Tests",
+            "Test Doubles"
+          ]
+        },
+        {
+          "title": "Performance Optimization",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Performance+Optimization+Instruments+SwiftUI"
+          ],
+          "subtopics": [
+            "Instruments",
+            "Time Profiler",
+            "Allocations",
+            "Leaks",
+            "Energy Log",
+            "Network",
+            "Disk I/O",
+            "Memory Footprint",
+            "CPU Usage",
+            "Profiling SwiftUI",
+            "Lazy Loading",
+            "Caching",
+            "Profiling Combine"
+          ]
+        },
+        {
+          "title": "Interview Preparation",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Apple+iOS+Developer+Interview+Preparation"
+          ],
+          "subtopics": [
+            "Behavioral Questions",
+            "System Design",
+            "Apple Design Principles",
+            "Swift Language Questions",
+            "SwiftUI Questions",
+            "Design Patterns",
+            "Architecture",
+            "Testing",
+            "Performance",
+            "Concurrency",
+            "Problem Solving",
+            "Mock Interviews"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 20.701,
+        "prompt_hash": "6e9d8053016e6ebaac40c24ccf82bc33e0fc6beb399bce65a65923238cec815f"
+      }
+    },
+    {
+      "case_id": "case_016",
+      "position": "Solutions Engineer",
+      "company": "Salesforce",
+      "days": 28,
+      "hoursPerDay": 3,
+      "majorTopic": "Salesforce platform and customization",
+      "total_hours": 84.0,
+      "target_hours": 84.0,
+      "num_topics": 8,
+      "mean_title_similarity": 0.036848072562358274,
+      "topics": [
+        {
+          "title": "Salesforce Platform Fundamentals",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Salesforce+Platform+Fundamentals"
+          ],
+          "subtopics": [
+            "Salesforce Architecture",
+            "Core Data Model",
+            "Security Model",
+            "Lightning Experience Overview"
+          ]
+        },
+        {
+          "title": "Apex Programming Basics",
+          "estimatedHours": 13,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Apex+Programming+Basics"
+          ],
+          "subtopics": [
+            "Triggers",
+            "Classes+%26+Methods",
+            "SOQL+%26+SOSL",
+            "Testing+%26+Debugging"
+          ]
+        },
+        {
+          "title": "Lightning Web Components (LWC) Development",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Lightning+Web+Components+Development"
+          ],
+          "subtopics": [
+            "Component+Lifecycle",
+            "Data+Binding",
+            "Wire+Service",
+            "Integration+with+Apex"
+          ]
+        },
+        {
+          "title": "Visualforce+%26+Classic+UI+Customization",
+          "estimatedHours": 8,
+          "priority": "Medium",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Visualforce+Custom+Pages"
+          ],
+          "subtopics": [
+            "Page+Syntax",
+            "Controllers",
+            "Styling+with+CSS",
+            "Migration+to+Lightning"
+          ]
+        },
+        {
+          "title": "Salesforce+Integration+REST+SOAP",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Salesforce+Integration+REST+SOAP"
+          ],
+          "subtopics": [
+            "Outbound+Messaging",
+            "Named+Credentials",
+            "External+Services",
+            "Batch+Integration"
+          ]
+        },
+        {
+          "title": "Data+Modeling+%26+Security",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Salesforce+Data+Modeling+Security"
+          ],
+          "subtopics": [
+            "Object+Relationships",
+            "Field-Level+Security",
+            "Sharing+Rules",
+            "Permission+Sets"
+          ]
+        },
+        {
+          "title": "AppExchange+%26+Custom+App+Development",
+          "estimatedHours": 12,
+          "priority": "Medium",
+          "referenceLinks": [
+            "https://www.google.com/search?q=AppExchange+Custom+App+Development"
+          ],
+          "subtopics": [
+            "App+Builder",
+            "Custom+Objects",
+            "Lightning+Pages",
+            "AppExchange+Packaging"
+          ]
+        },
+        {
+          "title": "Deployment+%26+DevOps+Practices",
+          "estimatedHours": 7,
+          "priority": "Medium",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Salesforce+Deployment+DevOps"
+          ],
+          "subtopics": [
+            "Change+Sets",
+            "Scratch+Org",
+            "CI/CD+with+Git",
+            "Automated+Testing"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 12.175,
+        "prompt_hash": "8bc788c1fcbb63a428b1d4dcb3c91f4b28ff0b46ca099294ec1818a8db91adea"
+      }
+    },
+    {
+      "case_id": "case_017",
+      "position": "Database Administrator",
+      "company": "Oracle",
+      "days": 33,
+      "hoursPerDay": 3.5,
+      "majorTopic": "SQL tuning and database optimization",
+      "total_hours": 113.5,
+      "target_hours": 115.5,
+      "num_topics": 11,
+      "mean_title_similarity": 0.016666666666666666,
+      "topics": [
+        {
+          "title": "Oracle Database Architecture",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Oracle+Database+Architecture"
+          ],
+          "subtopics": [
+            "Instance vs Database",
+            "Memory Structures",
+            "Background Processes",
+            "Datafiles & Tablespaces"
+          ]
+        },
+        {
+          "title": "SQL Performance Basics",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=SQL+Performance+Basics+Oracle"
+          ],
+          "subtopics": [
+            "Explain Plan Basics",
+            "Cost-Based Optimizer",
+            "Statistics Collection",
+            "SQL*Plus Performance Tools"
+          ]
+        },
+        {
+          "title": "Execution Plan Analysis",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Execution+Plan+Analysis+Oracle"
+          ],
+          "subtopics": [
+            "Analyzing SQL*Plus Explain Plan",
+            "SQL Trace & TKPROF",
+            "Optimizer Hints",
+            "Plan Stability"
+          ]
+        },
+        {
+          "title": "Indexing Strategies",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Indexing+Strategies+Oracle"
+          ],
+          "subtopics": [
+            "B-Tree vs Bitmap",
+            "Function-Based Indexes",
+            "Index Maintenance",
+            "Index-Only Scans"
+          ]
+        },
+        {
+          "title": "Partitioning and Sharding",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Partitioning+and+Sharding+Oracle"
+          ],
+          "subtopics": [
+            "Range, List, Hash Partitioning",
+            "Composite Partitioning",
+            "Sharding Concepts",
+            "Partition Maintenance"
+          ]
+        },
+        {
+          "title": "SQL Tuning Advisor & SQL Access Advisor",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=SQL+Tuning+Advisor+Oracle"
+          ],
+          "subtopics": [
+            "Using SQL Tuning Advisor",
+            "SQL Access Advisor Recommendations",
+            "Automated Tuning",
+            "Manual Tuning Steps"
+          ]
+        },
+        {
+          "title": "Memory Management (SGA, PGA)",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Memory+Management+Oracle+SGA+PGA"
+          ],
+          "subtopics": [
+            "SGA Components",
+            "PGA Allocation",
+            "Memory Tuning",
+            "Automatic Memory Management"
+          ]
+        },
+        {
+          "title": "Concurrency & Locking",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Concurrency+and+Locking+Oracle"
+          ],
+          "subtopics": [
+            "Lock Types",
+            "Deadlock Detection",
+            "Isolation Levels",
+            "Optimistic vs Pessimistic Locking"
+          ]
+        },
+        {
+          "title": "I/O Optimization & Storage",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=I/O+Optimization+Oracle"
+          ],
+          "subtopics": [
+            "File System Tuning",
+            "ASM Performance",
+            "IO Statistics",
+            "Storage Architecture"
+          ]
+        },
+        {
+          "title": "Backup & Recovery Strategies",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Backup+and+Recovery+Strategies+Oracle"
+          ],
+          "subtopics": [
+            "RMAN Basics",
+            "Flashback Technology",
+            "Point-in-Time Recovery",
+            "Backup Scheduling"
+          ]
+        },
+        {
+          "title": "Advanced SQL Tuning Techniques",
+          "estimatedHours": 13.5,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Advanced+SQL+Tuning+Techniques+Oracle"
+          ],
+          "subtopics": [
+            "Advanced Hints",
+            "Dynamic Sampling",
+            "SQL Plan Management",
+            "Performance Regression Testing"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 17.937,
+        "prompt_hash": "d93e5b0e65b5be9b35fc37c61da5f6d932dae75ff88bf390a3ceae299afd88b5"
+      }
+    },
+    {
+      "case_id": "case_018",
+      "position": "Embedded Systems Engineer",
+      "company": "Tesla",
+      "days": 40,
+      "hoursPerDay": 4.5,
+      "majorTopic": "C/C++, real-time systems, and firmware",
+      "total_hours": 180.0,
+      "target_hours": 180.0,
+      "num_topics": 18,
+      "mean_title_similarity": 0.035120344434069924,
+      "topics": [
+        {
+          "title": "C++ Core Language Features",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=C%2B%2B+core+language+features"
+          ],
+          "subtopics": [
+            "Object-Oriented Programming",
+            "Templates and STL",
+            "Modern C++ (C++11/14/17/20)"
+          ]
+        },
+        {
+          "title": "C Language Fundamentals",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=C+language+fundamentals"
+          ],
+          "subtopics": [
+            "Pointers and Memory Layout",
+            "Standard Library Functions",
+            "Header Files and Compilation Units"
+          ]
+        },
+        {
+          "title": "Embedded C/C++ Toolchains",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=embedded+C%2B%2B+toolchains"
+          ],
+          "subtopics": [
+            "Cross-Compiler Setup",
+            "Linker Scripts",
+            "Build Systems (Make, CMake)"
+          ]
+        },
+        {
+          "title": "Real-Time Operating Systems (RTOS) Basics",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=RTOS+basics"
+          ],
+          "subtopics": [
+            "Task Management",
+            "Synchronization Primitives",
+            "Timing and Delays"
+          ]
+        },
+        {
+          "title": "RTOS Kernel Design and Scheduling",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=RTOS+kernel+design+and+scheduling"
+          ],
+          "subtopics": [
+            "Priority Inheritance",
+            "Tickless Scheduling",
+            "Context Switching"
+          ]
+        },
+        {
+          "title": "Interrupt Handling and ISRs",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=interrupt+handling+and+ISRs"
+          ],
+          "subtopics": [
+            "NVIC Configuration",
+            "Debouncing and Edge Detection",
+            "ISR Latency Measurement"
+          ]
+        },
+        {
+          "title": "Memory Management in Embedded Systems",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=memory+management+in+embedded+systems"
+          ],
+          "subtopics": [
+            "Static vs Dynamic Allocation",
+            "Heap Management Strategies",
+            "Memory Protection Units"
+          ]
+        },
+        {
+          "title": "Peripheral Interface Programming (SPI, I2C, UART)",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=peripheral+interface+programming+SPI+I2C+UART"
+          ],
+          "subtopics": [
+            "Master/Slave Configuration",
+            "DMA Integration",
+            "Error Handling"
+          ]
+        },
+        {
+          "title": "Firmware Development Lifecycle",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=firmware+development+lifecycle"
+          ],
+          "subtopics": [
+            "Requirements Analysis",
+            "Design Documentation",
+            "Release Management"
+          ]
+        },
+        {
+          "title": "Debugging and Testing Embedded Firmware",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=debugging+and+testing+embedded+firmware"
+          ],
+          "subtopics": [
+            "In-Circuit Debuggers",
+            "Unit Testing Frameworks",
+            "Fault Injection"
+          ]
+        },
+        {
+          "title": "Power Management and Low-Power Design",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=power+management+and+low-power+design"
+          ],
+          "subtopics": [
+            "Sleep Modes",
+            "Voltage Scaling",
+            "Power Profiling"
+          ]
+        },
+        {
+          "title": "Automotive Safety Standards (ISO 26262)",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=ISO+26262+automotive+safety+standards"
+          ],
+          "subtopics": [
+            "Functional Safety Lifecycle",
+            "Hazard Analysis",
+            "Safety Validation"
+          ]
+        },
+        {
+          "title": "CAN Bus Protocol and Implementation",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=CAN+bus+protocol+implementation"
+          ],
+          "subtopics": [
+            "Frame Formats",
+            "Arbitration",
+            "Error Handling"
+          ]
+        },
+        {
+          "title": "Automotive Ethernet and AUTOSAR",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=automotive+ethernet+and+AUTOSAR"
+          ],
+          "subtopics": [
+            "Layered Architecture",
+            "Communication Services",
+            "Diagnostics"
+          ]
+        },
+        {
+          "title": "Real-Time Communication Protocols",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=real-time+communication+protocols"
+          ],
+          "subtopics": [
+            "Time-Triggered Protocols",
+            "Event-Triggered Protocols",
+            "Synchronization Mechanisms"
+          ]
+        },
+        {
+          "title": "Performance Optimization Techniques",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=performance+optimization+techniques+embedded"
+          ],
+          "subtopics": [
+            "Loop Unrolling",
+            "Inline Assembly",
+            "Cache Utilization"
+          ]
+        },
+        {
+          "title": "Continuous Integration for Embedded Firmware",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=continuous+integration+for+embedded+firmware"
+          ],
+          "subtopics": [
+            "Automated Builds",
+            "Static Analysis Tools",
+            "Test Coverage Metrics"
+          ]
+        },
+        {
+          "title": "Deployment and OTA Updates",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=deployment+and+OTA+updates+embedded"
+          ],
+          "subtopics": [
+            "Secure Boot",
+            "Firmware Verification",
+            "Update Rollback Strategies"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 9.926,
+        "prompt_hash": "c4148cddfc446ba5eea9bf8b689a868ed1955965bf44d07aea6a25810e164a8f"
+      }
+    },
+    {
+      "case_id": "case_019",
+      "position": "Game Developer",
+      "company": "Unity",
+      "days": 35,
+      "hoursPerDay": 4,
+      "majorTopic": "game physics, graphics, and multiplayer",
+      "total_hours": 140.0,
+      "target_hours": 140.0,
+      "num_topics": 14,
+      "mean_title_similarity": 0.05375457875457875,
+      "topics": [
+        {
+          "title": "Unity Physics Fundamentals",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Physics+Fundamentals"
+          ],
+          "subtopics": [
+            "Understanding Unity's Physics Engine",
+            "Physics Time Step",
+            "FixedUpdate vs Update"
+          ]
+        },
+        {
+          "title": "Rigidbody and Collider Setup",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Rigidbody+and+Collider+Setup"
+          ],
+          "subtopics": [
+            "Adding Rigidbody Component",
+            "Choosing Collider Types",
+            "Mass and Drag Settings"
+          ]
+        },
+        {
+          "title": "Advanced Physics: Joints and Constraints",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Joints+and+Constraints"
+          ],
+          "subtopics": [
+            "Hinge Joint",
+            "Spring Joint",
+            "Fixed Joint"
+          ]
+        },
+        {
+          "title": "Physics Materials and Friction",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Physics+Materials+and+Friction"
+          ],
+          "subtopics": [
+            "Creating Physics Materials",
+            "Setting Static and Dynamic Friction",
+            "Bounciness"
+          ]
+        },
+        {
+          "title": "Collision Detection and Response",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Collision+Detection+and+Response"
+          ],
+          "subtopics": [
+            "OnCollisionEnter",
+            "OnTriggerEnter",
+            "Collision Layers"
+          ]
+        },
+        {
+          "title": "Physics Optimization Techniques",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Physics+Optimization+Techniques"
+          ],
+          "subtopics": [
+            "Physics Settings Tuning",
+            "Collision Matrix",
+            "Physics Debugging"
+          ]
+        },
+        {
+          "title": "Rendering Pipeline Basics",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Rendering+Pipeline+Basics"
+          ],
+          "subtopics": [
+            "Built-in vs URP vs HDRP",
+            "Pipeline Configuration",
+            "Render Queues"
+          ]
+        },
+        {
+          "title": "Shader Development with Shader Graph",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Shader+Graph+Development"
+          ],
+          "subtopics": [
+            "Creating Basic Shaders",
+            "Custom Properties",
+            "Node-Based Workflow"
+          ]
+        },
+        {
+          "title": "Lighting and Post-Processing",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Lighting+and+Post-Processing"
+          ],
+          "subtopics": [
+            "Directional Light",
+            "Ambient Occlusion",
+            "Bloom and Color Grading"
+          ]
+        },
+        {
+          "title": "Performance Profiling and Optimization",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Performance+Profiling+and+Optimization"
+          ],
+          "subtopics": [
+            "Profiler Usage",
+            "Frame Time Analysis",
+            "Reducing Draw Calls"
+          ]
+        },
+        {
+          "title": "Multiplayer Architecture Overview",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Multiplayer+Architecture+Overview"
+          ],
+          "subtopics": [
+            "Client-Server Model",
+            "Peer-to-Peer Model",
+            "Latency Considerations"
+          ]
+        },
+        {
+          "title": "Networked Physics Synchronization",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Networked+Physics+Synchronization"
+          ],
+          "subtopics": [
+            "Interpolation",
+            "Extrapolation",
+            "Lag Compensation"
+          ]
+        },
+        {
+          "title": "Photon Unity Networking (PUN) Integration",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Photon+Unity+Networking+PUN+Integration"
+          ],
+          "subtopics": [
+            "Setting Up PUN",
+            "Instantiating Networked Objects",
+            "RPC Calls"
+          ]
+        },
+        {
+          "title": "Matchmaking and Lobby Systems",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Unity+Matchmaking+and+Lobby+Systems"
+          ],
+          "subtopics": [
+            "Creating Lobby UI",
+            "Room Creation",
+            "Player Matching Logic"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 18.448,
+        "prompt_hash": "785e48955230117d3970a4befb91da607963fffa9926d84b8ef23f32756eb90b"
+      }
+    },
+    {
+      "case_id": "case_020",
+      "position": "Network Engineer",
+      "company": "Cisco",
+      "days": 30,
+      "hoursPerDay": 3.5,
+      "majorTopic": "networking protocols and firewall configuration",
+      "total_hours": 107.0,
+      "target_hours": 105.0,
+      "num_topics": 10,
+      "mean_title_similarity": 0.02271604938271605,
+      "topics": [
+        {
+          "title": "OSI Model & TCP/IP Basics",
+          "estimatedHours": 14,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=OSI+Model+TCP+IP+Basics"
+          ],
+          "subtopics": [
+            "OSI Layer Functions",
+            "TCP/IP Stack Overview",
+            "Protocol Interaction",
+            "Common Protocols per Layer",
+            "Troubleshooting Layer Issues"
+          ]
+        },
+        {
+          "title": "IPv4 & IPv6 Addressing & Subnetting",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=IPv4+IPv6+Addressing+Subnetting"
+          ],
+          "subtopics": [
+            "IPv4 Address Classes",
+            "CIDR & Subnet Masks",
+            "IPv6 Address Formats",
+            "Subnetting Calculations",
+            "Address Planning"
+          ]
+        },
+        {
+          "title": "Routing Protocols: OSPF & EIGRP",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=OSPF+EIGRP+Routing+Protocols"
+          ],
+          "subtopics": [
+            "OSPF Basics & Areas",
+            "EIGRP Fundamentals",
+            "Metric Calculation",
+            "Route Redistribution",
+            "Convergence & Troubleshooting"
+          ]
+        },
+        {
+          "title": "VLANs, Trunking, and Inter-VLAN Routing",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=VLAN+Trunking+Inter-VLAN+Routing"
+          ],
+          "subtopics": [
+            "VLAN Configuration",
+            "802.1Q Trunking",
+            "SVI & Router-on-a-Stick",
+            "VLAN Trunking Protocol (VTP)",
+            "VLAN Security"
+          ]
+        },
+        {
+          "title": "Spanning Tree Protocol (STP) & RSTP",
+          "estimatedHours": 8,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=STP+RSTP+Spanning+Tree+Protocol"
+          ],
+          "subtopics": [
+            "STP Fundamentals",
+            "RSTP Enhancements",
+            "Port Roles & States",
+            "STP Troubleshooting",
+            "BPDU Guard & Root Guard"
+          ]
+        },
+        {
+          "title": "NAT, PAT, and ACLs",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=NAT+PAT+ACLs+Cisco"
+          ],
+          "subtopics": [
+            "NAT Types (Static, Dynamic, PAT)",
+            "ACL Syntax & Types",
+            "ACL Placement",
+            "NAT Overload",
+            "Troubleshooting NAT/ACL"
+          ]
+        },
+        {
+          "title": "Cisco ASA Firewall Basics & Configuration",
+          "estimatedHours": 12,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Cisco+ASA+Firewall+Basics"
+          ],
+          "subtopics": [
+            "ASA Architecture",
+            "Interface Configuration",
+            "Security Zones",
+            "Basic Policy Rules",
+            "Logging & Monitoring"
+          ]
+        },
+        {
+          "title": "Firewall Policies, Zones, and NAT on ASA",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=ASA+Firewall+Policies+Zones+NAT"
+          ],
+          "subtopics": [
+            "Policy Ordering",
+            "Zone-Based Firewalling",
+            "NAT Rules on ASA",
+            "Access Lists for ASA",
+            "Policy Troubleshooting"
+          ]
+        },
+        {
+          "title": "VPN Technologies: IPsec & SSL VPN",
+          "estimatedHours": 10,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=IPsec+SSL+VPN+Cisco"
+          ],
+          "subtopics": [
+            "IPsec Concepts",
+            "SSL VPN Overview",
+            "Site-to-Site VPN Setup",
+            "Remote Access VPN",
+            "VPN Troubleshooting"
+          ]
+        },
+        {
+          "title": "Security Hardening & Monitoring on Cisco Devices",
+          "estimatedHours": 9,
+          "priority": "High",
+          "referenceLinks": [
+            "https://www.google.com/search?q=Cisco+Device+Security+Hardening+Monitoring"
+          ],
+          "subtopics": [
+            "Secure Management",
+            "SNMP & Syslog",
+            "AAA Configuration",
+            "Firmware Updates",
+            "Security Auditing"
+          ]
+        }
+      ],
+      "metadata": {
+        "model": "openai/gpt-oss-20b",
+        "duration_sec": 13.267,
+        "prompt_hash": "6d80baf0b59f01a892fe6d76b93d79ecb6bb62f91f46a911102bc56088eb9619"
+      }
+    }
+  ]
+}

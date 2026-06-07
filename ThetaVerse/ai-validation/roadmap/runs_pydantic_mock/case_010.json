@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "case": {
+      "position": "iOS Developer",
+      "company": "Apple",
+      "days": 32,
+      "hoursPerDay": 4,
+      "majorTopic": "Swift and SwiftUI design patterns"
+    },
+    "prompt_hash": "547406a471a16931b8766acd3a64a55453ec5957247ec3c08616e5fd2f4bbd1c",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.619725"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"Swift and SwiftUI design patterns focus area 1\", \"estimatedHours\": 10.7, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+iOS Developer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"Swift and SwiftUI design patterns focus area 2\", \"estimatedHours\": 10.7, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+iOS Developer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"Swift and SwiftUI design patterns focus area 3\", \"estimatedHours\": 10.7, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+iOS Developer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"Swift and SwiftUI design patterns focus area 4\", \"estimatedHours\": 10.7, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+iOS Developer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"Swift and SwiftUI design patterns focus area 5\", \"estimatedHours\": 10.7, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+iOS Developer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}, {\"title\": \"Swift and SwiftUI design patterns focus area 6\", \"estimatedHours\": 10.7, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+iOS Developer+topic+6\"], \"subtopics\": [\"Core concept 6\", \"Interview practice 6\"]}, {\"title\": \"Swift and SwiftUI design patterns focus area 7\", \"estimatedHours\": 10.7, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+iOS Developer+topic+7\"], \"subtopics\": [\"Core concept 7\", \"Interview practice 7\"]}, {\"title\": \"Swift and SwiftUI design patterns focus area 8\", \"estimatedHours\": 10.7, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+iOS Developer+topic+8\"], \"subtopics\": [\"Core concept 8\", \"Interview practice 8\"]}, {\"title\": \"Swift and SwiftUI design patterns focus area 9\", \"estimatedHours\": 10.7, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+iOS Developer+topic+9\"], \"subtopics\": [\"Core concept 9\", \"Interview practice 9\"]}, {\"title\": \"Swift and SwiftUI design patterns focus area 10\", \"estimatedHours\": 10.7, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+iOS Developer+topic+10\"], \"subtopics\": [\"Core concept 10\", \"Interview practice 10\"]}, {\"title\": \"Swift and SwiftUI design patterns focus area 11\", \"estimatedHours\": 10.7, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+iOS Developer+topic+11\"], \"subtopics\": [\"Core concept 11\", \"Interview practice 11\"]}, {\"title\": \"Swift and SwiftUI design patterns focus area 12\", \"estimatedHours\": 10.7, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Apple+iOS Developer+topic+12\"], \"subtopics\": [\"Core concept 12\", \"Interview practice 12\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Swift and SwiftUI design patterns focus area 1",
+        "estimatedHours": 10.7,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+iOS Developer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "Swift and SwiftUI design patterns focus area 2",
+        "estimatedHours": 10.7,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+iOS Developer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "Swift and SwiftUI design patterns focus area 3",
+        "estimatedHours": 10.7,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+iOS Developer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "Swift and SwiftUI design patterns focus area 4",
+        "estimatedHours": 10.7,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+iOS Developer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "Swift and SwiftUI design patterns focus area 5",
+        "estimatedHours": 10.7,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+iOS Developer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      },
+      {
+        "title": "Swift and SwiftUI design patterns focus area 6",
+        "estimatedHours": 10.7,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+iOS Developer+topic+6"
+        ],
+        "subtopics": [
+          "Core concept 6",
+          "Interview practice 6"
+        ]
+      },
+      {
+        "title": "Swift and SwiftUI design patterns focus area 7",
+        "estimatedHours": 10.7,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+iOS Developer+topic+7"
+        ],
+        "subtopics": [
+          "Core concept 7",
+          "Interview practice 7"
+        ]
+      },
+      {
+        "title": "Swift and SwiftUI design patterns focus area 8",
+        "estimatedHours": 10.7,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+iOS Developer+topic+8"
+        ],
+        "subtopics": [
+          "Core concept 8",
+          "Interview practice 8"
+        ]
+      },
+      {
+        "title": "Swift and SwiftUI design patterns focus area 9",
+        "estimatedHours": 10.7,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+iOS Developer+topic+9"
+        ],
+        "subtopics": [
+          "Core concept 9",
+          "Interview practice 9"
+        ]
+      },
+      {
+        "title": "Swift and SwiftUI design patterns focus area 10",
+        "estimatedHours": 10.7,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+iOS Developer+topic+10"
+        ],
+        "subtopics": [
+          "Core concept 10",
+          "Interview practice 10"
+        ]
+      },
+      {
+        "title": "Swift and SwiftUI design patterns focus area 11",
+        "estimatedHours": 10.7,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+iOS Developer+topic+11"
+        ],
+        "subtopics": [
+          "Core concept 11",
+          "Interview practice 11"
+        ]
+      },
+      {
+        "title": "Swift and SwiftUI design patterns focus area 12",
+        "estimatedHours": 10.7,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Apple+iOS Developer+topic+12"
+        ],
+        "subtopics": [
+          "Core concept 12",
+          "Interview practice 12"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 128.39999999999998,
+    "target_hours": 128,
+    "num_topics": 12,
+    "error": null
+  }
+}

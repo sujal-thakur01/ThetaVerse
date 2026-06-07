@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "case": {
+      "position": "Embedded Systems Engineer",
+      "company": "Tesla",
+      "days": 40,
+      "hoursPerDay": 4.5,
+      "majorTopic": "C/C++, real-time systems, and firmware"
+    },
+    "prompt_hash": "32bbc09533e1cfb4de85d721028b41061c31b23ad68259fd2f66f153bbb0c6d8",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:33:05.838121"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"C Programming Fundamentals\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=C+Programming+Fundamentals\"],\"subtopics\":[\"Data Types & Variables\",\"Control Structures\",\"Memory Management Basics\"]},{\"title\":\"C++ Advanced Features\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=C+++Advanced+Features\"],\"subtopics\":[\"Object-Oriented Programming\",\"Templates & STL\",\"Move Semantics & RAII\"]},{\"title\":\"Embedded Systems Architecture\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Embedded+Systems+Architecture\"],\"subtopics\":[\"Microcontroller vs MCU vs MPU\",\"Bootloaders\",\"Hardware Abstraction Layers\"]},{\"title\":\"Real-Time Operating Systems (RTOS)\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=RTOS+Embedded+Systems\"],\"subtopics\":[\"Task Scheduling\",\"Priority Inversion\",\"Inter-task Communication\"]},{\"title\":\"Interrupt Handling & ISRs\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Interrupt+Handling+Embedded\"],\"subtopics\":[\"ISR Design Principles\",\"Nested Interrupts\",\"Debouncing & Latency\"]},{\"title\":\"Memory Management & Optimization\",\"estimatedHours\":15,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=Memory+Management+Embedded\"],\"subtopics\":[\"Static vs Dynamic Allocation\",\"Heap Fragmentation\",\"Cache Coherency\"]},{\"title\":\"Peripheral Communication Protocols (SPI/I2C/UART)\",\"estimatedHours\":15,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=SPI+I2C+UART+Embedded\"],\"subtopics\":[\"Protocol Basics\",\"Bit-Banging vs Hardware Modules\",\"Error Handling\"]},{\"title\":\"Firmware Development Workflow\",\"estimatedHours\":15,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=Firmware+Development+Workflow\"],\"subtopics\":[\"Version Control\",\"CI/CD for Embedded\",\"Release Management\"]},{\"title\":\"Debugging & Testing Techniques\",\"estimatedHours\":15,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=Embedded+Debugging+Testing\"],\"subtopics\":[\"In-Circuit Debugging\",\"Unit Testing Frameworks\",\"Hardware-in-the-Loop\"]},{\"title\":\"Power Management & Low-Power Design\",\"estimatedHours\":15,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=Low+Power+Embedded+Design\"],\"subtopics\":[\"Sleep Modes\",\"Dynamic Voltage Scaling\",\"Power Profiling\"]},{\"title\":\"Safety & Reliability Standards (ISO 26262)\",\"estimatedHours\":15,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=ISO+26262+Embedded\"],\"subtopics\":[\"Functional Safety Lifecycle\",\"Hazard Analysis\",\"Safety Case Documentation\"]},{\"title\":\"Performance Profiling & Optimization\",\"estimatedHours\":15,\"priority\":\"Medium\",\"referenceLinks\":[\"https://www.google.com/search?q=Embedded+Performance+Profiling\"],\"subtopics\":[\"Profiling Tools\",\"Instruction-Level Optimization\",\"Real-Time Constraints\"]}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 180.0,
+    "target_hours": 180.0,
+    "num_topics": 12,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "C Programming Fundamentals",
+        "estimatedHours": 15,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=C+Programming+Fundamentals"
+        ],
+        "subtopics": [
+          "Data Types & Variables",
+          "Control Structures",
+          "Memory Management Basics"
+        ]
+      },
+      {
+        "title": "C++ Advanced Features",
+        "estimatedHours": 15,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=C+++Advanced+Features"
+        ],
+        "subtopics": [
+          "Object-Oriented Programming",
+          "Templates & STL",
+          "Move Semantics & RAII"
+        ]
+      },
+      {
+        "title": "Embedded Systems Architecture",
+        "estimatedHours": 15,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Embedded+Systems+Architecture"
+        ],
+        "subtopics": [
+          "Microcontroller vs MCU vs MPU",
+          "Bootloaders",
+          "Hardware Abstraction Layers"
+        ]
+      },
+      {
+        "title": "Real-Time Operating Systems (RTOS)",
+        "estimatedHours": 15,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=RTOS+Embedded+Systems"
+        ],
+        "subtopics": [
+          "Task Scheduling",
+          "Priority Inversion",
+          "Inter-task Communication"
+        ]
+      },
+      {
+        "title": "Interrupt Handling & ISRs",
+        "estimatedHours": 15,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Interrupt+Handling+Embedded"
+        ],
+        "subtopics": [
+          "ISR Design Principles",
+          "Nested Interrupts",
+          "Debouncing & Latency"
+        ]
+      },
+      {
+        "title": "Memory Management & Optimization",
+        "estimatedHours": 15,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Memory+Management+Embedded"
+        ],
+        "subtopics": [
+          "Static vs Dynamic Allocation",
+          "Heap Fragmentation",
+          "Cache Coherency"
+        ]
+      },
+      {
+        "title": "Peripheral Communication Protocols (SPI/I2C/UART)",
+        "estimatedHours": 15,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=SPI+I2C+UART+Embedded"
+        ],
+        "subtopics": [
+          "Protocol Basics",
+          "Bit-Banging vs Hardware Modules",
+          "Error Handling"
+        ]
+      },
+      {
+        "title": "Firmware Development Workflow",
+        "estimatedHours": 15,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Firmware+Development+Workflow"
+        ],
+        "subtopics": [
+          "Version Control",
+          "CI/CD for Embedded",
+          "Release Management"
+        ]
+      },
+      {
+        "title": "Debugging & Testing Techniques",
+        "estimatedHours": 15,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Embedded+Debugging+Testing"
+        ],
+        "subtopics": [
+          "In-Circuit Debugging",
+          "Unit Testing Frameworks",
+          "Hardware-in-the-Loop"
+        ]
+      },
+      {
+        "title": "Power Management & Low-Power Design",
+        "estimatedHours": 15,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Low+Power+Embedded+Design"
+        ],
+        "subtopics": [
+          "Sleep Modes",
+          "Dynamic Voltage Scaling",
+          "Power Profiling"
+        ]
+      },
+      {
+        "title": "Safety & Reliability Standards (ISO 26262)",
+        "estimatedHours": 15,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=ISO+26262+Embedded"
+        ],
+        "subtopics": [
+          "Functional Safety Lifecycle",
+          "Hazard Analysis",
+          "Safety Case Documentation"
+        ]
+      },
+      {
+        "title": "Performance Profiling & Optimization",
+        "estimatedHours": 15,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Embedded+Performance+Profiling"
+        ],
+        "subtopics": [
+          "Profiling Tools",
+          "Instruction-Level Optimization",
+          "Real-Time Constraints"
+        ]
+      }
+    ]
+  }
+}

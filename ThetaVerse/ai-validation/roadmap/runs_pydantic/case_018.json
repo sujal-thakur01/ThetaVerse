@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "case": {
+      "position": "Embedded Systems Engineer",
+      "company": "Tesla",
+      "days": 40,
+      "hoursPerDay": 4.5,
+      "majorTopic": "C/C++, real-time systems, and firmware"
+    },
+    "prompt_hash": "32bbc09533e1cfb4de85d721028b41061c31b23ad68259fd2f66f153bbb0c6d8",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:05:26.689117"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Advanced C/C++ Programming\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=advanced+c%2Fc++ programming\"],\"subtopics\":[\"Templates and Metaprogramming\",\"Move Semantics and RAII\"]},{\"title\":\"Embedded Memory Management\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=embedded+memory+management\"],\"subtopics\":[\"Static vs Dynamic Allocation\",\"Memory Pools and Allocators\"]},{\"title\":\"Real-Time Operating Systems (RTOS) Fundamentals\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=rtos+basics\"],\"subtopics\":[\"Kernel Architecture\",\"Task States and Context Switching\"]},{\"title\":\"Task Scheduling and Prioritization\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=task+scheduling+rtos\"],\"subtopics\":[\"Priority Inheritance\",\"Deterministic Scheduling\"]},{\"title\":\"Interrupt Handling and ISRs\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=interrupt+handling+embedded\"],\"subtopics\":[\"ISR Design Guidelines\",\"Nested Interrupts\"]},{\"title\":\"Hardware Abstraction Layer (HAL) Design\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=hal+design+embedded\"],\"subtopics\":[\"Layered Architecture\",\"Register Access\"]},{\"title\":\"Peripheral Driver Development\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=peripheral+driver+development\"],\"subtopics\":[\"GPIO, UART, ADC Drivers\",\"Driver Lifecycle\"]},{\"title\":\"Communication Protocols: CAN, SPI, I2C\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=can+spi+i2c+protocols\"],\"subtopics\":[\"CAN Bus Arbitration\",\"SPI Mode Selection\"]},{\"title\":\"Power Management and Low-Power Design\",\"estimatedHours\":15,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=power+management+embedded\"],\"subtopics\":[\"Sleep Mode"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 180.0,
+    "target_hours": 180.0,
+    "num_topics": 12,
+    "error": null
+  }
+}

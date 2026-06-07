@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "case": {
+      "position": "Junior Developer",
+      "company": "Startup",
+      "days": 14,
+      "hoursPerDay": 2,
+      "majorTopic": "JavaScript fundamentals and DOM manipulation"
+    },
+    "prompt_hash": "2330d09fd7961ccaf950418b70d720f2c64e5d27b595e9f8b200f8fe4f5cced5",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.617096"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"JavaScript fundamentals and DOM manipulation focus area 1\", \"estimatedHours\": 5.6, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Startup+Junior Developer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"JavaScript fundamentals and DOM manipulation focus area 2\", \"estimatedHours\": 5.6, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Startup+Junior Developer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"JavaScript fundamentals and DOM manipulation focus area 3\", \"estimatedHours\": 5.6, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Startup+Junior Developer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"JavaScript fundamentals and DOM manipulation focus area 4\", \"estimatedHours\": 5.6, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Startup+Junior Developer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"JavaScript fundamentals and DOM manipulation focus area 5\", \"estimatedHours\": 5.6, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Startup+Junior Developer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "JavaScript fundamentals and DOM manipulation focus area 1",
+        "estimatedHours": 5.6,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Startup+Junior Developer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "JavaScript fundamentals and DOM manipulation focus area 2",
+        "estimatedHours": 5.6,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Startup+Junior Developer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "JavaScript fundamentals and DOM manipulation focus area 3",
+        "estimatedHours": 5.6,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Startup+Junior Developer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "JavaScript fundamentals and DOM manipulation focus area 4",
+        "estimatedHours": 5.6,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Startup+Junior Developer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "JavaScript fundamentals and DOM manipulation focus area 5",
+        "estimatedHours": 5.6,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Startup+Junior Developer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 28.0,
+    "target_hours": 28,
+    "num_topics": 5,
+    "error": null
+  }
+}

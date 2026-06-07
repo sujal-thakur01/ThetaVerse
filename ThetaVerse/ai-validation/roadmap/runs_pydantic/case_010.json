@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "case": {
+      "position": "iOS Developer",
+      "company": "Apple",
+      "days": 32,
+      "hoursPerDay": 4,
+      "majorTopic": "Swift and SwiftUI design patterns"
+    },
+    "prompt_hash": "547406a471a16931b8766acd3a64a55453ec5957247ec3c08616e5fd2f4bbd1c",
+    "model": "openai/gpt-oss-20b",
+    "timestamp": "2026-05-20T12:32:45.578923"
+  },
+  "raw": {
+    "content": "{\"topics\":[{\"title\":\"Swift Basics\",\"estimatedHours\":14,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Swift+Basics\"],\"subtopics\":[\"Variables & Constants\",\"Control Flow\",\"Functions & Closures\"]},{\"title\":\"Advanced Swift Features\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Advanced+Swift+Features\"],\"subtopics\":[\"Generics\",\"Protocol-Oriented Programming\",\"Error Handling\"]},{\"title\":\"SwiftUI Fundamentals\",\"estimatedHours\":16,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=SwiftUI+Fundamentals\"],\"subtopics\":[\"Views & Modifiers\",\"Preview & Live Preview\",\"Animations Basics\"]},{\"title\":\"SwiftUI Layout & Navigation\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=SwiftUI+Layout+Navigation\"],\"subtopics\":[\"Stacks & Grids\",\"NavigationView & NavigationLink\",\"TabView & PageView\"]},{\"title\":\"State Management in SwiftUI\",\"estimatedHours\":8,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=State+Management+in+SwiftUI\"],\"subtopics\":[\"State & Binding\",\"ObservedObject & EnvironmentObject\",\"StateObject & @AppStorage\"]},{\"title\":\"Combine Framework Basics\",\"estimatedHours\":8,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Combine+Framework+Basics\"],\"subtopics\":[\"Publishers & Subscribers\",\"Operators\",\"Schedulers\"]},{\"title\":\"Data Persistence\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Data+Persistence+Swift\"],\"subtopics\":[\"Core Data Basics\",\"Realm Integration\",\"UserDefaults & File Storage\"]},{\"title\":\"Networking & API Integration\",\"estimatedHours\":12,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Networking+API+Swift\"],\"subtopics\":[\"URLSession\",\"JSON Decoding\",\"Alamofire Basics\"]},{\"title\":\"Testing & Debugging\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Testing+SwiftUI\"],\"subtopics\":[\"Unit Tests with XCTest\",\"UI Tests\",\"Debugging SwiftUI Views\"]},{\"title\":\"Design Patterns & Architecture\",\"estimatedHours\":10,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Design+Patterns+SwiftUI\"],\"subtopics\":[\"MVVM\",\"Clean Architecture\",\"Dependency Injection\"]},{\"title\":\"Performance Optimization\",\"estimatedHours\":8,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=Performance+Optimization+SwiftUI\"],\"subtopics\":[\"Memory Management\",\"Profiling with Instruments\",\"Lazy Loading\"]},{\"title\":\"App Store Submission\",\"estimatedHours\":8,\"priority\":\"High\",\"referenceLinks\":[\"https://www.google.com/search?q=App+Store+Submission+Swift\"],\"subtopics\":[\"App Store Connect\",\"Provisioning Profiles\",\"App Review Checklist\"]}]}"
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 128.0,
+    "target_hours": 128,
+    "num_topics": 12,
+    "error": null
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "Swift Basics",
+        "estimatedHours": 14,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Swift+Basics"
+        ],
+        "subtopics": [
+          "Variables & Constants",
+          "Control Flow",
+          "Functions & Closures"
+        ]
+      },
+      {
+        "title": "Advanced Swift Features",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Advanced+Swift+Features"
+        ],
+        "subtopics": [
+          "Generics",
+          "Protocol-Oriented Programming",
+          "Error Handling"
+        ]
+      },
+      {
+        "title": "SwiftUI Fundamentals",
+        "estimatedHours": 16,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=SwiftUI+Fundamentals"
+        ],
+        "subtopics": [
+          "Views & Modifiers",
+          "Preview & Live Preview",
+          "Animations Basics"
+        ]
+      },
+      {
+        "title": "SwiftUI Layout & Navigation",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=SwiftUI+Layout+Navigation"
+        ],
+        "subtopics": [
+          "Stacks & Grids",
+          "NavigationView & NavigationLink",
+          "TabView & PageView"
+        ]
+      },
+      {
+        "title": "State Management in SwiftUI",
+        "estimatedHours": 8,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=State+Management+in+SwiftUI"
+        ],
+        "subtopics": [
+          "State & Binding",
+          "ObservedObject & EnvironmentObject",
+          "StateObject & @AppStorage"
+        ]
+      },
+      {
+        "title": "Combine Framework Basics",
+        "estimatedHours": 8,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Combine+Framework+Basics"
+        ],
+        "subtopics": [
+          "Publishers & Subscribers",
+          "Operators",
+          "Schedulers"
+        ]
+      },
+      {
+        "title": "Data Persistence",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Data+Persistence+Swift"
+        ],
+        "subtopics": [
+          "Core Data Basics",
+          "Realm Integration",
+          "UserDefaults & File Storage"
+        ]
+      },
+      {
+        "title": "Networking & API Integration",
+        "estimatedHours": 12,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Networking+API+Swift"
+        ],
+        "subtopics": [
+          "URLSession",
+          "JSON Decoding",
+          "Alamofire Basics"
+        ]
+      },
+      {
+        "title": "Testing & Debugging",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Testing+SwiftUI"
+        ],
+        "subtopics": [
+          "Unit Tests with XCTest",
+          "UI Tests",
+          "Debugging SwiftUI Views"
+        ]
+      },
+      {
+        "title": "Design Patterns & Architecture",
+        "estimatedHours": 10,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Design+Patterns+SwiftUI"
+        ],
+        "subtopics": [
+          "MVVM",
+          "Clean Architecture",
+          "Dependency Injection"
+        ]
+      },
+      {
+        "title": "Performance Optimization",
+        "estimatedHours": 8,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Performance+Optimization+SwiftUI"
+        ],
+        "subtopics": [
+          "Memory Management",
+          "Profiling with Instruments",
+          "Lazy Loading"
+        ]
+      },
+      {
+        "title": "App Store Submission",
+        "estimatedHours": 8,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=App+Store+Submission+Swift"
+        ],
+        "subtopics": [
+          "App Store Connect",
+          "Provisioning Profiles",
+          "App Review Checklist"
+        ]
+      }
+    ]
+  }
+}

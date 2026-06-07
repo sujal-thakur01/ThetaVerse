@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "case": {
+      "position": "Embedded Systems Engineer",
+      "company": "Tesla",
+      "days": 40,
+      "hoursPerDay": 4.5,
+      "majorTopic": "C/C++, real-time systems, and firmware"
+    },
+    "prompt_hash": "32bbc09533e1cfb4de85d721028b41061c31b23ad68259fd2f66f153bbb0c6d8",
+    "model": "mock",
+    "timestamp": "2026-05-20T12:37:45.621277"
+  },
+  "raw": {
+    "content": "{\"topics\": [{\"title\": \"C/C++, real-time systems, and firmware focus area 1\", \"estimatedHours\": 10.0, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+1\"], \"subtopics\": [\"Core concept 1\", \"Interview practice 1\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 2\", \"estimatedHours\": 10.0, \"priority\": \"High\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+2\"], \"subtopics\": [\"Core concept 2\", \"Interview practice 2\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 3\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+3\"], \"subtopics\": [\"Core concept 3\", \"Interview practice 3\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 4\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+4\"], \"subtopics\": [\"Core concept 4\", \"Interview practice 4\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 5\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+5\"], \"subtopics\": [\"Core concept 5\", \"Interview practice 5\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 6\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+6\"], \"subtopics\": [\"Core concept 6\", \"Interview practice 6\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 7\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+7\"], \"subtopics\": [\"Core concept 7\", \"Interview practice 7\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 8\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+8\"], \"subtopics\": [\"Core concept 8\", \"Interview practice 8\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 9\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+9\"], \"subtopics\": [\"Core concept 9\", \"Interview practice 9\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 10\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+10\"], \"subtopics\": [\"Core concept 10\", \"Interview practice 10\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 11\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+11\"], \"subtopics\": [\"Core concept 11\", \"Interview practice 11\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 12\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+12\"], \"subtopics\": [\"Core concept 12\", \"Interview practice 12\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 13\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+13\"], \"subtopics\": [\"Core concept 13\", \"Interview practice 13\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 14\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+14\"], \"subtopics\": [\"Core concept 14\", \"Interview practice 14\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 15\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+15\"], \"subtopics\": [\"Core concept 15\", \"Interview practice 15\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 16\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+16\"], \"subtopics\": [\"Core concept 16\", \"Interview practice 16\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 17\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+17\"], \"subtopics\": [\"Core concept 17\", \"Interview practice 17\"]}, {\"title\": \"C/C++, real-time systems, and firmware focus area 18\", \"estimatedHours\": 10.0, \"priority\": \"Medium\", \"referenceLinks\": [\"https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+18\"], \"subtopics\": [\"Core concept 18\", \"Interview practice 18\"]}]}"
+  },
+  "parsed": {
+    "topics": [
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 1",
+        "estimatedHours": 10.0,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+1"
+        ],
+        "subtopics": [
+          "Core concept 1",
+          "Interview practice 1"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 2",
+        "estimatedHours": 10.0,
+        "priority": "High",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+2"
+        ],
+        "subtopics": [
+          "Core concept 2",
+          "Interview practice 2"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 3",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+3"
+        ],
+        "subtopics": [
+          "Core concept 3",
+          "Interview practice 3"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 4",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+4"
+        ],
+        "subtopics": [
+          "Core concept 4",
+          "Interview practice 4"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 5",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+5"
+        ],
+        "subtopics": [
+          "Core concept 5",
+          "Interview practice 5"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 6",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+6"
+        ],
+        "subtopics": [
+          "Core concept 6",
+          "Interview practice 6"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 7",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+7"
+        ],
+        "subtopics": [
+          "Core concept 7",
+          "Interview practice 7"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 8",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+8"
+        ],
+        "subtopics": [
+          "Core concept 8",
+          "Interview practice 8"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 9",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+9"
+        ],
+        "subtopics": [
+          "Core concept 9",
+          "Interview practice 9"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 10",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+10"
+        ],
+        "subtopics": [
+          "Core concept 10",
+          "Interview practice 10"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 11",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+11"
+        ],
+        "subtopics": [
+          "Core concept 11",
+          "Interview practice 11"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 12",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+12"
+        ],
+        "subtopics": [
+          "Core concept 12",
+          "Interview practice 12"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 13",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+13"
+        ],
+        "subtopics": [
+          "Core concept 13",
+          "Interview practice 13"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 14",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+14"
+        ],
+        "subtopics": [
+          "Core concept 14",
+          "Interview practice 14"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 15",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+15"
+        ],
+        "subtopics": [
+          "Core concept 15",
+          "Interview practice 15"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 16",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+16"
+        ],
+        "subtopics": [
+          "Core concept 16",
+          "Interview practice 16"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 17",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+17"
+        ],
+        "subtopics": [
+          "Core concept 17",
+          "Interview practice 17"
+        ]
+      },
+      {
+        "title": "C/C++, real-time systems, and firmware focus area 18",
+        "estimatedHours": 10.0,
+        "priority": "Medium",
+        "referenceLinks": [
+          "https://www.google.com/search?q=Tesla+Embedded Systems Engineer+topic+18"
+        ],
+        "subtopics": [
+          "Core concept 18",
+          "Interview practice 18"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "parse_ok": true,
+    "schema_ok": true,
+    "time_fit_ok": true,
+    "total_hours": 180.0,
+    "target_hours": 180.0,
+    "num_topics": 18,
+    "error": null
+  }
+}

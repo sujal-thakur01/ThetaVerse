@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html, body {
+	scrollbar-width: thin;
+	scrollbar-color: rgba(45, 212, 191, 0.85) rgba(24, 24, 27, 0.9);
+}
+
+.roadmap-scrollbar {
+	scrollbar-width: thin;
+	scrollbar-color: rgba(45, 212, 191, 0.85) rgba(24, 24, 27, 0.9);
+}
+
+.roadmap-scrollbar::-webkit-scrollbar {
+	width: 10px;
+}
+
+.roadmap-scrollbar::-webkit-scrollbar-track {
+	background: rgba(24, 24, 27, 0.9);
+	border-radius: 9999px;
+}
+
+.roadmap-scrollbar::-webkit-scrollbar-thumb {
+	background: linear-gradient(180deg, rgba(45, 212, 191, 0.95), rgba(99, 102, 241, 0.95));
+	border-radius: 9999px;
+	border: 2px solid rgba(24, 24, 27, 0.9);
+}
+
+.roadmap-scrollbar::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(180deg, rgba(52, 211, 153, 1), rgba(129, 140, 248, 1));
+}
