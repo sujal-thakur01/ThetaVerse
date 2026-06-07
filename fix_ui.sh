@@ -1,1 +1,0 @@
-sed -i '' 's|<video\|<VideoPlayer stream={localStream} isLocal={true} className="w-full h-full object-cover" />|' /Users/prathamtomar/Desktop/EDAI/ThetaVerse/frontend/src/components/live/InterviewerDashboard.tsx
